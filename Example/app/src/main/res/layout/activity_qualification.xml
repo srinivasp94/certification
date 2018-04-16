@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.sys.example.QualificationActivity">
+
+    <com.example.sys.example.CustomAutoCompleteView
+        android:id="@+id/ct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp">
+
+            <LinearLayout
+                android:id="@+id/ll_qualification"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/rl_specialisation"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:id="@+id/tv_specialization"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="Choose Specialisation"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_spe_dialog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_specialization">
+
+                        <TextView
+                            android:id="@+id/spinner_specialisation"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:padding="6dp"
+                            android:text="Cardiology"
+                            android:textColor="#000"
+                            android:textColorHint="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/spinner_img1"
+                            android:layout_width="10dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="7dp"
+                            android:src="@drawable/common_full_open_on_phone" />
+
+                        <View
+                            android:id="@+id/view_specialisation"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.5dp"
+                            android:layout_below="@+id/spinner_specialisation"
+                            android:layout_gravity="center"
+                            android:layout_marginEnd="20dp"
+                            android:layout_marginRight="20dp"
+                            android:background="#000000"
+                            android:visibility="gone" />
+
+
+                    </RelativeLayout>
+
+                    <!--<Spinner-->
+                    <!--android:id="@+id/spinner_specialisation"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_below="@+id/tv_specialization">-->
+
+                    <!--</Spinner>-->
+
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:id="@+id/rl_qualifaction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="10dp"
+                    android:padding="4dp">
+
+                    <TextView
+                        android:id="@+id/tv_qualification"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:padding="5dp"
+                        android:text="Choose Qualifications"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+
+                    <RelativeLayout
+                        android:id="@+id/rl_qual_dialog"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_qualification"
+                        android:visibility="gone">
+
+                        <TextView
+                            android:id="@+id/spinner_qualification"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:hint="MBBS,MD,DM"
+                            android:padding="6dp"
+                            android:textColor="#000"
+                            android:textColorHint="@color/colorPrimary" />
+
+                        <ImageView
+                            android:id="@+id/spinner_img2"
+                            android:layout_width="10dp"
+                            android:layout_height="15dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="15dp"
+                            android:layout_marginTop="7dp"
+
+                            android:src="@drawable/common_full_open_on_phone" />
+
+                        <View
+                            android:id="@+id/view_qualification"
+                            android:layout_width="wrap_content"
+                            android:layout_height="0.5dp"
+                            android:layout_below="@+id/spinner_qualification"
+                            android:background="#000000"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <!-- <com.plumillonforge.android.chipview.ChipView
+                         android:id="@+id/chipview"
+                         android:layout_width="match_parent"
+                         android:layout_height="wrap_content"
+                         android:layout_below="@+id/rl_qual_dialog"/>-->
+
+                    <View
+                        android:id="@+id/chipview"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_below="@+id/rl_qual_dialog" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_auto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/chipview"
+                        android:visibility="gone">
+
+                        <MultiAutoCompleteTextView
+                            android:id="@+id/mactv"
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:textAllCaps="false"
+                            android:visibility="visible" />
+
+                        <Button
+                            android:id="@+id/add_btn"
+                            android:layout_width="60dp"
+                            android:layout_height="30dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="10dp"
+                            android:background="@color/colorPrimary"
+                            android:text="Add" />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/add_qualifications"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/ll_auto"
+                        android:text="+ADD NEW"
+                        android:textColor="#FF0042" />
+
+
+                </RelativeLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/rl_registration"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_qualification"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_dateofbirth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Registration Number"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/et_reg_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_dateofbirth"
+                        android:layout_marginEnd="15dp"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FF0042" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/tv_experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center_vertical"
+                        android:padding="2dp"
+                        android:text="Total Experience"
+                        android:textColor="#000000"
+                        android:textSize="12sp" />
+
+                    <EditText
+                        android:id="@+id/edit_experience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_experience"
+                        android:layout_marginEnd="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="1dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginTop="10dp"
+                        android:textColor="#FF0042" />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/middle_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/rl_registration"
+                android:layout_marginTop="20dp"
+                android:background="#000000" />
+
+
+            <TextView
+                android:id="@+id/tv_academic_details"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/middle_view"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:text="Enter Academic Details"
+                android:textColor="#000000"
+                android:textSize="18dp" />
+
+
+            <LinearLayout
+                android:id="@+id/ll1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/tv_academic_details"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+
+                <EditText
+                    android:id="@+id/spe"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"
+                    android:hint="MBBS"
+                    android:textColor="#FF0042"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/univ_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1.5"
+                    android:ellipsize="end"
+                    android:hint="University Name"
+                    android:maxLines="1"
+                    android:textColor="#FF0042"
+                    android:textSize="12sp" />
+
+                <EditText
+                    android:id="@+id/years"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1.4"
+                    android:ellipsize="end"
+                    android:hint="Start and end Year"
+                    android:maxLines="1"
+                    android:textColor="#FF0042"
+                    android:textSize="12sp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/rl_registration"
+                android:layout_below="@+id/tv_academic_details"
+                android:layout_marginTop="13dp">
+
+                <ListView
+                    android:id="@+id/list1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="@null"
+                    android:scrollIndicators="none"
+                    android:visibility="gone">
+
+                </ListView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/new_qual"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="+ADD NEW"
+                android:textColor="#FF0042"
+                android:visibility="gone" />
+
+
+            <View
+                android:id="@+id/bottom_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/new_qual"
+                android:background="#000000" />
+
+
+            <Button
+                android:id="@+id/update"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_below="@+id/bottom_view"
+                android:layout_marginBottom="30dp"
+                android:layout_marginEnd="25dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/common_google_signin_btn_icon_dark_focused"
+                android:gravity="center"
+                android:text="Update"
+                android:textAllCaps="false"
+                android:textColor="#ffffff"
+                android:textSize="18sp" />
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
