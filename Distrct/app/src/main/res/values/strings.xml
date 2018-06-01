@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Distrct</string>
+    <string name="description">[School name] is a comprehensive four-year public high school enrolling 1,250 students in grades 9–12. The school opened in the fall of 1987 and graduated its first senior class in the spring of 1989. [School name] is accredited by the North Central Association of Secondary Schools and holds membership in the College Board and the National Association for College Admission Counseling.</string>
+    <string name="navigation_drawer_open">open</string>
+    <string name="navigation_drawer_close">close</string>
 </resources>

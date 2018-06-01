@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:padding="5dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardCornerRadius="1dp"
+    app:cardElevation="5dp">
+
+    <RelativeLayout
+        android:id="@+id/rl_rootview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgdesign"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/icons_thickverticalline"
+
+            android:tint="#aae67d3a" />
+
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_width="18dp"
+            android:layout_height="18dp"
+            android:layout_below="@+id/imgdesign"
+            android:layout_toRightOf="@+id/imgdesign"
+            android:src="@drawable/icons_school"
+            android:tint="@color/tintcolor" />
+
+        <TextView
+            android:id="@+id/txt_sclname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgdesign"
+            android:layout_toRightOf="@+id/icon"
+            android:text="schoolName"
+            android:layout_marginLeft="3dp"
+            android:textColor="#292b30"
+            android:textSize="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_sclname"
+            android:layout_toRightOf="@+id/imgdesign"
+            android:layout_marginTop="3dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.2"
+                android:src="@android:drawable/ic_menu_mylocation"
+                android:tint="@color/tintcolor"/>
+
+            <TextView
+                android:layout_weight="0.8"
+                android:id="@+id/txt_scl_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="school Address"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/txt_scl_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/txt_sclname"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:gravity="end"
+            android:text="school Phone"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="18dp" />
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

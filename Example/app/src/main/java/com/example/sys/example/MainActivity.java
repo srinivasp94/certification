@@ -26,9 +26,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
     public static final long UPDATE_INTERVAL_IN_MILLISECONDS = 10000;
 
-    /**
-     * 最速の更新間隔。この値より頻繁に更新されることはない。
-     */
+
     public static final long FASTEST_UPDATE_INTERVAL_IN_MILLISECONDS =
             UPDATE_INTERVAL_IN_MILLISECONDS / 2;
 
