@@ -65,12 +65,12 @@
                         android:layout_height="wrap_content"
                         android:layout_gravity="right|bottom"
                         android:layout_margin="5dp"
-                        android:padding="3dp"
-                        android:text="Register here .."
-                        android:textSize="30dp"
-                        android:textColor="@color/white"
                         android:gravity="end"
-                        android:textStyle="bold"/>
+                        android:padding="3dp"
+                        android:text="Register for Business"
+                        android:textColor="@color/white"
+                        android:textSize="30dp"
+                        android:textStyle="bold" />
                 </LinearLayout>
 
 
@@ -78,88 +78,153 @@
 
         </android.support.design.widget.AppBarLayout>
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edt_bgr"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp"
+                android:src="@drawable/icons_school"
+                android:tint="@color/iconcolor" />
+
+            <EditText
+                android:id="@+id/edt_titlename"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:backgroundTint="@color/gray"
+                android:hint="Enter Title"
+                android:singleLine="true" />
+        </LinearLayout>
+
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="@drawable/edt_bgr"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:weightSum="1">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:padding="3dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                android:padding="3dp"
+                android:src="@drawable/ic_person_black_24dp"
+                android:tint="@color/iconcolor" />
 
             <EditText
-                android:singleLine="true"
-                android:hint="Enter name"
                 android:id="@+id/edt_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
+                android:inputType="textPersonName"
                 android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
+                android:backgroundTint="@color/gray"
+                android:hint="Person Name"
+                android:singleLine="true" />
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="@drawable/edt_bgr"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:weightSum="1">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:padding="3dp"
                 android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                android:padding="3dp"
+                android:src="@drawable/ic_local_phone_black_24dp"
+                android:tint="@color/iconcolor" />
 
             <EditText
-                android:singleLine="true"
-                android:hint="Enter Phone"
                 android:id="@+id/edt_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
+                android:inputType="phone"
                 android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
+                android:backgroundTint="@color/gray"
+                android:hint="Mobile Number"
+                android:singleLine="true" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="@drawable/edt_bgr"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:weightSum="1">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:padding="3dp"
                 android:layout_marginLeft="10dp"
+                android:padding="3dp"
+                android:src="@drawable/ic_location_on_black_24dp"
+                android:tint="@color/iconcolor" />
+
+            <EditText
+                android:id="@+id/edt_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:inputType="textEmailAddress"
+                android:layout_toRightOf="@+id/icn"
+                android:backgroundTint="@color/gray"
+                android:hint="Enter Address"
+                android:singleLine="true" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edt_bgr"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp"
                 android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                android:tint="@color/iconcolor" />
 
             <Spinner
-                android:id="@+id/spinner_categorie"
+                android:id="@+id/spinner_mandal"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_alignParentRight="true"
@@ -168,23 +233,53 @@
                 android:layout_toRightOf="@+id/icn"
                 android:backgroundTint="@color/gray" />
         </LinearLayout>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="8dp"
             android:background="@drawable/edt_bgr"
             android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+            android:padding="5dp"
+            android:weightSum="1">
 
             <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
                 android:layout_gravity="center"
-                android:padding="3dp"
                 android:layout_marginLeft="10dp"
+                android:padding="3dp"
                 android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                android:tint="@color/iconcolor" />
+
+            <Spinner
+                android:id="@+id/spinnr_categorie"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_gravity="center"
+                android:layout_marginLeft="8dp"
+                android:layout_toRightOf="@+id/icn"
+                android:backgroundTint="@color/gray" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@drawable/edt_bgr"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp"
+                android:src="@drawable/icons_school"
+                android:tint="@color/iconcolor" />
 
             <Spinner
                 android:id="@+id/spinnr_subcategorie"
@@ -196,137 +291,112 @@
                 android:layout_toRightOf="@+id/icn"
                 android:backgroundTint="@color/gray" />
         </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
 
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_gravity="center"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+        <!--
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/edt_bgr"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
 
-            <EditText
-                android:singleLine="true"
-                android:hint="Enter village name"
-                android:id="@+id/edt_village"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:padding="3dp"
+                        android:src="@drawable/icons_school"
+                        android:tint="@color/iconcolor" />
 
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_gravity="center"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                    <EditText
+                        android:id="@+id/edt_field_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/icn"
+                        android:backgroundTint="@color/gray"
+                        android:hint="Enter Filed Name"
+                        android:singleLine="true" />
+                </LinearLayout>
 
-            <EditText
-                android:singleLine="true"
-                android:hint="Enter Filed Name"
-                android:id="@+id/edt_field_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
 
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_gravity="center"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/edt_bgr"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
 
-            <EditText
-                android:singleLine="true"
-                android:id="@+id/name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:weightSum="1"
-            android:layout_margin="8dp"
-            android:padding="5dp">
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:padding="3dp"
+                        android:src="@drawable/icons_school"
+                        android:tint="@color/iconcolor" />
 
-            <ImageView
-                android:layout_width="25dp"
-                android:layout_height="25dp"
-                android:layout_gravity="center"
-                android:padding="3dp"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/icons_school"
-                android:tint="#003971" />
+                    <EditText
+                        android:id="@+id/name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/icn"
+                        android:backgroundTint="@color/gray"
+                        android:singleLine="true" />
+                </LinearLayout>
 
-            <EditText
-                android:singleLine="true"
-                android:id="@+id/edt_somename"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/edt_bgr"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:weightSum="1">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:padding="3dp"
+                        android:src="@drawable/icons_school"
+                        android:tint="@color/white" />
+
+                    <EditText
+                        android:id="@+id/edt_somename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="8dp"
+                        android:layout_toRightOf="@+id/icn"
+                        android:backgroundTint="@color/gray"
+                        android:singleLine="true" />
+                </LinearLayout>
+                -->
 
         <Button
+            android:id="@+id/btn_register"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Register"
-            android:id="@+id/btn_register"
-            android:clickable="true"
+            android:layout_margin="26dp"
             android:background="@drawable/ripplebgr"
-            android:textColor="@color/white"
-            android:textSize="18dp"
-            android:layout_margin="16dp"
+            android:clickable="true"
             android:padding="8dp"
-            />
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
 
     </LinearLayout>
 </ScrollView>

@@ -5,5 +5,8 @@ package com.srinivas.com.distrct.network;
  */
 
 public interface ApiInterface {
+    /*@FormUrlEncoded
+    @POST("Master/GetCategory")
+    Call<>*/
 
 }
