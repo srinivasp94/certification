@@ -11,7 +11,7 @@ import java.util.regex.Pattern;
 public class Validations {
 
     private static final String EMAIL_REGEX = "^[_A-Za-z0-9-\\+]+(\\.[_A-Za-z0-9-]+)*@[A-Za-z0-9-]+(\\.[A-Za-z0-9]+)*(\\.[A-Za-z]{2,})$";
-    private static final String PHONE_REGEX = "[0-9]{10,13}";
+    private static final String PHONE_REGEX = "[0-9]{10}";
     private static final String PIN_REGEX = "[0-9]{6}";
     private static final String TEXT_REGEX = "[A-Za-z]";
 

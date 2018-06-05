@@ -9,6 +9,7 @@
     tools:context="com.srinivas.com.distrct.activities.RegistrationActivity">
 
     <LinearLayout
+        android:id="@+id/snackabr"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/bgr_overview"
@@ -162,11 +163,9 @@
                 android:id="@+id/edt_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
                 android:layout_gravity="center"
                 android:layout_marginLeft="8dp"
                 android:inputType="phone"
-                android:layout_toRightOf="@+id/icn"
                 android:backgroundTint="@color/gray"
                 android:hint="Mobile Number"
                 android:singleLine="true" />
