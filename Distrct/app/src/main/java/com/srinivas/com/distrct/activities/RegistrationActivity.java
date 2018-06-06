@@ -168,7 +168,9 @@ public class RegistrationActivity extends AppCompatActivity implements AdapterVi
                             @Override
                             public void onResponse(Call<simpleResponse> call, Response<simpleResponse> response) {
                                 mprogressDialog.dismiss();
-                                Log.i("Success", response.body().toString());
+//                                Log.i("Success", String.valueOf(response.body()));
+                                simpleResponse simpleResponse = response.body();
+//                                Toast.makeText(RegistrationActivity.this, "" + simpleResponse.message, Toast.LENGTH_SHORT).show();
                             }
 
                             @Override
@@ -238,6 +240,9 @@ public class RegistrationActivity extends AppCompatActivity implements AdapterVi
     }
 
     private void forSubcategoriesWS() {
+        mprogressDialog.show();
+        mprogressDialog.setCancelable(false);
+        mprogressDialog.setMessage("Loading");
         apiInterface.getSubcategories().enqueue(new Callback<List<SubCategoriesModel>>() {
             @Override
             public void onResponse(Call<List<SubCategoriesModel>> call, Response<List<SubCategoriesModel>> response) {

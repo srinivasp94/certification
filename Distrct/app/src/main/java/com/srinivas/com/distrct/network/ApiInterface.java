@@ -11,6 +11,7 @@ import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
+import retrofit2.http.Headers;
 import retrofit2.http.POST;
 
 /**
@@ -19,19 +20,20 @@ import retrofit2.http.POST;
 
 public interface ApiInterface {
     @FormUrlEncoded
+    @Headers("Content-Type:application/json;charset=UTF-8")
     @POST("User/Add")
     Call<simpleResponse> registerCall(@Field("Title") String title,
                                       @Field("Name") String name,
                                       @Field("Phonenumber") String phone,
                                       @Field("Landmark") String Landmark,
-                                      @Field("Category") int category ,
-                                      @Field("SubCategory") int subcat ,
+                                      @Field("Category") int category,
+                                      @Field("SubCategory") int subcat,
                                       @Field("Mandal") int mandal,
                                       @Field("Image") String imagePath,
                                       @Field("CreatedBy") int createdby,
                                       @Field("ModifiedBY") int modifiedby,
                                       @Field("Address") String address
-                                      );
+    );
 
 
     @GET("Master/GetCategory")

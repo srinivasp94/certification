@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context="com.example.pegasys.pegasyshmis.VerifyPinActivity">
+
+    <TextView
+        android:id="@+id/pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Enter Your PIN"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edt_verifypin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pin"
+        android:hint="enter PIN here"
+        android:layout_marginTop="10dp"
+        android:inputType="numberPassword" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_next"
+        android:text="next"
+        android:background="@color/colorPrimary"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/edt_verifypin"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="16dp"
+    android:id="@+id/rl_root"
+    tools:context="com.example.pegasys.pegasyshmis.createPINActivity">
+
+    <EditText
+        android:id="@+id/edt_pin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PIN"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/edt_confirmpin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/edt_pin"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm PIN"
+        android:inputType="numberPassword" />
+
+    <Button
+        android:id="@+id/btn_updatepin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edt_confirmpin"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="Update"
+        android:textColor="#ffffff" />
+
+</RelativeLayout>
