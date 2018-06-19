@@ -13,7 +13,7 @@ public class Mandals {
 
     @SerializedName("MandalId")
     @Expose
-    public Integer mandalId;
+    public int mandalId;
     @SerializedName("MandalName")
     @Expose
     public String mandalName;

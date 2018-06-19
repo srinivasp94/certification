@@ -18,7 +18,7 @@ import java.util.List;
  * Created by pegasys on 6/5/2018.
  */
 
-public class mandalAdapter extends ArrayAdapter<String> {
+public class mandalAdapter extends ArrayAdapter<Mandals> {
 
     private Context ctx;
     private List<Mandals> mandalList;
@@ -54,6 +54,11 @@ public class mandalAdapter extends ArrayAdapter<String> {
     @Override
     public int getCount() {
         return mandalList.size();
+    }
+
+    @Override
+    public Mandals getItem(int position){
+        return mandalList.get(position);
     }
 
     private class ViewHolder {

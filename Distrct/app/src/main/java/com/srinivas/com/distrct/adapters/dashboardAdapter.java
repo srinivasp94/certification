@@ -9,10 +9,10 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.srinivas.com.distrct.R;
-import com.srinivas.com.distrct.models.DashBoard;
+import com.srinivas.com.distrct.models.Categories;
 
-import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by pegasys on 5/1/2018.
@@ -20,18 +20,18 @@ import java.util.List;
 
 public class dashboardAdapter extends BaseAdapter {
     private Context context;
-    private List<DashBoard> boardList = new ArrayList<>();
+    private List<Categories> categoriesList;
     private LayoutInflater inflater;
 
-    public dashboardAdapter(Context context, List<DashBoard> boardList) {
+    public dashboardAdapter(Context context, List<Categories> categoriesList) {
         this.context = context;
-        this.boardList = boardList;
+        this.categoriesList = categoriesList;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
     @Override
     public int getCount() {
-        return boardList.size();
+        return categoriesList.size();
     }
 
     @Override
@@ -57,9 +57,15 @@ public class dashboardAdapter extends BaseAdapter {
         } else {
             holder = (ViewHolder) view.getTag();
         }
-        DashBoard dashBoardModel = boardList.get(position);
-        holder.mTitle.setText(dashBoardModel.getmName());
-        holder.layout.setBackgroundColor(dashBoardModel.getmColor());
+        Categories categories = categoriesList.get(position);
+        holder.mTitle.setText(categories.categoryName);
+        int color_arr[] = {R.color.colorAccent, R.color.colorPrimary, R.color.colorPrimaryDark};
+
+
+        int rnd = new Random().nextInt(color_arr.length);
+
+//        linearLayout.setBackgroundResource(color_arr[rnd]);
+        holder.layout.setBackgroundColor(color_arr[rnd]);
         return view;
     }
 

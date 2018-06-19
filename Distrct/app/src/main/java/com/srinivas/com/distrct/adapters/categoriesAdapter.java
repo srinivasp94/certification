@@ -3,6 +3,7 @@ package com.srinivas.com.distrct.adapters;
 import android.content.Context;
 import android.support.annotation.LayoutRes;
 import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +19,7 @@ import java.util.List;
  * Created by pegasys on 6/5/2018.
  */
 
-public class categoriesAdapter extends ArrayAdapter<String> {
+public class categoriesAdapter extends ArrayAdapter<Categories> {
 
     private Context ctx;
     private List<Categories> categoriesList;
@@ -54,6 +55,13 @@ public class categoriesAdapter extends ArrayAdapter<String> {
     @Override
     public int getCount() {
         return categoriesList.size();
+    }
+
+    @Nullable
+    @Override
+    public Categories getItem(int position) {
+//        return super.getItem(position);
+        return categoriesList.get(position);
     }
 
     private class ViewHolder {

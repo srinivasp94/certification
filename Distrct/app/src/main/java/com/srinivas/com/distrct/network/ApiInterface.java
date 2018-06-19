@@ -8,19 +8,19 @@ import com.srinivas.com.distrct.models.simpleResponse;
 import java.util.List;
 
 import retrofit2.Call;
-import retrofit2.http.Field;
-import retrofit2.http.FormUrlEncoded;
 import retrofit2.http.GET;
-import retrofit2.http.Headers;
+import retrofit2.http.Multipart;
 import retrofit2.http.POST;
+import retrofit2.http.Part;
 
 /**
  * Created by rk on 03-Jun-18.
  */
 
 public interface ApiInterface {
-    @FormUrlEncoded
-    @Headers("Content-Type:application/json;charset=UTF-8")
+
+    /*@FormUrlEncoded
+    @Headers({"Content-Type: application/json"})
     @POST("User/Add")
     Call<simpleResponse> registerCall(@Field("Title") String title,
                                       @Field("Name") String name,
@@ -33,6 +33,21 @@ public interface ApiInterface {
                                       @Field("CreatedBy") int createdby,
                                       @Field("ModifiedBY") int modifiedby,
                                       @Field("Address") String address
+    );*/
+    @Multipart
+//    @Headers({"Content-Type: application/json"})
+    @POST("User/Add")
+    Call<simpleResponse> registerCall(@Part("Title") String title,
+                                      @Part("Name") String name,
+                                      @Part("Phonenumber") String phone,
+                                      @Part("Landmark") String Landmark,
+                                      @Part("Category") int category,
+                                      @Part("SubCategory") int subcat,
+                                      @Part("Mandal") int mandal,
+                                      @Part("Image") String imagePath,
+                                      @Part("CreatedBy") int createdby,
+                                      @Part("ModifiedBY") int modifiedby,
+                                      @Part("Address") String address
     );
 
 

@@ -16,37 +16,37 @@ public class simpleResponse {
 
     @SerializedName("NotSpecified")
     @Expose
-    public Integer notSpecified;
+    public int notSpecified;
     @SerializedName("Status")
     @Expose
-    public Integer status;
+    public int status;
     @SerializedName("Message")
     @Expose
     public String message;
     @SerializedName("Message1")
     @Expose
-    public Object message1;
+    public String message1;
     @SerializedName("Message2")
     @Expose
-    public Object message2;
+    public String message2;
     @SerializedName("Message3")
     @Expose
-    public Object message3;
+    public String message3;
     @SerializedName("Message4")
     @Expose
-    public Object message4;
+    public String message4;
     @SerializedName("Message5")
     @Expose
-    public Object message5;
+    public String message5;
     @SerializedName("UserType")
     @Expose
-    public Object userType;
+    public String userType;
     @SerializedName("Extra1")
     @Expose
-    public Object extra1;
+    public String extra1;
     @SerializedName("Data")
     @Expose
-    public Object data;
+    public String data;
     @SerializedName("Extra2")
     @Expose
     public Object extra2;
