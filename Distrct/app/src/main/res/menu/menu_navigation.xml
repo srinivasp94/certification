@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <group android:checkableBehavior="single">
-    <item
-        android:id="@+id/nav_education"
-        android:icon="@drawable/icons_school"
-        android:title="Education" />
+    <group android:checkableBehavior="none">
         <item
             android:id="@+id/nav_register"
-            android:icon="@drawable/icons_school"
+            android:icon="@android:drawable/ic_menu_edit"
+            app:showAsAction="always"
             android:title="Register" />
+        <item
+            android:id="@+id/nav_utube"
+            android:icon="@android:drawable/presence_video_online"
+            android:title="Youtube Videos" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@android:drawable/ic_menu_gallery"
+            android:title="Gallery images" />
+        <item
+            android:id="@+id/nav_temples"
+            android:icon="@drawable/icons_school"
+            android:title="Temples" />
+        <item
+            android:id="@+id/nav_mandal_villages"
+            android:icon="@drawable/icons_school"
+            android:title="Mandal villages" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@android:drawable/ic_search_category_default"
+            android:title="Category  and Subcategory" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@android:drawable/sym_contact_card"
+            android:title="Contact" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@android:drawable/ic_menu_share"
+            android:title="Share" />
+        <!--Youtube Videos
+        2.       Gallery images
+        3.       Temples
+        4.       Mandal villages
+        5.       Category sub category
+        6.       Contact   (form)
+        7.       Share-->
+
     </group>
 </menu>

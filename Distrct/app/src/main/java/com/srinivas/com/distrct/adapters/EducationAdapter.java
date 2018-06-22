@@ -5,9 +5,11 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
+import com.squareup.picasso.Picasso;
 import com.srinivas.com.distrct.R;
 import com.srinivas.com.distrct.models.educationModels;
 
@@ -47,9 +49,15 @@ public class EducationAdapter extends RecyclerView.Adapter<EducationAdapter.View
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
         educationModels models = list.get(position);
-        holder.name.setText(models.getScl_name());
-        holder.address.setText(models.getScl_address());
-        holder.phone.setText(models.getScl_phonenumber());
+        holder.title.setText(models.title);
+        holder.name.setText(models.name);
+        holder.address.setText(models.address +" and "+models.landmark );
+        holder.phone.setText(models.phonenumber);
+        if (models.image != null) {
+            Picasso.with(context).load(models.image).into(holder.img_pic);
+        } else {
+            holder.img_pic.setImageResource(R.drawable.logo);
+        }
     }
 
     @Override
@@ -58,14 +66,17 @@ public class EducationAdapter extends RecyclerView.Adapter<EducationAdapter.View
     }
 
     public class ViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener {
-        TextView name, address, phone;
+        TextView title,name, address, phone;
+        ImageView img_pic;
         RelativeLayout relativeLayout;
 
         public ViewHolder(View itemView) {
             super(itemView);
+            title= (TextView) itemView.findViewById(R.id.txt_title_category);
             name = (TextView) itemView.findViewById(R.id.txt_sclname);
             address = (TextView) itemView.findViewById(R.id.txt_scl_address);
             phone = (TextView) itemView.findViewById(R.id.txt_scl_phone);
+            img_pic = (ImageView)itemView.findViewById(R.id.img_urlimage);
             relativeLayout = (RelativeLayout)itemView.findViewById(R.id.rl_rootview);
             relativeLayout.setOnClickListener(this);
         }

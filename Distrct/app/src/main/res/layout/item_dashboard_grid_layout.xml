@@ -8,28 +8,28 @@
     app:cardElevation="5dp">
 
     <LinearLayout
+        android:id="@+id/linear_background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/linear_background"
         android:orientation="vertical">
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="40dp"
             android:layout_gravity="top|center"
-            android:src="@android:drawable/ic_menu_today"
-            android:tint="@color/colorPrimary" />
+            android:background="#605b5b"
+            android:src="@drawable/logo" />
 
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="#81747171"
             android:gravity="center"
             android:padding="5dp"
-            android:layout_marginTop="5dp"
             android:singleLine="true"
             android:text="Title of item"
-            android:background="#81747171"
             android:textColor="#ffffff"
             android:textSize="18dp"
             android:textStyle="bold" />

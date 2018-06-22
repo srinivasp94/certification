@@ -3,6 +3,7 @@ package com.srinivas.com.distrct.network;
 import com.srinivas.com.distrct.models.Categories;
 import com.srinivas.com.distrct.models.Mandals;
 import com.srinivas.com.distrct.models.SubCategoriesModel;
+import com.srinivas.com.distrct.models.educationModels;
 import com.srinivas.com.distrct.models.simpleResponse;
 
 import java.util.List;
@@ -59,5 +60,60 @@ public interface ApiInterface {
 
     @GET("Master/GetMandal")
     Call<List<Mandals>> getMandal();
+
+    @GET("Master/getAllCategories/education")
+    Call<List<educationModels>> getedu();
+
+    @GET("Master/getAllCategories/entertainment")
+    Call<List<educationModels>> getentertainment();
+
+    /*/entertainment
+    /traveltoursim
+/consruction
+/shopping
+/hospitals
+/fooddining
+/automobiles
+/eletrical
+/homegarden
+/helpline
+/service
+/beautySpa*/
+
+    @GET("Master/getAllCategories/traveltoursim")
+    Call<List<educationModels>> gettravel();
+
+    @GET("Master/getAllCategories/consruction")
+    Call<List<educationModels>> getconstruction();
+
+    @GET("Master/getAllCategories/shopping")
+    Call<List<educationModels>> getshopping();
+
+    @GET("Master/getAllCategories/hospitals")
+    Call<List<educationModels>> gethospitals();
+
+    @GET("Master/getAllCategories/fooddining")
+    Call<List<educationModels>> getfooddining();
+
+    @GET("Master/getAllCategories/automobiles")
+    Call<List<educationModels>> getautomobiles();
+
+    @GET("Master/getAllCategories/eletrical")
+    Call<List<educationModels>> geteletrical();
+
+    @GET("Master/getAllCategories/homegarden")
+    Call<List<educationModels>> gethomegarden();
+
+    @GET("Master/getAllCategories/helpline")
+    Call<List<educationModels>> gethelpline();
+
+    @GET("Master/getAllCategories/service")
+    Call<List<educationModels>> getservice();
+
+    @GET("Master/getAllCategories/beautySpa")
+    Call<List<educationModels>> getbeautySpa();
+
+
+
 
 }

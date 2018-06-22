@@ -3,4 +3,24 @@
     <string name="description">[School name] is a comprehensive four-year public high school enrolling 1,250 students in grades 9–12. The school opened in the fall of 1987 and graduated its first senior class in the spring of 1989. [School name] is accredited by the North Central Association of Secondary Schools and holds membership in the College Board and the National Association for College Admission Counseling.</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+
+    <string name="mandalsandvillages">Revally  "\n"   1. Yedula  2. Bandaraipakula 3 Chennaram 4 Kesampeta  5 Shanaipalle 6 Thalpunur  7 Cheerkapalle 8 Nagapur 9 Revally 10 Vallabhanpalle 11 Konkalapalle "\n" "\n"
+Gopalpet  "\n" 1.Thadparthy 2 Chennur 3 Buddharam 4 Polkepahad 5 Chakalpalle 6 Gopalpeta 7 Munnanur  8 Jain Thirumalapur 9 Yedutla "\n" "\n"
+Peddamandaddi "\n" 2 Manigilla  3 Alwal  4Chinnamandadi  5 Jagathpalle  6 Mojerla  7 Gatlakhanapur  8 Maddigatla  9 Veeraipalle  10 Pamireddipalle 11 Veltoor  12 Balijapalle  13 Jangamaipalle "\n" "\n"
+Ghanpur "\n" 2 Almaipalle 3 Malkimianpalle 4 Venkatampalle  5 Agaram 6 Parwathapur  7 Shapur    8 Kamaluddinpur   9 Thirumalaipalle 10 Appareddipalle   11  Anthaipalle  12  Manajipet  13 Solipur 14 Salkalapur   15  Upparapalle   16 Mamidimada 17 Malkapur   18 Suraipalle "\n" "\n"
+Pangal  "\n"  2 Gopalpur  3 Bandapalle   4 Annaram   5 Madhavaraopalle   6 Vengalaipalle 7 Kistapur 8 Mahammadapur  9 Jammapur 10 Nizamabad  11 Sakhapur  12 Davajipalle 13  Remaddula 14 Kethepalle 15 Chintakunta   16 Dondaipalle 17 Mallaipalle 18 Chikkepalle 19 Rayanipalle  20 Busireddipalle 21  Thellarallapalle 22  Kadirepad "\n" "\n"
+Chinnambavi  "\n"  Dagada 2 Peddamarur 3 Chinnamarur 4  Vellatur  5  Chellepahad   6 Ayyavaripalle 7  Kalloor   8  Koppunur    9 Lakshmipalle 10 Solipuram 11  Ammaipalle  12 Dagadapalle 13 Velgonda 14  Miyapuram   15  Bekkam   16  Gaddabaswapuram "\n" "\n"
+Weepangandla  "\n" 2 Sanginepalle  3  Govardhangiri  4 Toomkunta  5  Sampatraopalle   6 Pulgarcherla   7  Kalvarala  8  Gopaldinne   9  Korlakunta  10  Bollaram 11  Vallabhapur "\n" "\n"
+ Srirangapur  "\n"  2 Thatipamula 3  Nagarala 4  Kamballapur 5  Venkatapur (S)  6  Nagasanipalle 7	Janampeta "\n" "\n"
+
+Pebbair   "\n" 2  Chelimilla 3  Thomalapalle  4  Kanchiraopalle  5  Shakhapur (Y)  6  Rangapur  7  Ramapur 8   Bunyadpur  9  Pathapalle  10  Janumpalle  11  Ramammapeta  12  Ayyavaripalle  13  Sugur 14	Munagamanudinne  15   Penchikalpadu   16 Erladinne 17  Gummadam    18  Burdipadu  19  Thippaipalle  20  Yaparla "\n" "\n"
+
+Madanapur "\n"   1.Madanapur 2  Govindahalli 3  Dantanoor 4  Shankarampeta   5  Thirumalaipalle 6	Ramanpadu	 7  Ajjakollu   8  Narsingapur   9  Konnur   10 Dwarakanagar   11 Nelividi   12  Duppalle 13 	Kothapalle   14  Gopanpeta  15   Karvena "\n" "\n"
+
+Kothakota "\n"   2  Palem 3 Kanaipalle 4  Nirven   5  Amadabakula  6 Kanimetta   7  Sankireddipalle  8	Ramnathpur  9  Rayanpet   10  Satyahalli  11   Mummallapalle   12  Pathajangamaipalle  13  Boothpur  14	Pullareddikunta  15   Miraspalle   16   Natavalli  17   Nancharammapet  18  Apparala   19  Pamapur   20	Ramakrishnapur  21 Waddawata  22 Cherlapalle1 "\n" "\n"
+
+Amarchintha "\n"  2  Mastipur  3 Pamireddipalle  4 Kankanvanipalle  5  Singampeta  6 Nandimalla  7	Chinthareddipalle   8  Mittanandimalla  9  Erladinne  10  Chandraghad  11  Dharmapur  12  Nagalkadumur  13  Kistampalle "\n"
+</string>
+
+
 </resources>

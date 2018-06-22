@@ -1,32 +1,42 @@
 package com.srinivas.com.distrct;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.os.Handler;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
 
 import com.srinivas.com.distrct.activities.RegistrationActivity;
+import com.srinivas.com.distrct.adapters.SlidingImage_Adapter;
 import com.srinivas.com.distrct.adapters.dashboardAdapter;
 import com.srinivas.com.distrct.models.Categories;
 import com.srinivas.com.distrct.models.DashBoard;
 import com.srinivas.com.distrct.models.SubCategoriesModel;
 import com.srinivas.com.distrct.network.APIUtils;
 import com.srinivas.com.distrct.network.ApiInterface;
+import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -43,6 +53,13 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private ApiInterface apiInterface;
     private List<SubCategoriesModel> subCategoriesList = new ArrayList<>();
     private List<Categories> categoriesList;
+    private Dialog dialog;
+
+    private static ViewPager mPager;
+    private static int currentPage = 0;
+    private static int NUM_PAGES = 0;
+    private static final Integer[] IMAGES= {R.drawable.bgr_img,R.drawable.schoolbuilding_graphics,R.drawable.finallogo,R.drawable.lead_gen_hard};
+    private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,6 +67,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         setContentView(R.layout.content_dashboard);
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         mprogressDialog = new ProgressDialog(this);
+        dialog = new Dialog(this);
         setSupportActionBar(toolbar);
         apiInterface = APIUtils.getAPIService();
         initcomponents();
@@ -59,6 +77,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private void initcomponents() {
         setreferences();
         initnavigation();
+        init();
         setoncliclks();
         forCategoriesWS();
         mprogressDialog.show();
@@ -76,7 +95,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
 //        navigationView.setNavigationItemSelectedListener(this);
 
         //add this line to display menu1 when the activity is loaded
-        displaySelectedScreen(R.id.nav_education);
+//        displaySelectedScreen(R.id.nav_education);
     }
 
 
@@ -129,12 +148,14 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 grid_dashboard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
                     public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                        switch (i) {
-                            case 0:
-                                Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
-                                startActivity(intent);
-                                break;
-                        }
+//                        switch (i) {
+//                            case i:
+                        Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
+                        intent.putExtra("POSITION", i);
+                        intent.putExtra("Category", categoriesList.get(i).categoryName);
+                        startActivity(intent);
+//                                break;
+//                        }
                     }
                 });
 
@@ -155,6 +176,20 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 Intent intent = new Intent(DashBoardActivity.this, RegistrationActivity.class);
                 startActivity(intent);
                 break;
+            case R.id.nav_mandal_villages:
+                AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle("Information");
+                builder.setMessage(R.string.mandalsandvillages);
+
+                builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialog.dismiss();
+                    }
+                });
+                dialog = builder.create();
+                dialog.show();
+                dialog.setCancelable(true);
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer);
         drawer.closeDrawer(GravityCompat.START);
@@ -173,12 +208,23 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.menu_navigation, menu);
-        return true;
+      /*  getMenuInflater().inflate(R.menu.menu_navigation, menu);
+        return true;*/
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.menu_navigation, menu);
+
+        return super.onCreateOptionsMenu(menu);
     }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.nav_register:
+                Intent intent = new Intent(DashBoardActivity.this, RegistrationActivity.class);
+                startActivity(intent);
+                break;
+
+        }
         return super.onOptionsItemSelected(item);
     }
 
@@ -186,5 +232,67 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     public boolean onNavigationItemSelected(MenuItem menuItem) {
         displaySelectedScreen(menuItem.getItemId());
         return true;
+    }
+
+    private void init() {
+        for(int i=0;i<IMAGES.length;i++)
+            ImagesArray.add(IMAGES[i]);
+
+        mPager = (ViewPager) findViewById(R.id.pager);
+
+
+        mPager.setAdapter(new SlidingImage_Adapter(DashBoardActivity.this,ImagesArray));
+
+
+        CirclePageIndicator indicator = (CirclePageIndicator)
+                findViewById(R.id.indicator);
+
+        indicator.setViewPager(mPager);
+
+        final float density = getResources().getDisplayMetrics().density;
+
+//Set circle indicator radius
+        indicator.setRadius(5 * density);
+
+        NUM_PAGES =IMAGES.length;
+
+        // Auto start of viewpager
+        final Handler handler = new Handler();
+        final Runnable Update = new Runnable() {
+            public void run() {
+                if (currentPage == NUM_PAGES) {
+                    currentPage = 0;
+                }
+                mPager.setCurrentItem(currentPage++, true);
+            }
+        };
+        Timer swipeTimer = new Timer();
+        swipeTimer.schedule(new TimerTask() {
+            @Override
+            public void run() {
+                handler.post(Update);
+            }
+        }, 3000, 3000);
+
+        // Pager listener over indicator
+        indicator.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+
+            @Override
+            public void onPageSelected(int position) {
+                currentPage = position;
+
+            }
+
+            @Override
+            public void onPageScrolled(int pos, float arg1, int arg2) {
+
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int pos) {
+
+            }
+        });
+
     }
 }

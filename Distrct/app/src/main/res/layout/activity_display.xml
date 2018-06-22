@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#90c2c2c2"
     tools:context="com.srinivas.com.distrct.DisplayActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -33,6 +34,7 @@
                 tools:layout_editor_absoluteY="-1dp" />
 
             <TextView
+                android:id="@+id/txt_title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:gravity="center"
@@ -78,53 +80,63 @@
             android:id="@+id/constraint"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="#b3bab39a">
+            android:background="#d3be2f00">
 
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="120dp"
                 android:layout_height="110dp"
-                android:layout_marginLeft="38dp"
-                android:src="@drawable/schoolbuilding_graphics"
-                tools:layout_editor_absoluteX="48dp"
-                tools:layout_editor_absoluteY="121dp"
-                android:layout_alignParentTop="true"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
-                android:layout_marginStart="38dp" />
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="38dp"
+                android:layout_marginStart="38dp"
+                android:src="@drawable/logo"
+                tools:layout_editor_absoluteX="48dp"
+                tools:layout_editor_absoluteY="121dp" />
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Schools"
-                android:gravity="center"
-                android:textSize="26sp"
-                tools:layout_editor_absoluteX="202dp"
-                tools:layout_editor_absoluteY="121dp"
+                android:layout_alignParentTop="true"
                 android:layout_marginLeft="52dp"
                 android:layout_marginStart="52dp"
-                android:layout_alignParentTop="true"
-                android:layout_toRightOf="@+id/imageView2"
+                android:layout_marginTop="11dp"
                 android:layout_toEndOf="@+id/imageView2"
-                android:layout_marginTop="11dp" />
+                android:layout_toRightOf="@+id/imageView2"
+                android:gravity="center"
+                android:text="Schools"
+                android:textSize="26sp"
+                tools:layout_editor_absoluteX="202dp"
+                tools:layout_editor_absoluteY="121dp" />
 
             <Button
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/textView"
+                android:layout_marginLeft="41dp"
+                android:layout_marginStart="41dp"
+                android:layout_toEndOf="@+id/imageView2"
+                android:layout_toRightOf="@+id/imageView2"
                 android:background="@color/cardview_dark_background"
                 android:elevation="5dp"
                 android:padding="5dp"
                 android:text="Book Admission"
-                android:textColor="@color/white"
-                android:layout_below="@+id/textView"
-                android:layout_toRightOf="@+id/imageView2"
-                android:layout_toEndOf="@+id/imageView2"
-                android:layout_marginLeft="41dp"
-                android:layout_marginStart="41dp" />
+                android:textColor="@color/white" />
 
         </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/constraint"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textSize="26dp"
+            android:visibility="gone"
+            android:id="@+id/txt_noitems"/>
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_education"

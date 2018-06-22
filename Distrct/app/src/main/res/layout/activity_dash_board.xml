@@ -4,23 +4,39 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#c6d4d4d4"
     android:orientation="vertical"
-    android:background="#c6a18d8d"
     tools:context="com.srinivas.com.distrct.DashBoardActivity">
 
-    <ImageView
-        android:layout_marginTop="0.2dp"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:fitsSystemWindows="true"
-        android:scaleType="centerInside"
-        android:src="@drawable/lead_gen_hard"/>
+        android:layout_height="250dp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="fill_parent"
+            android:layout_height="250dp"
+            android:layout_alignParentTop="true" />
+
+        <com.viewpagerindicator.CirclePageIndicator
+            android:id="@+id/indicator"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom"
+            android:padding="10dip"
+            app:centered="true"
+            app:fillColor="#ff0099"
+            app:pageColor="#FF0000"
+            app:snap="false" />
+    </RelativeLayout>
 
 
     <GridView
         android:id="@+id/grid_dashbnoard"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:layout_margin="5dp"
         android:background="#d4eaeaea"
         android:horizontalSpacing="5dp"
@@ -28,5 +44,4 @@
         android:verticalSpacing="3dp">
 
     </GridView>
-
 </LinearLayout>

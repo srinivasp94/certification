@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:layout_margin="8dp"
+    android:layout_margin="6dp"
     android:padding="5dp"
     app:cardBackgroundColor="@color/white"
     app:cardCornerRadius="1dp"
@@ -17,52 +17,95 @@
         <ImageView
             android:id="@+id/imgdesign"
             android:layout_width="20dp"
-            android:layout_height="20dp"
+            android:layout_height="22dp"
             android:src="@drawable/icons_thickverticalline"
-
-            android:tint="#aae67d3a" />
-
-        <ImageView
-            android:id="@+id/icon"
-            android:layout_width="18dp"
-            android:layout_height="18dp"
-            android:layout_below="@+id/imgdesign"
-            android:layout_toRightOf="@+id/imgdesign"
-            android:src="@drawable/icons_school"
-            android:tint="@color/tintcolor" />
+            android:tint="@color/colorPrimary" />
 
         <TextView
-            android:id="@+id/txt_sclname"
+            android:id="@+id/txt_title_category"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginBottom="3dp"
+            android:layout_toRightOf="@+id/imgdesign"
+            android:capitalize="words"
+            android:text="Title"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_urlimage"
+            android:layout_width="100dp"
+            android:layout_height="86dp"
             android:layout_below="@+id/imgdesign"
-            android:layout_toRightOf="@+id/icon"
-            android:text="schoolName"
-            android:layout_marginLeft="3dp"
-            android:textColor="#292b30"
-            android:textSize="18dp" />
+            android:layout_margin="8dp"
+            android:background="@drawable/bgr_overview"
+            android:layout_toRightOf="@+id/imgdesign"
+            android:fitsSystemWindows="true"
+            android:src="@drawable/logo" />
 
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_title_category"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="8dp"
             android:orientation="horizontal"
-            android:layout_below="@+id/txt_sclname"
-            android:layout_toRightOf="@+id/imgdesign"
-            android:layout_marginTop="3dp"
-            android:weightSum="1">
+            android:layout_toRightOf="@+id/img_urlimage"
+            android:weightSum="1"
+            android:id="@+id/ll1">
 
             <ImageView
-                android:layout_width="20dp"
-                android:layout_height="20dp"
                 android:layout_weight="0.2"
-                android:src="@android:drawable/ic_menu_mylocation"
-                android:tint="@color/tintcolor"/>
+                android:id="@+id/icon"
+                android:layout_width="0dp"
+                android:layout_height="18dp"
+                android:layout_below="@+id/imgdesign"
+                android:layout_toRightOf="@+id/img_urlimage"
+                android:src="@drawable/icons_school"
+                android:background="@color/black"
+                android:tint="@color/white" />
 
             <TextView
                 android:layout_weight="0.8"
-                android:id="@+id/txt_scl_address"
-                android:layout_width="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:id="@+id/txt_sclname"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/imgdesign"
+                android:layout_toRightOf="@+id/icon"
+                android:text="schoolName"
+                android:textColor="#292b30"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/ll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ll1"
+            android:layout_margin="8dp"
+            android:layout_toRightOf="@+id/img_urlimage"
+            android:orientation="horizontal"
+            android:weightSum="1">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="20dp"
+                android:layout_weight="0.2"
+                android:background="@color/black"
+                android:src="@android:drawable/ic_menu_mylocation"
+                android:tint="@color/white" />
+
+            <TextView
+                android:id="@+id/txt_scl_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.8"
+                android:layout_marginLeft="8dp"
                 android:text="school Address"
                 android:textSize="18dp" />
         </LinearLayout>
@@ -72,11 +115,11 @@
             android:id="@+id/txt_scl_phone"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentRight="true"
-            android:layout_below="@+id/txt_sclname"
-            android:layout_marginRight="3dp"
-            android:layout_marginTop="3dp"
-            android:gravity="end"
+            android:layout_below="@+id/ll"
+            android:layout_margin="8dp"
+            android:drawableLeft="@android:drawable/stat_sys_phone_call"
+            android:drawablePadding="5dp"
+            android:drawableTint="@color/black"
             android:text="school Phone"
             android:textColor="@color/cardview_dark_background"
             android:textSize="18dp" />

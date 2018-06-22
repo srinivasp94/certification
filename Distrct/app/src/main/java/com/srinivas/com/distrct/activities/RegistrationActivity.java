@@ -265,6 +265,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
     }
 
     private void forCategoriesWS() {
+
         apiInterface.getCategories().enqueue(new Callback<List<Categories>>() {
             @Override
             public void onResponse(Call<List<Categories>> call, Response<List<Categories>> response) {
