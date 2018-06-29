@@ -91,7 +91,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
     private Uri uri;
     InputStream imageStream;
     private String encodedImage;
-    private ProgressDialog progressDialog;
+    private ProgressDialog progressDialog,mprogressDialog1;
     String apiurl = "http://13.59.168.219/api/Master/GetVillages/";
     String url_subcat = "http://13.59.168.219/api/Master/GetSubCategory/";
 
@@ -359,7 +359,11 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         Mandals mandals = adaptermandal.getItem(i);
                         mandalId = mandals.mandalId;
                         Log.i("##Mandals", "" + mandalId);
-                        new callserviceforVillages().execute(String.valueOf(mandalId));
+                        if (mprogressDialog.isShowing()) {
+                            mprogressDialog.dismiss();
+                            new callserviceforVillages().execute(String.valueOf(mandalId));
+                        }
+
                     }
 
                     @Override
@@ -568,10 +572,10 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         protected void onPreExecute() {
             super.onPreExecute();
             // display a progress dialog for good user experiance
-            progressDialog = new ProgressDialog(RegistrationActivity.this);
-            progressDialog.setMessage("Please Wait");
-            progressDialog.setCancelable(false);
-            progressDialog.show();
+            mprogressDialog1 = new ProgressDialog(RegistrationActivity.this);
+            mprogressDialog1.setMessage("Please Wait");
+            mprogressDialog1.setCancelable(false);
+            mprogressDialog1.show();
 
 
         }
@@ -622,7 +626,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
 
             Log.d("data", s.toString());
             // dismiss the progress dialog after receiving data from API
-            progressDialog.dismiss();
+            mprogressDialog1.dismiss();
             subCategoriesList.clear();
             try {
                 JSONArray jsonArray = new JSONArray(s);
