@@ -15,23 +15,23 @@
 
         <ImageView
             android:layout_width="wrap_content"
-            android:layout_height="40dp"
+            android:layout_height="50dp"
             android:layout_gravity="top|center"
-            android:background="#605b5b"
+            android:background="#b33a5b79"
             android:src="@drawable/logo" />
 
         <TextView
             android:id="@+id/tv_title"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:background="#81747171"
-            android:gravity="center"
-            android:padding="5dp"
+            android:layout_marginTop="0.1dp"
+            android:background="#b33a5b79"
+            android:gravity="start"
+            android:padding="3dp"
             android:singleLine="true"
             android:text="Title of item"
             android:textColor="#ffffff"
-            android:textSize="18dp"
+            android:textSize="20dp"
             android:textStyle="bold" />
     </LinearLayout>
 

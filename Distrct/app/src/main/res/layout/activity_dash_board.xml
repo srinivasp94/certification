@@ -27,11 +27,21 @@
             android:gravity="bottom"
             android:padding="10dip"
             app:centered="true"
-            app:fillColor="#ff0099"
+            app:fillColor="#fffeff"
             app:pageColor="#FF0000"
             app:snap="false" />
     </RelativeLayout>
-
+<Button
+    android:id="@+id/btn_register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="2dp"
+    android:background="@drawable/ripplebgr"
+    android:text="Register here"
+    android:textColor="@color/white"
+    android:textSize="18dp"
+    />
 
     <GridView
         android:id="@+id/grid_dashbnoard"
@@ -41,7 +51,7 @@
         android:background="#d4eaeaea"
         android:horizontalSpacing="5dp"
         android:numColumns="3"
-        android:verticalSpacing="3dp">
+        android:verticalSpacing="5dp">
 
     </GridView>
 </LinearLayout>

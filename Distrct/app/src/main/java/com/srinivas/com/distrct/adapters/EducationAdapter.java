@@ -54,7 +54,7 @@ public class EducationAdapter extends RecyclerView.Adapter<EducationAdapter.View
         holder.address.setText(models.address +" and "+models.landmark );
         holder.phone.setText(models.phonenumber);
         if (models.image != null) {
-            Picasso.with(context).load(models.image).into(holder.img_pic);
+            Picasso.with(context).load(models.image).resize(400,550).centerCrop().into(holder.img_pic);
         } else {
             holder.img_pic.setImageResource(R.drawable.logo);
         }

@@ -12,7 +12,7 @@ import org.apache.commons.lang3.builder.ToStringBuilder;
 public class Categories {
     @SerializedName("CategoryID")
     @Expose
-    public Integer categoryID;
+    public int categoryID;
     @SerializedName("CategoryName")
     @Expose
     public String categoryName;

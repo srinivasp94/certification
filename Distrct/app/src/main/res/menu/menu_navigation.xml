@@ -5,8 +5,10 @@
     <group android:checkableBehavior="none">
         <item
             android:id="@+id/nav_register"
-            android:icon="@android:drawable/ic_menu_edit"
+            android:icon="@drawable/ic_assignment_ind_black"
             app:showAsAction="always"
+            android:iconTint="@color/white"
+            android:titleCondensed="Register"
             android:title="Register" />
         <item
             android:id="@+id/nav_utube"

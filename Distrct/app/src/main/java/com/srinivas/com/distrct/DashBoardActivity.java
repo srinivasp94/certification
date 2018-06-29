@@ -21,6 +21,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.GridView;
 
 import com.srinivas.com.distrct.activities.RegistrationActivity;
@@ -42,8 +43,9 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class DashBoardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
+public class DashBoardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
     private GridView grid_dashboard;
+    private Button register;
     private dashboardAdapter dashboardAdapter;
     private List<DashBoard> boardList = new ArrayList<>();
     private DrawerLayout drawerLayout;
@@ -58,7 +60,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private static ViewPager mPager;
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
-    private static final Integer[] IMAGES= {R.drawable.bgr_img,R.drawable.schoolbuilding_graphics,R.drawable.finallogo,R.drawable.lead_gen_hard};
+    private static final Integer[] IMAGES = {R.drawable.img_one, R.drawable.img_two, R.drawable.img_three, R.drawable.finallogo};
     private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
 
     @Override
@@ -103,9 +105,12 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         grid_dashboard = (GridView) findViewById(R.id.grid_dashbnoard);
+        register = (Button)findViewById(R.id.btn_register);
+
     }
 
     private void setoncliclks() {
+        register.setOnClickListener(this);
     }
 
     private void setactions() {
@@ -235,13 +240,13 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     }
 
     private void init() {
-        for(int i=0;i<IMAGES.length;i++)
+        for (int i = 0; i < IMAGES.length; i++)
             ImagesArray.add(IMAGES[i]);
 
         mPager = (ViewPager) findViewById(R.id.pager);
 
 
-        mPager.setAdapter(new SlidingImage_Adapter(DashBoardActivity.this,ImagesArray));
+        mPager.setAdapter(new SlidingImage_Adapter(DashBoardActivity.this, ImagesArray));
 
 
         CirclePageIndicator indicator = (CirclePageIndicator)
@@ -254,7 +259,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
 //Set circle indicator radius
         indicator.setRadius(5 * density);
 
-        NUM_PAGES =IMAGES.length;
+        NUM_PAGES = IMAGES.length;
 
         // Auto start of viewpager
         final Handler handler = new Handler();
@@ -294,5 +299,15 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
             }
         });
 
+    }
+
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_register:
+                Intent intent = new Intent(DashBoardActivity.this, RegistrationActivity.class);
+                startActivity(intent);
+                break;
+        }
     }
 }

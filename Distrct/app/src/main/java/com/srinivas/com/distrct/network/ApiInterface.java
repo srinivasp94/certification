@@ -3,6 +3,7 @@ package com.srinivas.com.distrct.network;
 import com.srinivas.com.distrct.models.Categories;
 import com.srinivas.com.distrct.models.Mandals;
 import com.srinivas.com.distrct.models.SubCategoriesModel;
+import com.srinivas.com.distrct.models.Villages;
 import com.srinivas.com.distrct.models.educationModels;
 import com.srinivas.com.distrct.models.simpleResponse;
 
@@ -45,11 +46,15 @@ public interface ApiInterface {
                                       @Part("Category") int category,
                                       @Part("SubCategory") int subcat,
                                       @Part("Mandal") int mandal,
+                                      @Part("Village") int village,
                                       @Part("Image") String imagePath,
                                       @Part("CreatedBy") int createdby,
                                       @Part("ModifiedBY") int modifiedby,
                                       @Part("Address") String address
     );
+
+    @GET("Master/GetVillages/1")
+    Call<List<Villages>> villagesCall();
 
 
     @GET("Master/GetCategory")
@@ -112,8 +117,6 @@ public interface ApiInterface {
 
     @GET("Master/getAllCategories/beautySpa")
     Call<List<educationModels>> getbeautySpa();
-
-
 
 
 }
