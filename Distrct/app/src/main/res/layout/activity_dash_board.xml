@@ -6,16 +6,17 @@
     android:layout_height="match_parent"
     android:background="#c6d4d4d4"
     android:orientation="vertical"
+    android:id="@+id/linearlayout"
     tools:context="com.srinivas.com.distrct.DashBoardActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="250dp">
+        android:layout_height="235dp">
 
         <android.support.v4.view.ViewPager
             android:id="@+id/pager"
             android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_height="230dp"
             android:layout_alignParentTop="true" />
 
         <com.viewpagerindicator.CirclePageIndicator
@@ -31,23 +32,22 @@
             app:pageColor="#FF0000"
             app:snap="false" />
     </RelativeLayout>
-<Button
-    android:id="@+id/btn_register"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_margin="10dp"
-    android:padding="2dp"
-    android:background="@drawable/ripplebgr"
-    android:text="Register here"
-    android:textColor="@color/white"
-    android:textSize="18dp"
-    />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:background="@color/green"
+        android:padding="2dp"
+        android:text="Register here"
+        android:textColor="@color/white" />
 
     <GridView
         android:id="@+id/grid_dashbnoard"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="5dp"
+        android:layout_margin="4dp"
         android:background="#d4eaeaea"
         android:horizontalSpacing="5dp"
         android:numColumns="3"

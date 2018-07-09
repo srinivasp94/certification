@@ -12,7 +12,6 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.srinivas.com.distrct.activities.SingleSchoolActivity;
 import com.srinivas.com.distrct.adapters.EducationAdapter;
 import com.srinivas.com.distrct.models.educationModels;
 import com.srinivas.com.distrct.network.APIUtils;
@@ -32,11 +31,11 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     private EducationAdapter adapter;
     private LinearLayoutManager manager;
     private ArrayList<educationModels> list = new ArrayList<>();
-    private ImageView backButon;
+    private ImageView backButon, cateimg;
     private TextView tv_noItems, tv_title;
     private Intent intent;
     private String categoryName;
-    private int id;
+    private int id, imgs;
     private ApiInterface apiInterface;
     Boolean isInternetAvailable;
     private ProgressDialog progressDialog;
@@ -71,6 +70,7 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     private void setReferences() {
         recycler_education = (RecyclerView) findViewById(R.id.rv_education);
         backButon = (ImageView) findViewById(R.id.imageView);
+        cateimg = (ImageView) findViewById(R.id.imageView2);
         tv_noItems = (TextView) findViewById(R.id.txt_noitems);
         tv_title = (TextView) findViewById(R.id.txt_title);
 
@@ -90,7 +90,9 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
         if (bundle != null) {
             id = bundle.getInt("POSITION");
             categoryName = bundle.getString("Category");
+            imgs = bundle.getInt("Images");
             tv_title.setText(categoryName);
+            cateimg.setImageResource(imgs);
         } else {
 
         }
@@ -107,6 +109,7 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
                         if (list.size() > 0 && list != null) {
                             adapter = new EducationAdapter(DisplayActivity.this, list);
                             recycler_education.setAdapter(adapter);
+/*
                             adapter.setonitemClicklistner(new EducationAdapter.OnItemClickListener() {
                                 @Override
                                 public void onitemClick(View view, int position) {
@@ -118,6 +121,7 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
                                 }
 
                             });
+*/
 
                         } else {
                             tv_noItems.setVisibility(View.VISIBLE);

@@ -2,17 +2,15 @@ package com.srinivas.com.distrct;
 
 import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.NavigationView;
+import android.support.design.widget.Snackbar;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.view.ViewPager;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
-import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
@@ -23,8 +21,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Button;
 import android.widget.GridView;
+import android.widget.LinearLayout;
 
+import com.srinivas.com.distrct.activities.ContactActivity;
 import com.srinivas.com.distrct.activities.RegistrationActivity;
+import com.srinivas.com.distrct.activities.VillagesActivity;
 import com.srinivas.com.distrct.adapters.SlidingImage_Adapter;
 import com.srinivas.com.distrct.adapters.dashboardAdapter;
 import com.srinivas.com.distrct.models.Categories;
@@ -32,6 +33,7 @@ import com.srinivas.com.distrct.models.DashBoard;
 import com.srinivas.com.distrct.models.SubCategoriesModel;
 import com.srinivas.com.distrct.network.APIUtils;
 import com.srinivas.com.distrct.network.ApiInterface;
+import com.srinivas.com.distrct.utils.ConnectionDetector;
 import com.viewpagerindicator.CirclePageIndicator;
 
 import java.util.ArrayList;
@@ -46,6 +48,7 @@ import retrofit2.Response;
 public class DashBoardActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener, View.OnClickListener {
     private GridView grid_dashboard;
     private Button register;
+    private LinearLayout makeLL;
     private dashboardAdapter dashboardAdapter;
     private List<DashBoard> boardList = new ArrayList<>();
     private DrawerLayout drawerLayout;
@@ -55,12 +58,18 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private ApiInterface apiInterface;
     private List<SubCategoriesModel> subCategoriesList = new ArrayList<>();
     private List<Categories> categoriesList;
+    private ConnectionDetector detector;
+    private boolean isinternet = false;
+    private int[] gridViewImageId = {R.drawable.ic_open_book, R.drawable.ic_video_camera, R.drawable.ic_departures,
+            R.drawable.ic_house, R.drawable.ic_full_shoping_cart, R.drawable.ic_health, R.drawable.ic_cooking,
+            R.drawable.ic_sedan_car_model, R.drawable.ic_idea, R.drawable.ic_plant_tree, R.drawable.ic_services,
+            R.drawable.ic_support, R.drawable.ic_scissors};
     private Dialog dialog;
 
     private static ViewPager mPager;
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
-    private static final Integer[] IMAGES = {R.drawable.img_one, R.drawable.img_two, R.drawable.img_three, R.drawable.finallogo};
+    private static final Integer[] IMAGES = {R.drawable.img_one, R.drawable.img_two, R.drawable.finallogo};
     private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
 
     @Override
@@ -70,6 +79,8 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         mprogressDialog = new ProgressDialog(this);
         dialog = new Dialog(this);
+        detector = new ConnectionDetector(this);
+        isinternet = detector.isConnectingToInternet();
         setSupportActionBar(toolbar);
         apiInterface = APIUtils.getAPIService();
         initcomponents();
@@ -81,7 +92,12 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         initnavigation();
         init();
         setoncliclks();
-        forCategoriesWS();
+        if (isinternet) {
+            forCategoriesWS();
+        } else {
+            Snackbar snackbar = Snackbar.make(makeLL, "No internet connections available", 4000);
+            snackbar.show();
+        }
         mprogressDialog.show();
 //        setactions();
     }
@@ -105,39 +121,13 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         navigationView = (NavigationView) findViewById(R.id.navigation_view);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         grid_dashboard = (GridView) findViewById(R.id.grid_dashbnoard);
-        register = (Button)findViewById(R.id.btn_register);
+        makeLL = (LinearLayout) findViewById(R.id.linearlayout);
+        register = (Button) findViewById(R.id.btn_register);
 
     }
 
     private void setoncliclks() {
         register.setOnClickListener(this);
-    }
-
-    private void setactions() {
-        boardList.add(new DashBoard("Education", Color.parseColor("#FF30034D"), 1));
-        boardList.add(new DashBoard("Medical", Color.parseColor("#111111"), 1));
-        boardList.add(new DashBoard("Finance", Color.parseColor("#2f7dc7"), 1));
-        boardList.add(new DashBoard("Banking", Color.parseColor("#2f7dc7"), 1));
-        boardList.add(new DashBoard("Automobile", Color.parseColor("#FF07878E"), 1));
-        boardList.add(new DashBoard("ECommerce", Color.parseColor("#FF064F8F"), 1));
-        boardList.add(new DashBoard("Business", Color.parseColor("#FF733B07"), 1));
-        boardList.add(new DashBoard("MeSeva", Color.parseColor("#FF705F01"), 1));
-        boardList.add(new DashBoard("Education", Color.parseColor("#FF196B04"), 1));
-        boardList.add(new DashBoard("Education", Color.parseColor("#FF036C6C"), 1));
-
-//        dashboardAdapter = new dashboardAdapter(this, boardList);
-       /* grid_dashboard.setAdapter(dashboardAdapter);
-        grid_dashboard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
-                switch (i) {
-                    case 0:
-                        Intent intent = new Intent(DashBoardActivity.this,DisplayActivity.class);
-                        startActivity(intent);
-                        break;
-                }
-            }
-        });*/
     }
 
     private void forCategoriesWS() {
@@ -148,7 +138,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 Log.i("CATEGORIES", response.body().toString());
 //                categoriesList.add(new Categories(1, "Select Categories"));
                 categoriesList = response.body();
-                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList);
+                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList, gridViewImageId);
                 grid_dashboard.setAdapter(dashboardAdapter);
                 grid_dashboard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
@@ -158,6 +148,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                         Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
                         intent.putExtra("POSITION", i);
                         intent.putExtra("Category", categoriesList.get(i).categoryName);
+                        intent.putExtra("Images", gridViewImageId[i]);
                         startActivity(intent);
 //                                break;
 //                        }
@@ -182,10 +173,9 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(intent);
                 break;
             case R.id.nav_mandal_villages:
-                AlertDialog.Builder builder = new AlertDialog.Builder(this);
-                builder.setTitle("Information");
+               /* AlertDialog.Builder builder = new AlertDialog.Builder(this);
+                builder.setTitle(Html.fromHtml("<font color='#FF7F27'>Information</font>"));
                 builder.setMessage(R.string.mandalsandvillages);
-
                 builder.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
@@ -194,7 +184,21 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 });
                 dialog = builder.create();
                 dialog.show();
-                dialog.setCancelable(true);
+                dialog.setCancelable(true);*/
+                Intent intent1 = new Intent(DashBoardActivity.this, VillagesActivity.class);
+                startActivity(intent1);
+                break;
+            case R.id.nav_share:
+                Intent sendintent = new Intent();
+                sendintent.setAction(Intent.ACTION_SEND);
+                sendintent.putExtra(Intent.EXTRA_TEXT, "Hey guys I got a great app to know more about wanaparthy " + "https://play.google.com/store/apps/details?id=com.srinivas.com.distrct");
+                sendintent.setType("text/plain");
+                startActivity(sendintent);
+                break;
+            case R.id.nav_contact:
+                Intent intent2 = new Intent(DashBoardActivity.this, ContactActivity.class);
+                startActivity(intent2);
+                break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer);
         drawer.closeDrawer(GravityCompat.START);
@@ -218,7 +222,8 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_navigation, menu);
 
-        return super.onCreateOptionsMenu(menu);
+//        return super.onCreateOptionsMenu(menu);
+        return false;
     }
 
     @Override
@@ -277,7 +282,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
             public void run() {
                 handler.post(Update);
             }
-        }, 3000, 3000);
+        }, 4000, 3000);
 
         // Pager listener over indicator
         indicator.setOnPageChangeListener(new ViewPager.OnPageChangeListener() {

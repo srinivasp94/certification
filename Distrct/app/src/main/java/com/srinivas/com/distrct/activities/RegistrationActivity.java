@@ -91,7 +91,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
     private Uri uri;
     InputStream imageStream;
     private String encodedImage;
-    private ProgressDialog progressDialog,mprogressDialog1;
+    private ProgressDialog progressDialog, mprogressDialog1;
     String apiurl = "http://13.59.168.219/api/Master/GetVillages/";
     String url_subcat = "http://13.59.168.219/api/Master/GetSubCategory/";
 
@@ -182,16 +182,19 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             snackbar.setActionTextColor(Color.YELLOW);
             snackbar.show();
         } else {
-            if (checkvalidations()) {
+            if (checkvalidations() && profile.getDrawable() != null) {
 
                 String title = et_title.getText().toString();
                 String personName = et_name.getText().toString();
                 String mobile = et_mobile.getText().toString();
                 String mAddress = et_address.getText().toString();
-                apiInterface.registerCall(title, personName, mobile, mAddress, cateId, subcatId, mandalId, villageId, encodedImage, 1, 1, "address")
+                apiInterface.registerCall(title, personName, mobile, mAddress, cateId, subcatId, mandalId, villageId, "http://13.59.168.219 " + encodedImage, 1, 1, "address")
                         .enqueue(new Callback<simpleResponse>() {
                             @Override
                             public void onResponse(Call<simpleResponse> call, Response<simpleResponse> response) {
+                                if (response.body().equals("") && response.body() == null) {
+                                    Toast.makeText(RegistrationActivity.this, "Null", Toast.LENGTH_SHORT).show();
+                                }
                                 mprogressDialog.dismiss();
 //                                Log.i("Success", String.valueOf(response.body()));
                                 simpleResponse simpleResponse = response.body();
@@ -271,7 +274,24 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 Log.i("CATEGORIES", response.body().toString());
                 categoriesList.add(new Categories(1, "Select Categories"));
                 categoriesList = response.body();
-                setspinnerOnitemClickListners();
+//                setspinnerOnitemClickListners();
+                adapter = new categoriesAdapter(RegistrationActivity.this, R.layout.spinner_value_layout, categoriesList);
+                s_categorie.setAdapter(adapter);
+                s_categorie.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+                    @Override
+                    public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
+                        Categories categories = adapter.getItem(i);
+                        cateId = categories.categoryID;
+                        Log.i("##Mandals", "" + cateId);
+                        new callserviceforsubCats().execute(String.valueOf(cateId));
+                    }
+
+                    @Override
+                    public void onNothingSelected(AdapterView<?> adapterView) {
+
+                    }
+                });
+
             }
 
             @Override
@@ -359,10 +379,10 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         Mandals mandals = adaptermandal.getItem(i);
                         mandalId = mandals.mandalId;
                         Log.i("##Mandals", "" + mandalId);
-                        if (mprogressDialog.isShowing()) {
-                            mprogressDialog.dismiss();
-                            new callserviceforVillages().execute(String.valueOf(mandalId));
-                        }
+                       /* if (mprogressDialog.isShowing()) {
+                            mprogressDialog.dismiss();*/
+                        new callserviceforVillages().execute(String.valueOf(mandalId));
+//                        }
 
                     }
 
@@ -475,7 +495,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             super.onPreExecute();
             // display a progress dialog for good user experiance
             progressDialog = new ProgressDialog(RegistrationActivity.this);
-            progressDialog.setMessage("Please Wait");
+            progressDialog.setMessage("Loading..Please Wait");
             progressDialog.setCancelable(false);
             progressDialog.show();
 
@@ -527,7 +547,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
         @Override
         protected void onPostExecute(String s) {
 
-            Log.d("data", s.toString());
+            Log.d("#data", s.toString());
             // dismiss the progress dialog after receiving data from API
             progressDialog.dismiss();
             villagesList.clear();
@@ -548,6 +568,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                         public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                             Villages villages = villageAdapter.getItem(i);
                             villageId = villages.villageID;
+                            Log.i("##", villages.villageName);
                         }
 
                         @Override
@@ -656,7 +677,7 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 } else {
 
                 }
-            }catch (Exception e) {
+            } catch (Exception e) {
                 e.printStackTrace();
             }
         }

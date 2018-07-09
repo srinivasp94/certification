@@ -1,25 +1,62 @@
 <resources>
-    <string name="app_name">ManaWanapatri</string>
+    <string name="app_name">ManaWanapatry</string>
     <string name="description">[School name] is a comprehensive four-year public high school enrolling 1,250 students in grades 9–12. The school opened in the fall of 1987 and graduated its first senior class in the spring of 1989. [School name] is accredited by the North Central Association of Secondary Schools and holds membership in the College Board and the National Association for College Admission Counseling.</string>
     <string name="navigation_drawer_open">open</string>
     <string name="navigation_drawer_close">close</string>
+    <string name="contactus">
+    We dont end here.Our list of web and app design and deveopment solutions are broad and extensive To meet your web and app developmnent needs
+    </string>
 
-    <string name="mandalsandvillages">Revally  "\n"   1. Yedula  2. Bandaraipakula 3 Chennaram 4 Kesampeta  5 Shanaipalle 6 Thalpunur  7 Cheerkapalle 8 Nagapur 9 Revally 10 Vallabhanpalle 11 Konkalapalle "\n" "\n"
-Gopalpet  "\n" 1.Thadparthy 2 Chennur 3 Buddharam 4 Polkepahad 5 Chakalpalle 6 Gopalpeta 7 Munnanur  8 Jain Thirumalapur 9 Yedutla "\n" "\n"
-Peddamandaddi "\n" 2 Manigilla  3 Alwal  4Chinnamandadi  5 Jagathpalle  6 Mojerla  7 Gatlakhanapur  8 Maddigatla  9 Veeraipalle  10 Pamireddipalle 11 Veltoor  12 Balijapalle  13 Jangamaipalle "\n" "\n"
-Ghanpur "\n" 2 Almaipalle 3 Malkimianpalle 4 Venkatampalle  5 Agaram 6 Parwathapur  7 Shapur    8 Kamaluddinpur   9 Thirumalaipalle 10 Appareddipalle   11  Anthaipalle  12  Manajipet  13 Solipur 14 Salkalapur   15  Upparapalle   16 Mamidimada 17 Malkapur   18 Suraipalle "\n" "\n"
-Pangal  "\n"  2 Gopalpur  3 Bandapalle   4 Annaram   5 Madhavaraopalle   6 Vengalaipalle 7 Kistapur 8 Mahammadapur  9 Jammapur 10 Nizamabad  11 Sakhapur  12 Davajipalle 13  Remaddula 14 Kethepalle 15 Chintakunta   16 Dondaipalle 17 Mallaipalle 18 Chikkepalle 19 Rayanipalle  20 Busireddipalle 21  Thellarallapalle 22  Kadirepad "\n" "\n"
-Chinnambavi  "\n"  Dagada 2 Peddamarur 3 Chinnamarur 4  Vellatur  5  Chellepahad   6 Ayyavaripalle 7  Kalloor   8  Koppunur    9 Lakshmipalle 10 Solipuram 11  Ammaipalle  12 Dagadapalle 13 Velgonda 14  Miyapuram   15  Bekkam   16  Gaddabaswapuram "\n" "\n"
-Weepangandla  "\n" 2 Sanginepalle  3  Govardhangiri  4 Toomkunta  5  Sampatraopalle   6 Pulgarcherla   7  Kalvarala  8  Gopaldinne   9  Korlakunta  10  Bollaram 11  Vallabhapur "\n" "\n"
- Srirangapur  "\n"  2 Thatipamula 3  Nagarala 4  Kamballapur 5  Venkatapur (S)  6  Nagasanipalle 7	Janampeta "\n" "\n"
+    <string name="mandalsandvillages">Revally  "\n"   1. Yedula "\n" 2. Bandaraipakula "\n" 3 Chennaram "\n"
+        4 Kesampeta  "\n" 5 Shanaipalle "\n" 6 Thalpunur  "\n" 7 Cheerkapalle "\n"8 Nagapur "\n"9 Revally "\n"
+        10 Vallabhanpalle "\n"11 Konkalapalle "\n" "\n"
 
-Pebbair   "\n" 2  Chelimilla 3  Thomalapalle  4  Kanchiraopalle  5  Shakhapur (Y)  6  Rangapur  7  Ramapur 8   Bunyadpur  9  Pathapalle  10  Janumpalle  11  Ramammapeta  12  Ayyavaripalle  13  Sugur 14	Munagamanudinne  15   Penchikalpadu   16 Erladinne 17  Gummadam    18  Burdipadu  19  Thippaipalle  20  Yaparla "\n" "\n"
+Gopalpet  "\n" "\n"1.Thadparthy 2 "\n"Chennur "\n" 3 Buddharam "\n" 4 Polkepahad "\n" 5 Chakalpalle "\n"6 Gopalpeta "\n"
+        7 Munnanur  "\n" 8 Jain Thirumalapur "\n" 9 Yedutla "\n" "\n"
 
-Madanapur "\n"   1.Madanapur 2  Govindahalli 3  Dantanoor 4  Shankarampeta   5  Thirumalaipalle 6	Ramanpadu	 7  Ajjakollu   8  Narsingapur   9  Konnur   10 Dwarakanagar   11 Nelividi   12  Duppalle 13 	Kothapalle   14  Gopanpeta  15   Karvena "\n" "\n"
+Peddamandaddi "\n" 2 Manigilla "\n" 3 Alwal  "\n"4 Chinnamandadi  "\n"5 Jagathpalle  "\n"6 Mojerla  "\n"7 Gatlakhanapur  "\n"
+        8 Maddigatla  "\n"9 Veeraipalle  "\n"10 Pamireddipalle "\n"11 Veltoor  "\n"12 Balijapalle  "\n"13 Jangamaipalle "\n" "\n"
 
-Kothakota "\n"   2  Palem 3 Kanaipalle 4  Nirven   5  Amadabakula  6 Kanimetta   7  Sankireddipalle  8	Ramnathpur  9  Rayanpet   10  Satyahalli  11   Mummallapalle   12  Pathajangamaipalle  13  Boothpur  14	Pullareddikunta  15   Miraspalle   16   Natavalli  17   Nancharammapet  18  Apparala   19  Pamapur   20	Ramakrishnapur  21 Waddawata  22 Cherlapalle1 "\n" "\n"
+Ghanpur "\n" 2 Almaipalle "\n"3 Malkimianpalle "\n"4 Venkatampalle  "\n"5 Agaram "\n"6 Parwathapur  "\n"7 Shapur    "\n"
+        8 Kamaluddinpur   "\n"9 Thirumalaipalle "\n"10 Appareddipalle   "\n"11  Anthaipalle  "\n"12  Manajipet  "\n"
+        13 Solipur "\n"14 Salkalapur   "\n"15  Upparapalle   "\n"16 Mamidimada "\n"17 Malkapur   "\n"18 Suraipalle "\n" "\n"
 
-Amarchintha "\n"  2  Mastipur  3 Pamireddipalle  4 Kankanvanipalle  5  Singampeta  6 Nandimalla  7	Chinthareddipalle   8  Mittanandimalla  9  Erladinne  10  Chandraghad  11  Dharmapur  12  Nagalkadumur  13  Kistampalle "\n"
+Pangal  "\n"  2 Gopalpur"\n"  3 Bandapalle  "\n" 4 Annaram  "\n" 5 Madhavaraopalle "\n"
+        6 Vengalaipalle "\n"7 Kistapur"\n"8 Mahammadapur  "\n"9 Jammapur "\n"10 Nizamabad "\n" 11 Sakhapur  "\n"12 Davajipalle "\n"13  Remaddula
+        14 Kethepalle"\n" 15 Chintakunta   "\n"16 Dondaipalle "\n"17 Mallaipalle "\n"18 Chikkepalle "\n"19 Rayanipalle "\n"
+        20 Busireddipalle "\n"21  Thellarallapalle "\n"22  Kadirepad "\n" "\n"
+
+Chinnambavi  "\n"  Dagada "\n"2 Peddamarur "\n"3 Chinnamarur "\n"4  Vellatur  "\n"5  Chellepahad  "\n"
+        6 Ayyavaripalle"\n" 7  Kalloor "\n"  8  Koppunur  "\n"  9 Lakshmipalle"\n" 10 Solipuram"\n"
+        11  Ammaipalle "\n" 12 Dagadapalle "\n"13 Velgonda"\n" 14  Miyapuram  "\n" 15  Bekkam "\n"  16  Gaddabaswapuram "\n" "\n"
+
+Weepangandla  "\n" 2 Sanginepalle "\n" 3  Govardhangiri  "\n"4 Toomkunta "\n" 5  Sampatraopalle   "\n"6 Pulgarcherla "\n"
+        7  Kalvarala "\n" 8  Gopaldinne"\n"   9  Korlakunta "\n" 10  Bollaram "\n"11  Vallabhapur "\n" "\n"
+
+ Srirangapur  "\n"  2 Thatipamula "\n"3  Nagarala "\n"4  Kamballapur "\n"5  Venkatapur (S) "\n" 6  Nagasanipalle "\n" 7. Janampeta "\n" "\n"
+
+
+Pebbair   "\n" 2  Chelimilla "\n"3  Thomalapalle "\n" 4  Kanchiraopalle  "\n"5  Shakhapur (Y) "\n"6  Rangapur "\n" 7  Ramapur "\n"
+        8   Bunyadpur "\n" 9  Pathapalle  "\n"10  Janumpalle "\n" 11  Ramammapeta "\n" 12  Ayyavaripalle  "\n"13  Sugur "\n"
+        14	Munagamanudinne  "\n"15   Penchikalpadu   "\n"16 Erladinne "\n"17  Gummadam   "\n" 18  Burdipadu  "\n"19  Thippaipalle
+        20  Yaparla "\n" "\n"
+
+
+Madanapur "\n"  "\n" 1.Madanapur 2  "\n"Govindahalli "\n"3  Dantanoor"\n" 4  Shankarampeta "\n"  5  Thirumalaipalle"\n"
+        6	Ramanpadu	"\n" 7  Ajjakollu"\n"   8  Narsingapur   "\n"9  Konnur "\n"  10 Dwarakanagar  "\n"
+        11 Nelividi  "\n" 12  Duppalle 13 	"\n"Kothapalle  "\n" 14  Gopanpeta "\n" 15   Karvena "\n" "\n"
+
+
+Kothakota "\n"   2  Palem "\n"3 Kanaipalle "\n"4  Nirven   "\n"5  Amadabakula  "\n"6 Kanimetta   "\n"7  Sankireddipalle"\n"
+        8	Ramnathpur  "\n"9  Rayanpet "\n"  10  Satyahalli  "\n"11   Mummallapalle  "\n" 12  Pathajangamaipalle  "\n"
+        13  Boothpur  "\n"14"\n"	Pullareddikunta  "\n"15  "\n" Miraspalle "\n"  16  "\n" Natavalli  "\n"
+        17   Nancharammapet  "\n"18  Apparala
+        "\n"19  Pamapur   "\n"20	Ramakrishnapur  "\n"21 Waddawata  "\n"22 Cherlapalle1 "\n" "\n"
+
+
+Amarchintha "\n"  2  Mastipur "\n" 3 Pamireddipalle"\n"  4 Kankanvanipalle "\n" 5  Singampeta  "\n"6 Nandimalla  "\n"7	Chinthareddipalle
+        "\n"8  Mittanandimalla  "\n"9  Erladinne  "\n"10  Chandraghad  "\n"11  Dharmapur  "\n"12  Nagalkadumur  "\n"13  Kistampalle "\n"
+
 </string>
 
 

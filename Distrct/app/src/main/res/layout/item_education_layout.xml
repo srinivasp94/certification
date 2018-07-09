@@ -60,7 +60,7 @@
                     android:singleLine="true"
                     android:text="Title"
                     android:textColor="@color/white"
-                    android:textSize="24dp"
+                    android:textSize="18dp"
                     android:textStyle="bold" />
 
             </LinearLayout>
@@ -87,7 +87,7 @@
                     android:layout_weight="0.8"
                     android:text="schoolName"
                     android:textColor="@color/white"
-                    android:textSize="18dp" />
+                    android:textSize="16dp" />
 
             </LinearLayout>
 
@@ -113,7 +113,7 @@
                     android:layout_weight="0.8"
                     android:text="school Address"
                     android:textColor="@color/white"
-                    android:textSize="18dp" />
+                    android:textSize="16dp" />
             </LinearLayout>
 
             <LinearLayout
@@ -138,7 +138,7 @@
                     android:layout_weight="0.8"
                     android:text="school Phone"
                     android:textColor="@color/white"
-                    android:textSize="18dp" />
+                    android:textSize="16dp" />
 
             </LinearLayout>
 

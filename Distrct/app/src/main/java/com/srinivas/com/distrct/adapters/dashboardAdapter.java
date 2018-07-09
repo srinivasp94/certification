@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
@@ -21,11 +22,13 @@ import java.util.Random;
 public class dashboardAdapter extends BaseAdapter {
     private Context context;
     private List<Categories> categoriesList;
+    private final int[] gridViewImageId;
     private LayoutInflater inflater;
 
-    public dashboardAdapter(Context context, List<Categories> categoriesList) {
+    public dashboardAdapter(Context context, List<Categories> categoriesList,int[] gridViewImageId) {
         this.context = context;
         this.categoriesList = categoriesList;
+        this.gridViewImageId = gridViewImageId;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
@@ -52,6 +55,7 @@ public class dashboardAdapter extends BaseAdapter {
             view = inflater.inflate(R.layout.item_dashboard_grid_layout, null);
             holder = new ViewHolder();
             holder.mTitle = (TextView) view.findViewById(R.id.tv_title);
+            holder.img = (ImageView)view.findViewById(R.id.img_logo);
             holder.layout = (LinearLayout) view.findViewById(R.id.linear_background);
             view.setTag(holder);
         } else {
@@ -59,6 +63,7 @@ public class dashboardAdapter extends BaseAdapter {
         }
         Categories categories = categoriesList.get(position);
         holder.mTitle.setText(categories.categoryName);
+        holder.img.setImageResource(gridViewImageId[position]);
         int color_arr[] = {R.color.colorAccent, R.color.colorPrimary, R.color.colorPrimaryDark};
 
 
@@ -72,5 +77,6 @@ public class dashboardAdapter extends BaseAdapter {
     private class ViewHolder {
         TextView mTitle;
         LinearLayout layout;
+        ImageView img;
     }
 }

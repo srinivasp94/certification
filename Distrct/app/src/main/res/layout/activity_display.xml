@@ -86,12 +86,14 @@
                 android:id="@+id/imageView2"
                 android:layout_width="120dp"
                 android:layout_height="110dp"
+                android:padding="4dp"
                 android:layout_alignParentLeft="true"
                 android:layout_alignParentStart="true"
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="38dp"
                 android:layout_marginStart="38dp"
                 android:src="@drawable/logo"
+                android:tint="@color/white"
                 tools:layout_editor_absoluteX="48dp"
                 tools:layout_editor_absoluteY="121dp" />
 
@@ -104,7 +106,7 @@
                 android:gravity="center"
                 android:layout_centerInParent="true"
                 android:text="@string/app_name"
-                android:textSize="26sp"
+                android:textSize="24sp"
                 android:textColor="@color/white"
                 android:textStyle="bold|italic"
                 tools:layout_editor_absoluteX="202dp"
@@ -134,7 +136,7 @@
             android:layout_below="@+id/constraint"
             android:gravity="center"
             android:text="@string/app_name"
-            android:textSize="26dp"
+            android:textSize="20dp"
             android:textStyle="bold"
             android:visibility="gone"
             android:id="@+id/txt_noitems"/>
