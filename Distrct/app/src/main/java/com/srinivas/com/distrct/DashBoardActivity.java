@@ -26,6 +26,8 @@ import android.widget.LinearLayout;
 import com.srinivas.com.distrct.activities.ContactActivity;
 import com.srinivas.com.distrct.activities.RegistrationActivity;
 import com.srinivas.com.distrct.activities.VillagesActivity;
+import com.srinivas.com.distrct.activities.WebActivity;
+import com.srinivas.com.distrct.activities.videoActivity;
 import com.srinivas.com.distrct.adapters.SlidingImage_Adapter;
 import com.srinivas.com.distrct.adapters.dashboardAdapter;
 import com.srinivas.com.distrct.models.Categories;
@@ -69,7 +71,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
     private static ViewPager mPager;
     private static int currentPage = 0;
     private static int NUM_PAGES = 0;
-    private static final Integer[] IMAGES = {R.drawable.img_one, R.drawable.img_two, R.drawable.finallogo};
+    private static final Integer[] IMAGES = {R.drawable.slide1, R.drawable.slide2, R.drawable.slide3};
     private ArrayList<Integer> ImagesArray = new ArrayList<Integer>();
 
     @Override
@@ -198,6 +200,20 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
             case R.id.nav_contact:
                 Intent intent2 = new Intent(DashBoardActivity.this, ContactActivity.class);
                 startActivity(intent2);
+                break;
+            case R.id.nav_utube:
+                Intent intent3  =new Intent(DashBoardActivity.this,videoActivity.class);
+                startActivity(intent3);
+                break;
+            case R.id.nav_gallery:
+                Intent intent4 = new Intent(DashBoardActivity.this, WebActivity.class);
+                intent4.putExtra("WebUrl","http://manawanaparthy.com/cat/Gallery");
+                startActivity(intent4);
+                break;
+            case R.id.nav_temples:
+                Intent intenttemple = new Intent(DashBoardActivity.this, WebActivity.class);
+                intenttemple.putExtra("WebUrl","http://manawanaparthy.com/cat/Temples");
+                startActivity(intenttemple);
                 break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer);

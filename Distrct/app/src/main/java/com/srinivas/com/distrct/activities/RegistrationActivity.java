@@ -272,10 +272,13 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
             public void onResponse(Call<List<Categories>> call, Response<List<Categories>> response) {
                 mprogressDialog.dismiss();
                 Log.i("CATEGORIES", response.body().toString());
-                categoriesList.add(new Categories(1, "Select Categories"));
+                Categories categories = new Categories(0,"select categories");
+                categoriesList.add(categories);
                 categoriesList = response.body();
+
 //                setspinnerOnitemClickListners();
                 adapter = new categoriesAdapter(RegistrationActivity.this, R.layout.spinner_value_layout, categoriesList);
+                s_categorie.setPrompt("Select category");
                 s_categorie.setAdapter(adapter);
                 s_categorie.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
                     @Override

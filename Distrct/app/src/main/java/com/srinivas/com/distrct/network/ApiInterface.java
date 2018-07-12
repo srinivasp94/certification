@@ -6,6 +6,7 @@ import com.srinivas.com.distrct.models.SubCategoriesModel;
 import com.srinivas.com.distrct.models.Villages;
 import com.srinivas.com.distrct.models.educationModels;
 import com.srinivas.com.distrct.models.simpleResponse;
+import com.srinivas.com.distrct.models.videomodels;
 
 import java.util.List;
 
@@ -71,6 +72,9 @@ public interface ApiInterface {
 
     @GET("Master/getAllCategories/entertainment")
     Call<List<educationModels>> getentertainment();
+
+    @GET("Master/GetVideos")
+    Call<videomodels> getvideolist();
 
     /*/entertainment
     /traveltoursim

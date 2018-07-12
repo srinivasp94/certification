@@ -8,12 +8,14 @@ import android.os.Bundle;
 import android.support.v4.app.ActivityCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 import com.srinivas.com.distrct.R;
 
 public class ContactActivity extends AppCompatActivity implements View.OnClickListener {
     private LinearLayout phone, email, fb, twitter, utube;
+    private ImageView backbutton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +35,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         fb = (LinearLayout) findViewById(R.id.linear_fb);
         twitter = (LinearLayout) findViewById(R.id.linear_twitter);
         utube = (LinearLayout) findViewById(R.id.linear_utube);
+        backbutton = (ImageView) findViewById(R.id.imageView);
     }
 
     private void setonclicks() {
@@ -41,6 +44,7 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         fb.setOnClickListener(this);
         twitter.setOnClickListener(this);
         utube.setOnClickListener(this);
+        backbutton.setOnClickListener(this);
     }
 
     @Override
@@ -84,6 +88,9 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
                 Intent utube = new Intent(ContactActivity.this,WebActivity.class);
                 utube.putExtra("WebUrl","https://www.youtube.com/channel/UCtLUCokAJdGUwPhX_Kt0rrA?view_as=subscriber");
                 startActivity(utube);
+                break;
+            case R.id.imageView:
+                finish();
                 break;
         }
     }
