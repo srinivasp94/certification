@@ -9,6 +9,7 @@ import com.example.sys.example.retrofitnetwork.APIInterface;
 import com.google.android.gms.common.api.GoogleApiClient;
 import com.google.android.gms.location.LocationRequest;
 
+import java.util.concurrent.TimeUnit;
 
 import okhttp3.OkHttpClient;
 import okhttp3.logging.HttpLoggingInterceptor;
@@ -24,6 +25,7 @@ public class MyApplication extends Application {
     LocationRequest mLocationRequest;
     GoogleApiClient mGoogleApiClient;
     private APIInterface apiInterface;
+    public final static String Base_url = "http://tecdatum.net";
 
     protected void createLocationRequest() {
         mLocationRequest = new LocationRequest();
@@ -41,16 +43,23 @@ public class MyApplication extends Application {
 
         HttpLoggingInterceptor interceptor = new HttpLoggingInterceptor();
         interceptor.setLevel(HttpLoggingInterceptor.Level.BODY);
-        OkHttpClient client = new OkHttpClient.Builder().addInterceptor(interceptor).build();
+        OkHttpClient client = new OkHttpClient.Builder()
+                .connectTimeout(120, TimeUnit.SECONDS)
+                .writeTimeout(120, TimeUnit.SECONDS)
+                .readTimeout(120, TimeUnit.SECONDS)
+                .addInterceptor(interceptor).build();
 
+        /*OkHttpClient.Builder clientBuilder = new OkHttpClient.Builder()
+                .connectTimeout(120, TimeUnit.MILLISECONDS)
+                .retryOnConnectionFailure(true)
+                .readTimeout(120, TimeUnit.MILLISECONDS).connectionPool(new ConnectionPool(0, 1, TimeUnit.NANOSECONDS));*/
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://dev.rapmedix.com")
+                .baseUrl(Base_url)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();
         apiInterface = retrofit.create(APIInterface.class);
-
 
 
         registerActivityLifecycleCallbacks(new ActivityLifecycleCallbacks() {
@@ -92,14 +101,12 @@ public class MyApplication extends Application {
 
     }
 
-    public static  MyApplication getInstance()
-    {
+    public static MyApplication getInstance() {
         return mInstance;
     }
 
 
-    public APIInterface getAPIInterface()
-    {
+    public APIInterface getAPIInterface() {
         return apiInterface;
     }
 

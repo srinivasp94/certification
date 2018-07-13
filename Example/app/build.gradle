@@ -29,8 +29,9 @@ dependencies {
         // exclude Retrofit’s OkHttp dependency module and define your own module import
         exclude module: 'okhttp'
     }
+
     compile 'com.android.support:appcompat-v7:26.+'
-    compile 'com.android.support:design:26+'
+    compile 'com.android.support:design:26.+'
     compile 'com.android.support:recyclerview-v7:26.0.0-alpha1'
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.google.android.gms:play-services-location:10.2.1'
@@ -41,8 +42,9 @@ dependencies {
     compile 'org.apache.commons:commons-lang3:3.4'
     compile 'com.google.android.gms:play-services-maps:11.0.4'
     testCompile 'junit:junit:4.12'
-
 }
+
+
 
 
 
