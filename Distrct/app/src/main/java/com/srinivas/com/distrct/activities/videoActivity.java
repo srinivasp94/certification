@@ -9,6 +9,7 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.MediaController;
 import android.widget.TextView;
@@ -28,6 +29,7 @@ import retrofit2.Response;
 public class videoActivity extends AppCompatActivity implements View.OnClickListener {
     private ApiInterface anInterface;
     private TextView txt1, txt2, txt3, txt4, txt5;
+    private Button btn1, btn2, btn3, btn4, btn5;
     private ImageView backButton;
     VideoView video;
     ProgressDialog dialog, pd;
@@ -46,6 +48,13 @@ public class videoActivity extends AppCompatActivity implements View.OnClickList
         txt3 = (TextView) findViewById(R.id.txt3);
         txt4 = (TextView) findViewById(R.id.txt4);
         txt5 = (TextView) findViewById(R.id.txt5);
+
+        btn1 = (Button) findViewById(R.id.btn_click1);
+        btn2 = (Button) findViewById(R.id.btn_click2);
+        btn3 = (Button) findViewById(R.id.btn_click3);
+        btn4 = (Button) findViewById(R.id.btn_click4);
+        btn5 = (Button) findViewById(R.id.btn_click5);
+
         video = (VideoView) findViewById(R.id.video);
 
 
@@ -93,6 +102,12 @@ public class videoActivity extends AppCompatActivity implements View.OnClickList
         txt4.setOnClickListener(this);
         txt5.setOnClickListener(this);
 
+        btn1.setOnClickListener(this);
+        btn2.setOnClickListener(this);
+        btn3.setOnClickListener(this);
+        btn4.setOnClickListener(this);
+        btn5.setOnClickListener(this);
+
     }
 
     public void playvideo(String url) {
@@ -116,20 +131,20 @@ public class videoActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.txt1:
-                watchYoutubeVideo(this,txt1.getText().toString());
+            case R.id.btn_click1:
+                watchYoutubeVideo(this, txt1.getText().toString());
                 break;
-            case R.id.txt2:
-                watchYoutubeVideo(this,txt2.getText().toString());
+            case R.id.btn_click2:
+                watchYoutubeVideo(this, txt2.getText().toString());
                 break;
-            case R.id.txt3:
-                watchYoutubeVideo(this,txt3.getText().toString());
+            case R.id.btn_click3:
+                watchYoutubeVideo(this, txt3.getText().toString());
                 break;
-            case R.id.txt4:
-                watchYoutubeVideo(this,txt4.getText().toString());
+            case R.id.btn_click4:
+                watchYoutubeVideo(this, txt4.getText().toString());
                 break;
-            case R.id.txt5:
-                watchYoutubeVideo(this,txt5.getText().toString());
+            case R.id.btn_click5:
+                watchYoutubeVideo(this, txt5.getText().toString());
                 break;
 
         }
@@ -141,7 +156,7 @@ public class videoActivity extends AppCompatActivity implements View.OnClickList
         try {
             context.startActivity(appIntent);
         } catch (ActivityNotFoundException ex) {
-            Toast.makeText(context, ""+ ex.toString(), Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "" + ex.toString(), Toast.LENGTH_SHORT).show();
         }
     }
 }

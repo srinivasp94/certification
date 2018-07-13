@@ -10,11 +10,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
 
 import com.srinivas.com.distrct.R;
 
 public class ContactActivity extends AppCompatActivity implements View.OnClickListener {
-    private LinearLayout phone, email, fb, twitter, utube;
+    private LinearLayout phone, email, fb, twitter, utube,whatsapp;
     private ImageView backbutton;
 
     @Override
@@ -35,6 +36,8 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         fb = (LinearLayout) findViewById(R.id.linear_fb);
         twitter = (LinearLayout) findViewById(R.id.linear_twitter);
         utube = (LinearLayout) findViewById(R.id.linear_utube);
+        whatsapp= (LinearLayout) findViewById(R.id.linear_whatsapp);
+
         backbutton = (ImageView) findViewById(R.id.imageView);
     }
 
@@ -42,8 +45,9 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
         phone.setOnClickListener(this);
         email.setOnClickListener(this);
         fb.setOnClickListener(this);
-        twitter.setOnClickListener(this);
+//        twitter.setOnClickListener(this);
         utube.setOnClickListener(this);
+        whatsapp.setOnClickListener(this);
         backbutton.setOnClickListener(this);
     }
 
@@ -89,6 +93,24 @@ public class ContactActivity extends AppCompatActivity implements View.OnClickLi
                 utube.putExtra("WebUrl","https://www.youtube.com/channel/UCtLUCokAJdGUwPhX_Kt0rrA?view_as=subscriber");
                 startActivity(utube);
                 break;
+            case R.id.linear_whatsapp:
+               /* Intent whatsappIntent = new Intent(Intent.ACTION_SEND);
+                whatsappIntent.setType("text/plain");
+                whatsappIntent.setPackage("com.whatsapp");
+                whatsappIntent.putExtra(Intent.EXTRA_TEXT, "The text you wanted to share");
+                try {
+                    this.startActivity(whatsappIntent);
+                } catch (android.content.ActivityNotFoundException ex) {
+//                    ToastHelper.MakeShortText("Whatsapp have not been installed.");
+                    Toast.makeText(this, "Whatsapp have not been installed.", Toast.LENGTH_SHORT).show();
+                }
+*/
+                Intent intentWhatsapp = new Intent(Intent.ACTION_VIEW);
+                String url = "https://chat.whatsapp.com/AwwLOXnAwkl35S6cqHhpKy";
+                intentWhatsapp.setData(Uri.parse(url));
+                intentWhatsapp.setPackage("com.whatsapp");
+                startActivity(intentWhatsapp);
+               break;
             case R.id.imageView:
                 finish();
                 break;

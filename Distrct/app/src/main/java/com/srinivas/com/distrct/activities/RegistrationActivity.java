@@ -188,10 +188,13 @@ public class RegistrationActivity extends AppCompatActivity implements View.OnCl
                 String personName = et_name.getText().toString();
                 String mobile = et_mobile.getText().toString();
                 String mAddress = et_address.getText().toString();
+                mprogressDialog.show();
+                mprogressDialog.setMessage("loading...");
                 apiInterface.registerCall(title, personName, mobile, mAddress, cateId, subcatId, mandalId, villageId, "http://13.59.168.219 " + encodedImage, 1, 1, "address")
                         .enqueue(new Callback<simpleResponse>() {
                             @Override
                             public void onResponse(Call<simpleResponse> call, Response<simpleResponse> response) {
+
                                 if (response.body().equals("") && response.body() == null) {
                                     Toast.makeText(RegistrationActivity.this, "Null", Toast.LENGTH_SHORT).show();
                                 }
