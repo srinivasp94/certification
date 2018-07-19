@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="#90c2c2c2"
+    android:orientation="vertical"
     tools:context="com.srinivas.com.distrct.DisplayActivity">
 
     <android.support.design.widget.AppBarLayout
@@ -84,36 +84,28 @@
 
             <ImageView
                 android:id="@+id/imageView2"
-                android:layout_width="120dp"
+                android:layout_width="match_parent"
                 android:layout_height="110dp"
-                android:padding="4dp"
-                android:layout_alignParentLeft="true"
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginLeft="38dp"
-                android:layout_marginStart="38dp"
-                android:src="@drawable/logo"
-                android:tint="@color/white"
-                tools:layout_editor_absoluteX="48dp"
-                tools:layout_editor_absoluteY="121dp" />
+                android:layout_margin="0.5dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/logo" />
 
             <TextView
-                android:visibility="visible"
                 android:id="@+id/textView"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_toRightOf="@+id/imageView2"
                 android:gravity="center"
-                android:layout_centerInParent="true"
                 android:text="@string/app_name"
-                android:textSize="24sp"
                 android:textColor="@color/white"
+                android:textSize="24sp"
                 android:textStyle="bold|italic"
+                android:visibility="gone"
                 tools:layout_editor_absoluteX="202dp"
                 tools:layout_editor_absoluteY="121dp" />
 
             <Button
-                android:visibility="gone"
                 android:id="@+id/button2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -126,11 +118,13 @@
                 android:elevation="5dp"
                 android:padding="5dp"
                 android:text="Book Admission"
-                android:textColor="@color/white" />
+                android:textColor="@color/white"
+                android:visibility="gone" />
 
         </RelativeLayout>
 
         <TextView
+            android:id="@+id/txt_noitems"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_below="@+id/constraint"
@@ -138,8 +132,7 @@
             android:text="@string/app_name"
             android:textSize="20dp"
             android:textStyle="bold"
-            android:visibility="gone"
-            android:id="@+id/txt_noitems"/>
+            android:visibility="gone" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/rv_education"

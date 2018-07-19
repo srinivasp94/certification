@@ -66,6 +66,12 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
             R.drawable.ic_house, R.drawable.ic_full_shoping_cart, R.drawable.ic_health, R.drawable.ic_cooking,
             R.drawable.ic_sedan_car_model, R.drawable.ic_idea, R.drawable.ic_plant_tree, R.drawable.ic_services,
             R.drawable.ic_support, R.drawable.ic_scissors};
+
+    private int[] imgbgr = {R.drawable.edc_1, R.drawable.entetainment1, R.drawable.travels,
+            R.drawable.home, R.drawable.shoping, R.drawable.hospitals, R.drawable.food,
+            R.drawable.automobiles, R.drawable.construction, R.drawable.electrcal, R.drawable.service,
+            R.drawable.helpline, R.drawable.beauty};
+
     private Dialog dialog;
 
     private static ViewPager mPager;
@@ -140,7 +146,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 Log.i("CATEGORIES", response.body().toString());
 //                categoriesList.add(new Categories(1, "Select Categories"));
                 categoriesList = response.body();
-                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList, gridViewImageId);
+                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList, gridViewImageId,imgbgr);
                 grid_dashboard.setAdapter(dashboardAdapter);
                 grid_dashboard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
@@ -150,7 +156,7 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                         Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
                         intent.putExtra("POSITION", i);
                         intent.putExtra("Category", categoriesList.get(i).categoryName);
-                        intent.putExtra("Images", gridViewImageId[i]);
+                        intent.putExtra("Images", imgbgr[i]);
                         startActivity(intent);
 //                                break;
 //                        }

@@ -23,12 +23,14 @@ public class dashboardAdapter extends BaseAdapter {
     private Context context;
     private List<Categories> categoriesList;
     private final int[] gridViewImageId;
+    private final int[] imgbgr;
     private LayoutInflater inflater;
 
-    public dashboardAdapter(Context context, List<Categories> categoriesList,int[] gridViewImageId) {
+    public dashboardAdapter(Context context, List<Categories> categoriesList, int[] gridViewImageId, int[] imgbgr) {
         this.context = context;
         this.categoriesList = categoriesList;
         this.gridViewImageId = gridViewImageId;
+        this.imgbgr=imgbgr;
         inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
 
@@ -55,7 +57,7 @@ public class dashboardAdapter extends BaseAdapter {
             view = inflater.inflate(R.layout.item_dashboard_grid_layout, null);
             holder = new ViewHolder();
             holder.mTitle = (TextView) view.findViewById(R.id.tv_title);
-            holder.img = (ImageView)view.findViewById(R.id.img_logo);
+            holder.img = (ImageView) view.findViewById(R.id.img_logo);
             holder.layout = (LinearLayout) view.findViewById(R.id.linear_background);
             view.setTag(holder);
         } else {
@@ -70,7 +72,7 @@ public class dashboardAdapter extends BaseAdapter {
         int rnd = new Random().nextInt(color_arr.length);
 
 //        linearLayout.setBackgroundResource(color_arr[rnd]);
-        holder.layout.setBackgroundColor(color_arr[rnd]);
+//        holder.layout.setBackgroundColor(color_arr[rnd]);
         return view;
     }
 

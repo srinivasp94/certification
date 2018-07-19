@@ -11,7 +11,7 @@
         android:id="@+id/linear_background"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#75516c84"
+        android:background="@color/colorPrimaryDark"
         android:orientation="vertical">
 
         <ImageView
