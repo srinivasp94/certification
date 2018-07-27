@@ -44,8 +44,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
                 try {
 
 
-                    Double lat = Double.parseDouble(seperated[1].substring(0));
-                    Double longti = Double.parseDouble(seperated[1].substring(1));
+                    Double lat = Double.parseDouble(seperated[i].substring(0));
+                    Double longti = Double.parseDouble(seperated[i].substring(1));
+
                     Log.d("latandlong", lat + "!@#" + longti);
                 } catch (NumberFormatException e) {
                     e.printStackTrace();

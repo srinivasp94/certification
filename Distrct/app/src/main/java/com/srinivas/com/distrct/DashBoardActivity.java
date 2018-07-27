@@ -23,6 +23,7 @@ import android.widget.Button;
 import android.widget.GridView;
 import android.widget.LinearLayout;
 
+import com.srinivas.com.distrct.activities.About_usActivity;
 import com.srinivas.com.distrct.activities.ContactActivity;
 import com.srinivas.com.distrct.activities.RegistrationActivity;
 import com.srinivas.com.distrct.activities.VillagesActivity;
@@ -220,6 +221,10 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 Intent intenttemple = new Intent(DashBoardActivity.this, WebActivity.class);
                 intenttemple.putExtra("WebUrl","http://manawanaparthy.com/cat/Temples");
                 startActivity(intenttemple);
+                break;
+            case R.id.nav_about:
+                Intent intentabout= new Intent(DashBoardActivity.this, About_usActivity.class);
+                startActivity(intentabout);
                 break;
         }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer);
