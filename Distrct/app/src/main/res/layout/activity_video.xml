@@ -48,18 +48,16 @@
             android:text="vid 1"
             android:textSize="17dp" />
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_youtube" />
 
         <Button
+            android:id="@+id/btn_click1"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:id="@+id/btn_click1"
-            android:text="click here" />
+            android:drawableLeft="@android:drawable/ic_media_play"
+
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="Click" />
 
     </LinearLayout>
 
@@ -84,18 +82,15 @@
             android:text="vid 1"
             android:textSize="17dp" />
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_youtube" />
-
         <Button
+            android:id="@+id/btn_click2"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:id="@+id/btn_click2"
-            android:text="click here" />
+            android:drawableLeft="@android:drawable/ic_media_play"
+
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="Click" />
 
 
     </LinearLayout>
@@ -121,18 +116,16 @@
             android:text="vid 1"
             android:textSize="17dp" />
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_youtube" />
 
         <Button
+            android:id="@+id/btn_click3"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:id="@+id/btn_click3"
-            android:text="click here" />
+            android:drawableLeft="@android:drawable/ic_media_play"
+
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="Click" />
 
 
     </LinearLayout>
@@ -158,18 +151,16 @@
             android:text="vid 1"
             android:textSize="17dp" />
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_youtube" />
 
         <Button
+            android:id="@+id/btn_click4"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:id="@+id/btn_click4"
-            android:text="click here" />
+            android:drawableLeft="@android:drawable/ic_media_play"
+
+            android:drawableTint="@color/colorPrimaryDark"
+            android:text="Click" />
 
 
     </LinearLayout>
@@ -195,18 +186,17 @@
             android:text="vid 1"
             android:textSize="17dp" />
 
-        <ImageView
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_gravity="center"
-            android:src="@drawable/ic_youtube" />
 
         <Button
+            android:id="@+id/btn_click5"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="0.3"
-            android:id="@+id/btn_click5"
-            android:text="click here" />
+            android:drawableLeft="@android:drawable/ic_media_play"
+            android:drawableTint="@color/colorPrimaryDark"
+
+
+            android:text="Click" />
 
 
     </LinearLayout>

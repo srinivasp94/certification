@@ -42,28 +42,28 @@ public class educationModels {
     public String description;
     @SerializedName("roleid")
     @Expose
-    public Integer roleid;
+    public int roleid;
     @SerializedName("Category")
     @Expose
-    public Integer category;
+    public int category;
     @SerializedName("SubCategory")
     @Expose
     public Integer subCategory;
     @SerializedName("Mandal")
     @Expose
-    public Integer mandal;
+    public int mandal;
     @SerializedName("Post")
     @Expose
-    public Integer post;
+    public int post;
     @SerializedName("IsCom")
     @Expose
     public Boolean isCom;
     @SerializedName("CreatedBy")
     @Expose
-    public Integer createdBy;
+    public int createdBy;
     @SerializedName("ModifiedBY")
     @Expose
-    public Integer modifiedBY;
+    public int modifiedBY;
     @SerializedName("CreatedDate")
     @Expose
     public String createdDate;

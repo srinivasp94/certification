@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+<LinearLayout
+    android:layout_weight="0.8"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+</LinearLayout>
+<LinearLayout
+    android:layout_weight="0.82"
+    android:orientation="horizontal"
+    android:layout_margin="10dp"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <TextView
+        android:layout_weight="1.6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/splash_left"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1.6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+    <LinearLayout
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:src="@drawable/splash_right"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_weight="1.6"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+</LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/georgiaTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="25dp"
+                android:textColor="@color/Flash_text"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="@string/university"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/departmentTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="@color/Flash_text"
+                android:text="@string/department"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/poultryTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="25dp"
+                android:textColor="@color/Flash_text"
+                android:text="@string/world"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/foundationTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+
+                android:textSize="25dp"
+                android:textColor="@color/Flash_text"
+                android:text="@string/foundation"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="0.8"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+  <!--  <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/fullsplash"/>-->
+
+</LinearLayout>

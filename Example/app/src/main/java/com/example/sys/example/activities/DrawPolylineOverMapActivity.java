@@ -55,7 +55,7 @@ public class DrawPolylineOverMapActivity extends AppCompatActivity implements Re
         } catch (Exception e) {
             e.printStackTrace();
         }
-        new RetrofitRequester(this).callPostServices(obj, 1, "/TSIACAApi/api/DataEntry/CrimeThematicMap");
+        new RetrofitRequester(this).callPostServices(obj, 1, "/TSIACAApi/api/DataEntry/CrimeThematicMap",true);
     }
 
     @Override

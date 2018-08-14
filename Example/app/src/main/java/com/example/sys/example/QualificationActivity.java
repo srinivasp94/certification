@@ -118,7 +118,7 @@ public class QualificationActivity extends AppCompatActivity implements Retrofit
             e.printStackTrace();
         }
         dialog.show();
-        new RetrofitRequester(this).callPostServices(obj, 1, "/webservices/getallspecialisations");
+        new RetrofitRequester(this).callPostServices(obj, 1, "/webservices/getallspecialisations",true);
     }
 
     private void get_allSpecializations() {
@@ -128,7 +128,7 @@ public class QualificationActivity extends AppCompatActivity implements Retrofit
         } catch (Exception e) {
             e.printStackTrace();
         }
-        new RetrofitRequester(this).callPostServices(obj, 1, "/webservices/getallspecialisations");
+        new RetrofitRequester(this).callPostServices(obj, 1, "/webservices/getallspecialisations",true);
     }
 
     private void getservice() {

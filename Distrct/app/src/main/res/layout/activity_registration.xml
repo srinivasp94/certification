@@ -4,15 +4,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-
-    android:orientation="vertical"
     tools:context="com.srinivas.com.distrct.activities.RegistrationActivity">
 
     <LinearLayout
         android:id="@+id/snackabr"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/bgr_overview"
+        android:layout_height="wrap_content"
+
         android:orientation="vertical">
 
         <android.support.design.widget.AppBarLayout
@@ -63,9 +61,10 @@
 
                     <de.hdodenhof.circleimageview.CircleImageView
                         android:id="@+id/img_profile"
-                        android:layout_width="150dp"
-                        android:layout_height="150dp"
+                        android:layout_width="140dp"
+                        android:layout_height="140dp"
                         android:layout_gravity="center"
+                        android:layout_marginTop="20dp"
                         android:background="@drawable/circledraw"
                         app:civ_border_color="#000000"
                         app:civ_border_width="2dp" />
@@ -76,10 +75,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:layout_marginTop="-15dp"
+                        android:layout_marginTop="-25dp"
                         android:background="#712b2b2b"
                         android:gravity="center"
-                        android:text="select Image"
+                        android:text="select  Image"
                         android:textColor="@color/black"
                         android:textSize="12dp"
                         android:textStyle="bold"
@@ -91,355 +90,361 @@
 
         </android.support.design.widget.AppBarLayout>
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
+            android:background="@drawable/background"
+            android:orientation="vertical">
 
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/icons_school"
-                android:tint="@color/iconcolor" />
 
-            <EditText
-                android:id="@+id/edt_titlename"
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:backgroundTint="@color/gray"
-                android:hint="Enter Title"
-                android:singleLine="true" />
-        </LinearLayout>
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
 
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/icons_school"
+                    android:tint="@color/iconcolor" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/ic_person_black_24dp"
-                android:tint="@color/iconcolor" />
-
-            <EditText
-                android:id="@+id/edt_name"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray"
-                android:hint="Person Name"
-                android:inputType="textPersonName"
-                android:singleLine="true" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/ic_local_phone_black_24dp"
-                android:tint="@color/iconcolor" />
-
-            <EditText
-                android:id="@+id/edt_phone"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:backgroundTint="@color/gray"
-                android:hint="Mobile Number"
-                android:inputType="phone"
-                android:singleLine="true" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/ic_location_on_black_24dp"
-                android:tint="@color/iconcolor" />
-
-            <EditText
-                android:id="@+id/edt_address"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray"
-                android:hint="Enter Address"
-                android:inputType="textEmailAddress"
-                android:singleLine="true" />
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/icons_school"
-                android:tint="@color/iconcolor" />
-
-            <Spinner
-                android:id="@+id/spinner_mandal"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/icons_school"
-                android:tint="@color/iconcolor" />
-
-            <Spinner
-                android:id="@+id/spinner_village"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/icons_school"
-                android:tint="@color/iconcolor" />
-
-            <Spinner
-                android:id="@+id/spinnr_categorie"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="4dp"
-            android:background="@drawable/edt_bgr"
-            android:orientation="horizontal"
-            android:padding="0dp"
-            android:weightSum="1">
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center"
-                android:layout_marginLeft="10dp"
-                android:padding="3dp"
-                android:src="@drawable/icons_school"
-                android:tint="@color/iconcolor" />
-
-            <Spinner
-                android:id="@+id/spinnr_subcategorie"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_gravity="center"
-                android:layout_marginLeft="8dp"
-                android:layout_toRightOf="@+id/icn"
-                android:backgroundTint="@color/gray" />
-        </LinearLayout>
-
-        <!--
-                <LinearLayout
+                <EditText
+                    android:id="@+id/edt_titlename"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:background="@drawable/edt_bgr"
-                    android:orientation="horizontal"
-                    android:padding="0dp"
-                    android:weightSum="1">
-
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:padding="3dp"
-                        android:src="@drawable/icons_school"
-                        android:tint="@color/iconcolor" />
-
-                    <EditText
-                        android:id="@+id/edt_field_name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_toRightOf="@+id/icn"
-                        android:backgroundTint="@color/gray"
-                        android:hint="Enter Filed Name"
-                        android:singleLine="true" />
-                </LinearLayout>
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Enter Title"
+                    android:singleLine="true" />
+            </LinearLayout>
 
 
-                <LinearLayout
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_person_black_24dp"
+                    android:tint="@color/iconcolor" />
+
+                <EditText
+                    android:id="@+id/edt_name"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:background="@drawable/edt_bgr"
-                    android:orientation="horizontal"
-                    android:padding="0dp"
-                    android:weightSum="1">
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Person Name"
+                    android:inputType="textPersonName"
+                    android:singleLine="true" />
+            </LinearLayout>
 
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:padding="3dp"
-                        android:src="@drawable/icons_school"
-                        android:tint="@color/iconcolor" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
 
-                    <EditText
-                        android:id="@+id/name"
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_toRightOf="@+id/icn"
-                        android:backgroundTint="@color/gray"
-                        android:singleLine="true" />
-                </LinearLayout>
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_local_phone_black_24dp"
+                    android:tint="@color/iconcolor" />
 
-                <LinearLayout
+                <EditText
+                    android:id="@+id/edt_phone"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_margin="8dp"
-                    android:background="@drawable/edt_bgr"
-                    android:orientation="horizontal"
-                    android:padding="0dp"
-                    android:weightSum="1">
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"
+                    android:singleLine="true" />
+            </LinearLayout>
 
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="30dp"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="10dp"
-                        android:padding="3dp"
-                        android:src="@drawable/icons_school"
-                        android:tint="@color/white" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
 
-                    <EditText
-                        android:id="@+id/edt_somename"
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/ic_location_on_black_24dp"
+                    android:tint="@color/iconcolor" />
+
+                <EditText
+                    android:id="@+id/edt_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray"
+                    android:hint="Enter Address"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/icons_school"
+                    android:tint="@color/iconcolor" />
+
+                <Spinner
+                    android:id="@+id/spinner_mandal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
+
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/icons_school"
+                    android:tint="@color/iconcolor" />
+
+                <Spinner
+                    android:id="@+id/spinner_village"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/icons_school"
+                    android:tint="@color/iconcolor" />
+
+                <Spinner
+                    android:id="@+id/spinnr_categorie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:background="@drawable/edt_bgr"
+                android:orientation="horizontal"
+                android:padding="1dp"
+                android:weightSum="1">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:padding="3dp"
+                    android:src="@drawable/icons_school"
+                    android:tint="@color/iconcolor" />
+
+                <Spinner
+                    android:id="@+id/spinnr_subcategorie"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@+id/icn"
+                    android:backgroundTint="@color/gray" />
+            </LinearLayout>
+
+            <!--
+                    <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_alignParentRight="true"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="8dp"
-                        android:layout_toRightOf="@+id/icn"
-                        android:backgroundTint="@color/gray"
-                        android:singleLine="true" />
-                </LinearLayout>
-                -->
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edt_bgr"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="1">
 
-        <Button
-            android:id="@+id/btn_register"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="26dp"
-            android:background="@drawable/ripplebgr"
-            android:clickable="true"
-            android:padding="8dp"
-            android:text="Register"
-            android:textColor="@color/white"
-            android:textSize="18dp" />
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:padding="3dp"
+                            android:src="@drawable/icons_school"
+                            android:tint="@color/iconcolor" />
 
+                        <EditText
+                            android:id="@+id/edt_field_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@+id/icn"
+                            android:backgroundTint="@color/gray"
+                            android:hint="Enter Filed Name"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edt_bgr"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:padding="3dp"
+                            android:src="@drawable/icons_school"
+                            android:tint="@color/iconcolor" />
+
+                        <EditText
+                            android:id="@+id/name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@+id/icn"
+                            android:backgroundTint="@color/gray"
+                            android:singleLine="true" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edt_bgr"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="1">
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dp"
+                            android:padding="3dp"
+                            android:src="@drawable/icons_school"
+                            android:tint="@color/white" />
+
+                        <EditText
+                            android:id="@+id/edt_somename"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="8dp"
+                            android:layout_toRightOf="@+id/icn"
+                            android:backgroundTint="@color/gray"
+                            android:singleLine="true" />
+                    </LinearLayout>
+                    -->
+
+            <Button
+                android:id="@+id/btn_register"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="26dp"
+                android:background="@drawable/ripplebgr"
+                android:clickable="true"
+                android:padding="8dp"
+                android:text="Register"
+                android:textColor="@color/white"
+                android:textSize="18dp" />
+        </LinearLayout>
     </LinearLayout>
 </ScrollView>

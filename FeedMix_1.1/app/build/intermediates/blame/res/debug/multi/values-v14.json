@@ -1,0 +1,701 @@
+[
+    {
+        "outputFile": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v14\\values-v14.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 288,
+                        "endColumn": 48,
+                        "endOffset": 332
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 104,
+                    "endColumn": 44,
+                    "endOffset": 144
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 242,
+                        "endColumn": 44,
+                        "endOffset": 282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 149,
+                    "endColumn": 43,
+                    "endOffset": 188
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 43,
+                        "endOffset": 191
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 193,
+                    "endColumn": 46,
+                    "endOffset": 235
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 499,
+                        "endColumn": 46,
+                        "endOffset": 541
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 240,
+                    "endColumn": 38,
+                    "endOffset": 274
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 419,
+                        "endColumn": 38,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 279,
+                    "endColumn": 38,
+                    "endOffset": 313
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 839,
+                        "endColumn": 38,
+                        "endOffset": 873
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 318,
+                    "endColumn": 41,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1039,
+                        "endColumn": 41,
+                        "endOffset": 1076
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 360,
+                    "endColumn": 38,
+                    "endOffset": 394
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 959,
+                        "endColumn": 38,
+                        "endOffset": 993
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 399,
+                    "endColumn": 40,
+                    "endOffset": 435
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 715,
+                        "endColumn": 40,
+                        "endOffset": 751
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 440,
+                    "endColumn": 37,
+                    "endOffset": 473
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 635,
+                        "endColumn": 37,
+                        "endOffset": 668
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 478,
+                    "endColumn": 39,
+                    "endOffset": 513
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 674,
+                        "endColumn": 39,
+                        "endOffset": 709
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 518,
+                    "endColumn": 38,
+                    "endOffset": 552
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 459,
+                        "endColumn": 38,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 557,
+                    "endColumn": 38,
+                    "endOffset": 591
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 999,
+                        "endColumn": 38,
+                        "endOffset": 1033
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 596,
+                    "endColumn": 39,
+                    "endOffset": 631
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 798,
+                        "endColumn": 39,
+                        "endOffset": 833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 636,
+                    "endColumn": 39,
+                    "endOffset": 671
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 757,
+                        "endColumn": 39,
+                        "endOffset": 792
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 676,
+                    "endColumn": 38,
+                    "endOffset": 710
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 879,
+                        "endColumn": 38,
+                        "endOffset": 913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 715,
+                    "endColumn": 41,
+                    "endOffset": 752
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 592,
+                        "endColumn": 41,
+                        "endOffset": 629
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 757,
+                    "endColumn": 37,
+                    "endOffset": 790
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 338,
+                        "endColumn": 37,
+                        "endOffset": 371
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 795,
+                    "endColumn": 38,
+                    "endOffset": 829
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 919,
+                        "endColumn": 38,
+                        "endOffset": 953
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 834,
+                    "endColumn": 43,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 197,
+                        "endColumn": 43,
+                        "endOffset": 236
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 878,
+                    "endColumn": 43,
+                    "endOffset": 917
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 547,
+                        "endColumn": 43,
+                        "endOffset": 586
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 922,
+                    "endColumn": 51,
+                    "endOffset": 969
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 99,
+                        "endColumn": 51,
+                        "endOffset": 146
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 974,
+                    "endColumn": 40,
+                    "endOffset": 1010
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 40,
+                        "endOffset": 93
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1015,
+                    "endColumn": 41,
+                    "endOffset": 1052
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1082,
+                        "endColumn": 41,
+                        "endOffset": 1119
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1057,
+                    "endColumn": 40,
+                    "endOffset": 1093
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\colors.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 377,
+                        "endColumn": 40,
+                        "endOffset": 413
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1098,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 1244
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\src\\main\\res\\values-v14\\styles.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 220,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 366
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1249,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 1520
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 6,
+                        "endColumn": 12,
+                        "endOffset": 326
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 1525,
+                    "endColumn": 70,
+                    "endOffset": 1591
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 331,
+                        "endColumn": 70,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 1596,
+                    "endColumn": 82,
+                    "endOffset": 1674
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 402,
+                        "endColumn": 82,
+                        "endOffset": 480
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 1679,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2084
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 485,
+                        "endLine": 14,
+                        "endColumn": 12,
+                        "endOffset": 890
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 2089,
+                    "endLine": 48,
+                    "endColumn": 12,
+                    "endOffset": 2506
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 895,
+                        "endLine": 20,
+                        "endColumn": 12,
+                        "endOffset": 1312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 2511,
+                    "endColumn": 119,
+                    "endOffset": 2626
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1317,
+                        "endColumn": 119,
+                        "endOffset": 1432
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 2631,
+                    "endColumn": 62,
+                    "endOffset": 2689
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1437,
+                        "endColumn": 62,
+                        "endOffset": 1495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 2694,
+                    "endLine": 53,
+                    "endColumn": 12,
+                    "endOffset": 2843
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1500,
+                        "endLine": 25,
+                        "endColumn": 12,
+                        "endOffset": 1649
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 2848,
+                    "endColumn": 62,
+                    "endOffset": 2906
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1654,
+                        "endColumn": 62,
+                        "endOffset": 1712
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 2911,
+                    "endColumn": 131,
+                    "endOffset": 3038
+                },
+                "from": {
+                    "file": "D:\\sankar_new\\projects\\UGA\\Uga_project_update\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\values-v14\\values-v14.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1717,
+                        "endColumn": 131,
+                        "endOffset": 1844
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -3,6 +3,9 @@ package com.srinivas.com.distrct;
 import android.app.Dialog;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.graphics.drawable.TransitionDrawable;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.design.widget.NavigationView;
@@ -147,18 +150,39 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 Log.i("CATEGORIES", response.body().toString());
 //                categoriesList.add(new Categories(1, "Select Categories"));
                 categoriesList = response.body();
-                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList, gridViewImageId,imgbgr);
+                dashboardAdapter = new dashboardAdapter(DashBoardActivity.this, categoriesList, gridViewImageId, imgbgr);
                 grid_dashboard.setAdapter(dashboardAdapter);
                 grid_dashboard.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                     @Override
-                    public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+                    public void onItemClick(AdapterView<?> adapterView, View view, final int i, long l) {
 //                        switch (i) {
 //                            case i:
-                        Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
-                        intent.putExtra("POSITION", i);
-                        intent.putExtra("Category", categoriesList.get(i).categoryName);
-                        intent.putExtra("Images", imgbgr[i]);
-                        startActivity(intent);
+
+                        ColorDrawable[] colors = {
+                                new ColorDrawable(Color.RED), // Animation starting color
+                                new ColorDrawable(Color.WHITE) // Animation ending color
+                        };
+
+                        // Initialize a new transition drawable instance
+                        TransitionDrawable transitionDrawable = new TransitionDrawable(colors);
+
+                        // Set the clicked item background
+                        view.setBackground(transitionDrawable);
+
+                        // Finally, Run the item background color animation
+                        // This is the grid view item click effect
+                        transitionDrawable.startTransition(1000); // 600 Milliseconds
+                       new Handler().postDelayed(new Runnable() {
+                           @Override
+                           public void run() {
+                               Intent intent = new Intent(DashBoardActivity.this, DisplayActivity.class);
+                               intent.putExtra("POSITION", i);
+                               intent.putExtra("Category", categoriesList.get(i).categoryName);
+                               intent.putExtra("Images", imgbgr[i]);
+                               startActivity(intent);
+                           }
+                       },1500);
+
 //                                break;
 //                        }
                     }
@@ -209,21 +233,21 @@ public class DashBoardActivity extends AppCompatActivity implements NavigationVi
                 startActivity(intent2);
                 break;
             case R.id.nav_utube:
-                Intent intent3  =new Intent(DashBoardActivity.this,videoActivity.class);
+                Intent intent3 = new Intent(DashBoardActivity.this, videoActivity.class);
                 startActivity(intent3);
                 break;
             case R.id.nav_gallery:
                 Intent intent4 = new Intent(DashBoardActivity.this, WebActivity.class);
-                intent4.putExtra("WebUrl","http://manawanaparthy.com/cat/Gallery");
+                intent4.putExtra("WebUrl", "http://manawanaparthy.com/cat/Gallery");
                 startActivity(intent4);
                 break;
             case R.id.nav_temples:
                 Intent intenttemple = new Intent(DashBoardActivity.this, WebActivity.class);
-                intenttemple.putExtra("WebUrl","http://manawanaparthy.com/cat/Temples");
+                intenttemple.putExtra("WebUrl", "http://manawanaparthy.com/cat/Temples");
                 startActivity(intenttemple);
                 break;
             case R.id.nav_about:
-                Intent intentabout= new Intent(DashBoardActivity.this, About_usActivity.class);
+                Intent intentabout = new Intent(DashBoardActivity.this, About_usActivity.class);
                 startActivity(intentabout);
                 break;
         }

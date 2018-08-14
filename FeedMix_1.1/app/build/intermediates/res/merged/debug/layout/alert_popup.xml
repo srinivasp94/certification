@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/choose_diet_style">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_width="280dp"
+        android:layout_height="160dp"
+
+        android:background="@drawable/choose_diet_style"
+      >
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_margin="10dp">
+        <TextView
+            android:id="@+id/are_you"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#EF9343"
+            android:text="Are you sure"/>
+        <TextView
+            android:id="@+id/want_to"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="#592202"
+            android:textSize="12sp"
+            android:text="You want to reset the My Diet Ingredients?"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="10dp">
+            <Button
+                android:id="@+id/yes_btn"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_border"
+                android:textColor="#fff"
+                android:text="yes"/>
+            <TextView
+                android:layout_width="20sp"
+                android:layout_height="wrap_content" />
+            <Button
+                android:id="@+id/no_btn"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_border"
+                android:textColor="#fff"
+                android:text="No"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

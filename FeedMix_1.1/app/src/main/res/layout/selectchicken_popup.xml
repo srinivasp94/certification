@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+   >
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="320dp"
+        android:layout_height="400dp"
+
+        android:layout_gravity="center"
+        android:background="@drawable/choose_diet_style">
+        <LinearLayout
+            android:layout_weight="1.1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/heding_popup"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/protein"
+                android:textSize="18dp"
+                android:text="Select Your Chicken Type"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/pullet_border"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="18dp"
+            android:background="@drawable/chicken_popup_style">
+            <TextView
+                android:id="@+id/pullet_item"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/protein"
+                android:text="Pullet"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/laying_border"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="18dp"
+            android:background="@drawable/chicken_popup_nostyle">
+            <TextView
+                android:id="@+id/laying_item"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/protein"
+                android:text="Laying Hen"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/broiler_border"
+            android:layout_weight="1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_margin="18dp"
+            android:background="@drawable/chicken_popup_nostyle">
+            <TextView
+                android:id="@+id/broiler_item"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="20dp"
+                android:textColor="@color/protein"
+                android:text="Broiler"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

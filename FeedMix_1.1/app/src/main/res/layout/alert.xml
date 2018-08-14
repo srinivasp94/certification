@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_width="200dp"
+        android:layout_height="110dp"
+        android:background="@drawable/alert_style2">
+        <LinearLayout
+            android:layout_weight="1.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/alert"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#EF9343"
+                android:text="Alert"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="1.2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:textColor="#592202"
+                android:text="No Ingredients selected"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="50dp"
+                android:layout_height="25dp"
+                android:text="OK"
+
+                android:textColor="#fff"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:background="@drawable/button_border"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

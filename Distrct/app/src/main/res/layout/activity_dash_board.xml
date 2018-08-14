@@ -50,7 +50,7 @@
         android:layout_margin="4dp"
         android:background="#d4eaeaea"
         android:horizontalSpacing="5dp"
-        android:numColumns="3"
+        android:numColumns="4"
         android:verticalSpacing="5dp">
 
     </GridView>

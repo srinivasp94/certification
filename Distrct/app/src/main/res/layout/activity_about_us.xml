@@ -27,7 +27,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="25dp"
-            android:text="Contact"
+            android:text="About Us"
             android:textColor="@color/white"
             android:textSize="25dp"
             android:textStyle="bold" />
@@ -38,11 +38,12 @@
         android:layout_height="wrap_content">
 
         <TextView
+            android:id="@+id/about"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="5dp"
             android:padding="8dp"
-            android:text="@string/about"
+            android:text="@string/abouttwo"
             android:textColor="#111"
             android:textSize="18dp"
             tools:layout_editor_absoluteX="8dp"

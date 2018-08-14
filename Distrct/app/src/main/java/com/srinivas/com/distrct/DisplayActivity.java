@@ -3,10 +3,14 @@ package com.srinivas.com.distrct;
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -16,9 +20,12 @@ import com.srinivas.com.distrct.adapters.EducationAdapter;
 import com.srinivas.com.distrct.models.educationModels;
 import com.srinivas.com.distrct.network.APIUtils;
 import com.srinivas.com.distrct.network.ApiInterface;
+import com.srinivas.com.distrct.sortings.MandalFilter;
+import com.srinivas.com.distrct.sortings.NameFilter;
 import com.srinivas.com.distrct.utils.ConnectionDetector;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 import retrofit2.Call;
@@ -31,7 +38,7 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     private EducationAdapter adapter;
     private LinearLayoutManager manager;
     private ArrayList<educationModels> list = new ArrayList<>();
-    private ImageView backButon, cateimg;
+    private ImageView backButon, cateimg, filter_img;
     private TextView tv_noItems, tv_title;
     private Intent intent;
     private String categoryName;
@@ -45,6 +52,10 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_display);
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        toolbar.setOverflowIcon(ContextCompat.getDrawable(getApplicationContext(), R.drawable.ic_filter_tool_black_shape));
+
         ConnectionDetector detector = new ConnectionDetector(this);
         isInternetAvailable = detector.isConnectingToInternet();
         Log.i("Internet Connected ", isInternetAvailable.toString());
@@ -438,6 +449,32 @@ public class DisplayActivity extends AppCompatActivity implements View.OnClickLi
             case R.id.imageView:
                 finish();
                 break;
+
+        }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.filter_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.filtrer_dist:
+                NameFilter nameFilter = new NameFilter();
+                Collections.sort(list, nameFilter);
+                adapter.notifyDataSetChanged();
+                return true;
+            case R.id.filtrer_name:
+                MandalFilter mandalFilter = new MandalFilter();
+                Collections.sort(list, mandalFilter);
+                adapter.notifyDataSetChanged();
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
         }
     }
 }
+

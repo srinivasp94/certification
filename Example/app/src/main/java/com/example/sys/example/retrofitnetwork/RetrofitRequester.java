@@ -3,6 +3,7 @@ package com.example.sys.example.retrofitnetwork;
 import android.app.Activity;
 import android.app.Dialog;
 import android.app.Fragment;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.support.v4.content.WakefulBroadcastReceiver;
@@ -21,6 +22,7 @@ public class RetrofitRequester {
     private Activity activity;
     private Context context;
     private Dialog dialog;
+    private ProgressDialog progressDialog;
 
     public RetrofitRequester(RetrofitResponseListener retrofitResponseListener) {
 
@@ -52,8 +54,11 @@ public class RetrofitRequester {
     }
 
 
-    public void callPostServices(final Object obj, final int requesterId, String url) {
+    public void callPostServices(final Object obj, final int requesterId, String url, boolean showProgres) {
 
+        if (showProgres) {
+            progressDialog = Common.showProgressDialog(context);
+        }
 
         if (Common.haveInternet(activity) == true) {
 
@@ -85,6 +90,7 @@ public class RetrofitRequester {
             dialog.show();
 
         }
+
     }
 
 }

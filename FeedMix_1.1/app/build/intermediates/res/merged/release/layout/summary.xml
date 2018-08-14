@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="50sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#fff">
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/back_btn"
+                android:layout_gravity="center"
+                android:gravity="center|left"
+                android:textColor="#b51d04"
+                android:text="&#xf104;"
+                android:textSize="35dp"
+                android:layout_marginLeft="10sp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TextView
+                android:id="@+id/summary_titleTV"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="#b51d04"
+
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:text="Summary"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/dashboard_img">
+        <LinearLayout
+        android:layout_weight="0.9"
+            android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/piechar2_bg">
+            <LinearLayout
+                android:layout_weight="0.75"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_weight="1.1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <TextView
+                    android:id="@+id/dietsumaryTV"
+                    android:layout_margin="20dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:paddingLeft="10sp"
+                    android:paddingRight="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20sp"
+                    android:text="Your Diet Summary"
+                    android:textColor="#af2114"
+                    android:background="@drawable/diet_summary_style"/>
+                <TextView
+                    android:layout_weight="1.1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="200sp">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent">
+                    <RelativeLayout
+                        android:layout_width="fill_parent"
+                        android:layout_marginRight="70sp"
+                        android:layout_marginTop="2sp"
+                        android:layout_marginBottom="2sp"
+                        android:layout_height="fill_parent">
+                    <ImageView
+                        android:layout_centerInParent="true"
+                        android:layout_width="210dp"
+                        android:padding="33sp"
+                        android:src="@drawable/circle"
+                        android:layout_marginRight="20sp"
+                        android:layout_height="210dp" />
+                    </RelativeLayout>
+                    <RelativeLayout
+
+                        android:gravity="center"
+                        android:layout_centerInParent="true"
+                        android:id="@+id/mainLayout"
+                        android:padding="2sp"
+
+                        android:layout_marginBottom="1sp"
+                        android:layout_width="220dp"
+                        android:layout_height="200dp"/>
+                    <ImageView
+                        android:id="@+id/bad_alert"
+                       android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_width="fill_parent"
+                        android:layout_height="20dp"
+                        android:src="@drawable/bad_alert"/>
+                    <TextView
+                        android:id="@+id/alert_TV"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:textColor="@color/protein"
+                        android:text="Not recommended"/>
+                </RelativeLayout>
+
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_weight="0.73"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+                <Button
+                    android:id="@+id/emailreportBtn"
+                    android:layout_weight="0.5"
+                    android:layout_margin="10dp"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_width="fill_parent"
+                    android:layout_height="35dp"
+                    android:textSize="12dp"
+                    android:text="Email Report Summary"
+                    android:textColor="#fff"
+                    android:background="@drawable/email_report_summary_style"/>
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" />
+
+            </LinearLayout>
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_weight="2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <ListView
+                android:id="@+id/list"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:divider="@null"
+                android:choiceMode="singleChoice"
+                android:dividerHeight="0dp">
+
+            </ListView>
+
+        </RelativeLayout>
+       <!-- <LinearLayout
+
+            android:layout_weight="0.05"
+            android:orientation="vertical"
+            android:background="@drawable/footer_bg"
+            android:layout_width="fill_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_weight="3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_margin="5dp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/menu_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/menu"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/ingrad_libTV"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Ingredients\nLibrary"
+                        android:textColor="#BF2604"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/diet_list_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/footer_icon2"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/create_mydietTV"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Create\nMy Diet"
+                        android:textColor="#BF2604"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:orientation="vertical"
+                    android:layout_margin="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+                    <ImageView
+                        android:id="@+id/nutrient_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/footer_icon3"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                    <TextView
+                        android:id="@+id/nutrient_classTV"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:text="Nutrient\nClass"
+                        android:textColor="#BF2604"
+                        android:textSize="15dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/filtrer_dist"
+        android:title="Filter by Title" />
+    <item
+        android:id="@+id/filtrer_name"
+        android:title="Filter by Name" />
+</menu>

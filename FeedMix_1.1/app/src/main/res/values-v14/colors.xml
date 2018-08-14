@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ugared">#BF2604</color>
+    <color name="titlebackgroundcolor">#fff</color>
+    <color name="aboutpage">#ee9545</color>
+    <color name="status_color">#fff</color>
+    <color name="Flash_text">#B92702</color>
+    <color name="Dashboard_text">#B92702</color>
+    <color name="red">#b44860</color>
+    <color name="yellow">#d7b55b</color>
+    <color name="blue">#6a93ca</color>
+    <color name="gray">#537686</color>
+    <color name="background">#00000000</color>
+    <color name="textcolor">#E98F3E</color>
+    <color name="protein">#c12502</color>
+    <color name="fat">#ec9545</color>
+    <color name="fiber">#fbe7ac</color>
+    <color name="energy">#fefaf6</color>
+    <color name="methi">#bc9412</color>
+    <color name="lysin">#4f280f</color>
+    <color name="calc">#6d4f16</color>
+    <color name="phos">#411e1a</color>
+    <color name="sodi">#231f20</color>
+    <color name="desc">#bd2103</color>
+    <color name="host">#ffffff</color>
+    <color name="clicked">#10d914</color>
+    <color name="unclick">#9f9a9a</color>
+
+</resources>

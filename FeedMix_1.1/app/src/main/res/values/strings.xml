@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FeedMix</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="university">University of Georgia</string>
+    <string name="department">Department of Poultry Science</string>
+    <string name="world">World Poultry</string>
+    <string name="foundation">Foundation</string>
+    <string name="ingredients">Ingrediens\nLibrary</string>
+    <string name="cretediet">Create\nMy Diet</string>
+    <string name="nutrient">Nutrient\nClass</string>
+    <string name="about_text">"<b>The Department of Poultry Science</b> of the <b>University of Georgia</b> (Athens, GA) provides a premiere educational experience for both students and the poultry industry. The faculty are dedicated to driving innovation for the poultry industry, poultry-related businesses, and the general public through the discovery, research, and dissemination of topical,science-based information. The research, teaching, and extension components of the Department focus on poultry nutrition, physiology, reproduction, management, disease prevention, processing, and food safety. For more information on the <b>Department of Poultry Science</b>, visit <a href="http://poultry.uga.edu/">poultry.uga.edu/.</a> "</string>
+    <string name="about_text1">"<b>The World Poultry Foundation</b> (WPF) is a non-profit organization whose mission is to help solve hunger and poverty issues through the production and consumption of poultry. Formerly known as the USAPEEC International Poultry Development Program (UIPDP), the <b>WPF</b> works to promote economic development in distressed areas and emerging markets outside of the US by helping establish the production, availability, and ultimately consumption of the affordable and nutritious protein that poultry can provide. The <b>WPF</b> cooperates and partners with other like-mined foundations, organizations, and governments by assisting them in projects that advance the charitable purposes of the Foundation. For more information on the <b>WPF</b>, visit <a href="http://worldpoultryfoundation.org/">worldpoultryfoundation.org/.</a>"</string>
+    <string name="about_text2">"The <b>Chicken Feed Calculator</b> is intended to provide users with an estimated nutritional content of a feed formulation supplied by the user. The app also provides feedback on how well the given formulation meets the key nutritional needs of the bird-type being fed.  It is important to remember that values in the Ingredients Library included with the <b>Chicken Feed Calculator</b> are based on average analytical values for each feedstuff. There is natural variation in nutritional content based on season or on different growing and harvesting conditions for any particular ingredient being used."</string>
+
+    <string name="upcoming">tab1</string>
+
+    <string name="Energy">Energy</string>
+    <string name="Fat">Fat</string>
+    <string name="Methi">Methi</string>
+    <string name="Fiber">Fiber</string>
+
+
+</resources>
