@@ -1,0 +1,770 @@
+[
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img2_3x.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\img2_3x.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\edittext_border2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\edittext_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shadoww.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\btn_shadoww.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow3.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\shadow3.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\passw.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\passw.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\membership.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\membership.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dob.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\dob.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\vpi__tab_indicator.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\a6cdf760153bc83d89d0721ee8a3a0b2d6b5309e\\output\\res\\drawable\\vpi__tab_indicator.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\image_round.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\image_round.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_chang_home_visit.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_icon_chang_home_visit.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_icon_back.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\login_icon_back.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\green.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\star.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\star.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\consulting.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\consulting.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rapmdix_logo.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rapmdix_logo.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\emaill.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\emaill.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\location.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\leftarrow.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\leftarrow.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\svs_logo.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\svs_logo.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_red_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\button_red_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\single.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\single.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_chang_diagnostics.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_icon_chang_diagnostics.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\grid_selector.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\grid_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\overview.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\overview.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_bg.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rating_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\back_arrow.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\back_arrow.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\closeenvelope.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\closeenvelope.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\seminars.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\seminars.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_pin.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\map_pin.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\prefferd_hospital.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\prefferd_hospital.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\family.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\family.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\consulting_free.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\consulting_free.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\member_profile.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\member_profile.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\doctor_icon.jpg",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\doctor_icon.jpg"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\price_bg_oval.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\price_bg_oval.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\register.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\register.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\location_pin.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\location_pin.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_corner_shadow.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\round_corner_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\awardss.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\awardss.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\education.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\education.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_line_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\dotted_line_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call_shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\call_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\btn_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dashed_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\dashed_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logout.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\logout.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\round_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\round_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img1_3x.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\img1_3x.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_text2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_text2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\big_ovel.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\big_ovel.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\call.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_line.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\edittext_line.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_black_oval.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\home_black_oval.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\check_bg.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\check_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\blue.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\blue.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bgr.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\bgr.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_submit.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\map_submit.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\sms.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\sms.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\distance_gray_bg.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\distance_gray_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\appointmentw.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\appointmentw.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\envelope.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\envelope.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_bg.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\icon_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\delete_icon.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\delete_icon.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rating_shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rating_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\treatment_required_for.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\treatment_required_for.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\search_main.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\search_main.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cancel.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\cancel.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\red_shadow.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\red_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_main_cat1.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\home_main_cat1.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\upload.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\upload.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\signs.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\signs.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\menuuu.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\menuuu.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadow2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\shadow2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_via.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\share_via.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\header_reg.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\header_reg.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\share.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slot_date_bg_selector.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\slot_date_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\deals_off.jpg",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\deals_off.jpg"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_first.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\bg_first.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\subcat_selector2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\subcat_selector2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\age.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\age.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\birthday.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\birthday.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gray_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\gray_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\medical.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\medical.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\circle_dark_gray.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\circle_dark_gray.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\free_consulting.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\free_consulting.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\patient_name.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\patient_name.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_chang_pharmacy.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_icon_chang_pharmacy.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_plus_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\downarrow.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\downarrow.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mobile.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\mobile.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border3.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\edittext_border3.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\multi.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\multi.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\healthr.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\healthr.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\singlem.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\singlem.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rec_shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rec_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\img3_3x.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\img3_3x.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_text.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_text.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_header_1.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\map_header_1.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rap_banner.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rap_banner.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cap_edu1.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\cap_edu1.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\budget_range.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\budget_range.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\slot_date_bg_selector2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\slot_date_bg_selector2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\big_ovel_green.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\big_ovel_green.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\confirm_password.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\confirm_password.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\service.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\service.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\profile_back.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\profile_back.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\call_bg.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\call_bg.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\rightarrow.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\rightarrow.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\white_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_icon_chang.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\tab_icon_chang.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cart_check.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\cart_check.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\select_person.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\select_person.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\line.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\line.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\healthy.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\healthy.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_border_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\edittext_border_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\share_refer.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\share_refer.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_selector.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\radio_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\contact_number.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\contact_number.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_cat_desgn.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\home_cat_desgn.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\black_button.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\black_button.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_shadow.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\btn_shadow.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_plus_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_plus_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_pinn.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\map_pinn.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\yellow.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\yellow.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\middile_icon.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\middile_icon.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\homepage_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\homepage_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\53d75570636cfeba558533e047f451335febc52e\\output\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\distance.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\distance.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\big_ovel_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\big_ovel_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\subcat_selector.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\subcat_selector.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\redcercle.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\redcercle.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button_shape.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\button_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_main_cat_background.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\home_main_cat_background.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\dotted_square_red.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\dotted_square_red.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\cpb.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\cpb.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\splash_screen.gif",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\splash_screen.gif"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\consultations.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\consultations.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\shadoww.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\shadoww.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\home_main_cat.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\home_main_cat.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\white_round_border.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\white_round_border.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\new_password.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\new_password.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\button.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\button.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\gender.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\gender.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\email_hos.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\email_hos.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\green_backgroung.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\green_backgroung.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\map_header_2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\map_header_2.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\login_bottom.jpg",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\login_bottom.jpg"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\mail_profile.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\drawable\\mail_profile.png"
+    }
+]

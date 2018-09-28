@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9"
+    android:id="@+id/linear_layout">
+
+    <include layout="@layout/header" android:id="@+id/dctr_desc"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/cad_1"
+        android:layout_margin="7dp"
+        android:background="@drawable/shadow3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_1"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="vertical"
+            android:id="@+id/image"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            >
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape">
+                <ImageView
+                    android:id="@+id/Hospital_image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:src="@drawable/rap_banner"
+                    android:scaleType="centerCrop">
+                </ImageView>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    android:textSize="14sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="SVS Institute of Neurosciences"
+                    android:textStyle="bold"
+                    android:textColor="@color/tab_indicator"/>
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/icon_bg">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/medical"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Multispeciality Hospital"
+                    android:textColor="@android:color/black"
+                    />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/icon"
+                    android:gravity="center"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/icon_bg">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/doctor_white"/>
+                </LinearLayout>
+                <TextView
+                    android:paddingLeft="5dp"
+                    android:paddingRight="3dp"
+                    android:layout_toLeftOf="@+id/dis"
+                    android:layout_toRightOf="@+id/icon"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Svs Institute, Old Malakpet, Hyderabad"
+                    android:textColor="@android:color/black"
+                    android:ellipsize="end"
+                    android:maxLines="1"/>
+                <LinearLayout
+                    android:id="@+id/dis"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    >
+                    <LinearLayout
+
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/distance">
+                        <ImageView
+
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/signs"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/distance_gray_bg">
+
+                        <TextView
+                            android:gravity="center"
+                            android:id="@+id/distance"
+                            android:textSize="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="2 km"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/dashed_border" />
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_toLeftOf="@+id/lin2"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MRI Brain, MRI Heart"
+                    android:textColor="@android:color/black"
+                    android:ellipsize="end"
+                    android:maxLines="1"/>
+                <LinearLayout
+                    android:id="@+id/lin2"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        >
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="20dp"
+                            android:text="1200"
+                            android:gravity="center"
+                            android:textColor="@color/tab_indicator"
+                            android:background="@drawable/big_ovel_red"
+                            android:textSize="13sp"
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/cad_2"
+        android:layout_margin="7dp"
+        android:background="@drawable/shadow3"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_2"
+            android:layout_marginTop="10dp"
+            >
+            <LinearLayout
+                android:gravity="center|left"
+                android:orientation="vertical"
+                android:id="@+id/image2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                >
+                <LinearLayout
+                    android:layout_marginLeft="10dp"
+                    android:padding="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape">
+                    <ImageView
+                        android:id="@+id/Hospital_image2"
+                        android:layout_width="70dp"
+                        android:layout_height="70dp"
+                        android:src="@drawable/rap_banner"
+                        android:scaleType="centerCrop">
+                    </ImageView>
+
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:gravity="center|left"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentLeft="true"
+                        android:textSize="14sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SVS Institute of Neurosciences"
+                        android:textStyle="bold"
+                        android:textColor="@color/tab_indicator"/>
+
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:gravity="center"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/icon_bg">
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/medical"/>
+                    </LinearLayout>
+                    <TextView
+                        android:layout_marginLeft="5dp"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Multispeciality Hospital"
+                        android:textColor="@android:color/black"
+                        />
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:id="@+id/icon2"
+                        android:gravity="center"
+                        android:layout_width="21dp"
+                        android:layout_height="21dp"
+                        android:background="@drawable/icon_bg">
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/doctor_white"/>
+                    </LinearLayout>
+                    <TextView
+                        android:paddingLeft="5dp"
+                        android:paddingRight="3dp"
+                        android:layout_toLeftOf="@+id/dis2"
+                        android:layout_toRightOf="@+id/icon2"
+                        android:layout_centerInParent="true"
+                        android:textSize="12sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Svs Institute, Old Malakpet, Hyderabad"
+                        android:textColor="@android:color/black"
+                        android:ellipsize="end"
+                        android:maxLines="1"/>
+                    <LinearLayout
+                        android:id="@+id/dis2"
+                        android:layout_marginRight="10dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true"
+                        android:textSize="12sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="25dp"
+                        android:gravity="center"
+                        >
+                        <LinearLayout
+
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/distance">
+                            <ImageView
+
+                                android:layout_width="15dp"
+                                android:layout_height="15dp"
+                                android:src="@drawable/signs"/>
+
+                        </LinearLayout>
+                        <LinearLayout
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/distance_gray_bg">
+
+                            <TextView
+                                android:gravity="center"
+                                android:id="@+id/distance2"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="2 km"
+                                android:textColor="@color/black"/>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            >
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:background="@drawable/dashed_border" />
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+
+                    android:layout_toLeftOf="@+id/lin3"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="MRI Brain, MRI Heart"
+                    android:textColor="@android:color/black"
+                    android:ellipsize="end"
+                    android:maxLines="1"/>
+                <LinearLayout
+                    android:id="@+id/lin3"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    >
+
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="35dp"
+                        >
+
+                        <TextView
+                            android:layout_width="40dp"
+                            android:layout_height="20dp"
+                            android:text="1200"
+                            android:gravity="center"
+                            android:textColor="@color/tab_indicator"
+                            android:background="@drawable/big_ovel_red"
+                            android:textSize="13sp"
+                            />
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:id="@+id/cad_3"
+                android:layout_margin="7dp"
+                android:background="@drawable/shadow3"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/linear_3"
+                    android:layout_marginTop="10dp"
+                    >
+                    <LinearLayout
+                        android:gravity="center|left"
+                        android:orientation="vertical"
+                        android:id="@+id/image3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        >
+                        <LinearLayout
+                            android:layout_marginLeft="10dp"
+                            android:padding="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape">
+                            <ImageView
+                                android:id="@+id/Hospital_image3"
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:src="@drawable/rap_banner"
+                                android:scaleType="centerCrop">
+                            </ImageView>
+
+
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginLeft="10dp"
+                        android:gravity="center|left"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+                            <TextView
+                                android:layout_centerInParent="true"
+                                android:layout_alignParentLeft="true"
+                                android:textSize="14sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SVS Institute of Neurosciences"
+                                android:textStyle="bold"
+                                android:textColor="@color/tab_indicator"/>
+
+
+                        </RelativeLayout>
+
+                        <LinearLayout
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:gravity="center"
+                                android:layout_width="21dp"
+                                android:layout_height="21dp"
+                                android:background="@drawable/icon_bg">
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/medical"/>
+                            </LinearLayout>
+                            <TextView
+                                android:layout_marginLeft="5dp"
+                                android:textSize="12sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Multispeciality Hospital"
+                                android:textColor="@android:color/black"
+                                />
+
+                        </LinearLayout>
+
+                        <RelativeLayout
+                            android:layout_marginTop="5dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:id="@+id/icon3"
+                                android:gravity="center"
+                                android:layout_width="21dp"
+                                android:layout_height="21dp"
+                                android:background="@drawable/icon_bg">
+                                <ImageView
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/doctor_white"/>
+                            </LinearLayout>
+                            <TextView
+                                android:paddingLeft="5dp"
+                                android:paddingRight="3dp"
+                                android:layout_toLeftOf="@+id/dis3"
+                                android:layout_toRightOf="@+id/icon3"
+                                android:layout_centerInParent="true"
+                                android:textSize="12sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Svs Institute, Old Malakpet, Hyderabad"
+                                android:textColor="@android:color/black"
+                                android:ellipsize="end"
+                                android:maxLines="1"/>
+                            <LinearLayout
+                                android:id="@+id/dis3"
+                                android:layout_marginRight="10dp"
+                                android:layout_alignParentRight="true"
+                                android:layout_centerInParent="true"
+                                android:textSize="12sp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="25dp"
+                                android:gravity="center"
+                                >
+                                <LinearLayout
+
+                                    android:padding="5dp"
+                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/distance">
+                                    <ImageView
+
+                                        android:layout_width="15dp"
+                                        android:layout_height="15dp"
+                                        android:src="@drawable/signs"/>
+
+                                </LinearLayout>
+                                <LinearLayout
+                                    android:padding="5dp"
+                                    android:gravity="center"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:background="@drawable/distance_gray_bg">
+
+                                    <TextView
+                                        android:gravity="center"
+                                        android:id="@+id/distance3"
+                                        android:textSize="12sp"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:text="2 km"
+                                        android:textColor="@color/black"/>
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:orientation="vertical"
+                    android:layout_margin="10dp"
+                    >
+                    <View
+                        android:layout_width="wrap_content"
+                        android:layout_height="1dp"
+                        android:background="@drawable/dashed_border" />
+                    <RelativeLayout
+                        android:layout_marginTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+
+                            android:layout_toLeftOf="@+id/lin4"
+                            android:layout_centerInParent="true"
+                            android:textSize="12sp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="MRI Brain, MRI Heart"
+                            android:textColor="@android:color/black"
+                            android:ellipsize="end"
+                            android:maxLines="1"/>
+                        <LinearLayout
+                            android:id="@+id/lin4"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerInParent="true"
+                            android:textSize="12sp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="25dp"
+                            android:gravity="center"
+                            >
+
+                            <LinearLayout
+                                android:padding="5dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="35dp"
+                                >
+
+                                <TextView
+                                    android:layout_width="40dp"
+                                    android:layout_height="20dp"
+                                    android:text="1200"
+                                    android:gravity="center"
+                                    android:textColor="@color/tab_indicator"
+                                    android:background="@drawable/big_ovel_red"
+                                    android:textSize="13sp"
+                                    />
+
+
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

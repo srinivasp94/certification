@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popuplayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp">
+    <LinearLayout
+        android:layout_above="@+id/submit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_margin="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+    <LinearLayout
+       android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_toLeftOf="@+id/buttoncancel"
+        android:layout_height="match_parent"
+        android:background="@drawable/map_header_1">
+
+    <AutoCompleteTextView
+        android:id="@+id/input_address"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Type your location"
+        android:background="#00000000"
+        android:padding="10dp"
+        android:textColorHint="#818181"
+        />
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_centerInParent="true"
+       android:id="@+id/buttoncancel"
+       android:layout_alignParentRight="true"
+       android:layout_width="wrap_content"
+       android:layout_height="match_parent"
+       android:background="@drawable/map_header_2">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Cancel"
+       android:src="@drawable/search_icon_white"
+        android:padding="12dp"
+        />
+   </LinearLayout>
+
+</RelativeLayout>
+
+
+   <LinearLayout
+
+       android:layout_marginLeft="10dp"
+       android:layout_marginRight="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@drawable/rec_shape">
+
+    <fragment
+        class="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:scrollbars="vertical"
+
+        />
+   </LinearLayout>
+    </LinearLayout>
+<LinearLayout
+    android:id="@+id/submit_layout"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:weightSum="1">
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:text="Cancel"
+        android:background="@drawable/map_submit"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_marginLeft="2dp"
+        android:id="@+id/submit"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/map_submit"
+        android:textColor="@color/white"/>
+</LinearLayout>
+
+</RelativeLayout>

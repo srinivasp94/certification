@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/hdrawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <include layout="@layout/home_page_updated" />
+
+    <RelativeLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="280dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/menuLayer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:background="@color/tab_indicator"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/profile_pic"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="10dp"
+                        android:background="@drawable/home_main_cat_background">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/prflImg"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerInParent="true" />
+                    </RelativeLayout>
+
+                    <TextView
+                        android:id="@+id/Namee"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:text="Welcome, \n User"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_weight="3"
+                    android:background="@color/text_color"
+                    android:gravity="center"
+                    android:padding="5dp">
+
+                    <LinearLayout
+                        android:id="@+id/active_lin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center"
+                            android:text="Active"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/active_text"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/home_black_oval"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/pending_lin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Pending"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/pending_text"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/home_black_oval"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="0.5dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/white" />
+
+                    <LinearLayout
+                        android:id="@+id/complete_lin"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Completed"
+                            android:textColor="@color/white"
+                            android:textSize="10sp" />
+
+                        <TextView
+                            android:id="@+id/completed_text"
+                            android:layout_width="45dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dp"
+                            android:background="@drawable/home_black_oval"
+                            android:gravity="center"
+                            android:padding="3dp"
+                            android:text="0"
+                            android:textColor="@color/white" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <com.tiqs.rapmedix.ExpandableHeightGridView1
+                    android:id="@+id/menuList"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/menuLayer"
+                    android:layout_marginTop="10dp"
+                    android:background="#d4d4d4"
+                    android:dividerHeight="1dp"
+                    android:verticalSpacing="1dp">
+
+                </com.tiqs.rapmedix.ExpandableHeightGridView1>
+
+                <TextView
+                    android:id="@+id/text_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:padding="10dp"
+                    android:text="About"
+                    android:textColor="#2a2a2a"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/text_terms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:text="Terms &amp; Conditions"
+                    android:textColor="#2a2a2a"
+                    android:textSize="16sp" />
+                <!--<TextView-->
+                <!--android:id="@+id/text_privacy"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="Privacy Policy"-->
+                <!--android:textColor="#2a2a2a"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="16sp"-->
+                <!--/>-->
+                <!--<TextView-->
+                <!--android:id="@+id/text_faqs"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="FAQs"-->
+                <!--android:textColor="#2a2a2a"-->
+                <!--android:padding="10dp"-->
+                <!--android:textSize="16sp"-->
+                <!--/>-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#d4d4d4" />
+
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+
+    </RelativeLayout>
+
+</android.support.v4.widget.DrawerLayout>

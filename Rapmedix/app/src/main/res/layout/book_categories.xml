@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:background="@color/home_grid"
+              android:id="@+id/root"
+              tools:context="com.tiqs.rapmedix.Selected_candidate_page">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary">
+        <ImageView
+            android:id="@+id/mainmenu"
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/back_arrow"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+        <TextView
+            android:layout_toRightOf="@+id/mainmenu"
+            android:layout_margin="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="RAPMEDIX"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/profile_back"
+            android:layout_toLeftOf="@+id/menu"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/topic_grid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/email"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp"
+                    >
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/colorPrimary"
+                        android:text="REVIEW DIAGNOSTICS"
+                        android:textStyle="bold"/>
+
+                    <RelativeLayout
+
+                        android:id="@+id/desc_relative"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:padding="5dp">
+
+
+                        <LinearLayout
+                            android:id="@+id/doctor_image"
+                            android:padding="5dp"
+                            android:orientation="vertical"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/shape"
+                            android:layout_centerVertical="true"
+                            android:layout_centerInParent="true"
+                            android:layout_alignParentLeft="true">
+
+                            <ImageView
+                                android:id="@+id/doctorImg"
+                                android:layout_width="80dp"
+                                android:layout_height="80dp"
+                                android:scaleType="centerCrop"
+                                android:src="@drawable/svs_logo">
+                            </ImageView>
+                        </LinearLayout>
+
+
+                        <!--<ImageView
+                            android:id="@+id/doctor_image"
+                            android:layout_width="100dp"
+                            android:layout_height="100dp"
+                            android:layout_centerVertical="true"/>-->
+
+                        <LinearLayout
+                            android:id="@+id/lll1"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/doctor_image"
+                            android:layout_marginLeft="15dp">
+
+                            <TextView
+                                android:id="@+id/doctor_name"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="SVS Institute of Neurosciences"
+                                android:textSize="13sp"
+                                android:textStyle="bold"
+                                android:textColor="@color/colorPrimary"/>
+
+                            <RelativeLayout
+                                android:visibility="gone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_toRightOf="@+id/doctor_name"
+                                android:background="@drawable/green_backgroung"
+                                android:layout_marginLeft="10dp"
+                                android:padding="3dp">
+
+                                <ImageView
+                                    android:id="@+id/starimg"
+                                    android:layout_width="15dp"
+                                    android:layout_height="15dp"
+                                    android:src="@drawable/star"
+                                    />
+
+                                <TextView
+                                    android:id="@+id/doctor_rating"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="3dp"
+                                    android:layout_toRightOf="@+id/starimg"
+                                    android:text="4/5"
+                                    android:textSize="12sp"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:textColor="#fff"/>
+
+                            </RelativeLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lll2"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/doctor_image"
+                            android:layout_below="@+id/lll1"
+                            android:layout_marginLeft="15dp">
+
+                            <LinearLayout
+                                android:id="@+id/l1"
+                                android:gravity="center"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/icon_bg"
+                                >
+
+                                <ImageView
+                                    android:layout_width="17dp"
+                                    android:layout_height="17dp"
+                                    android:src="@drawable/medical"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/doctor_desig"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:text="Multispeciality Hospital"
+                                android:textColor="#262626"
+                                android:textSize="12sp"
+                                android:ellipsize="end"
+                                android:maxLines="1"
+                                />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lll3"
+                            android:layout_marginTop="5dp"
+                            android:gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_toRightOf="@+id/doctor_image"
+                            android:layout_below="@+id/lll2"
+                            android:layout_marginLeft="15dp">
+
+                            <LinearLayout
+                                android:id="@+id/l2"
+                                android:gravity="center"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:background="@drawable/icon_bg"
+                                >
+
+                                <ImageView
+                                    android:layout_width="17dp"
+                                    android:layout_height="17dp"
+                                    android:src="@drawable/overview"/>
+                            </LinearLayout>
+
+                            <TextView
+                                android:id="@+id/doctor_quli"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_toRightOf="@+id/l2"
+                                android:layout_below="@+id/l1"
+                                android:text="Kukatpalle"
+                                android:textColor="#262626"
+                                android:textSize="12sp"
+                                android:ellipsize="end"
+                                android:maxLines="1"/>
+
+                        </LinearLayout>
+
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Scanning Fee"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹"
+                            android:layout_toLeftOf="@+id/price"/>
+                        <TextView
+                            android:id="@+id/price"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs.520"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Service Tax"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹"
+                            android:layout_toLeftOf="@+id/service_tax"/>
+                        <TextView
+                            android:id="@+id/service_tax"
+
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs.52"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Swachh Bharath Cess"/>
+                        <TextView
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs.52"/>
+                    </RelativeLayout>
+                    <RelativeLayout
+                        android:visibility="gone"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Krishi kalyan Cess"/>
+                        <TextView
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rs 52"/>
+                    </RelativeLayout>
+                    <View
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/hint1"/>
+                    <RelativeLayout
+                        android:padding="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Total"
+                            android:textSize="18sp"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="₹"
+                            android:layout_toLeftOf="@+id/total"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"/>
+                        <TextView
+                            android:id="@+id/total"
+                            android:layout_alignParentRight="true"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="572"
+                            android:textSize="18sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorPrimary"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:weightSum="2"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal"
+
+                >
+
+                <RadioButton
+                    android:id="@+id/off_con"
+                    android:drawablePadding="10dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/shadow"
+                    android:text="20% OFF"
+                    android:button="@null"
+                    android:paddingLeft="10dp"
+                    android:drawableLeft="@drawable/consultations"/>
+            </RadioGroup>
+            <Button
+                android:id="@+id/booknow"
+                android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:text="BOOK NOW"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

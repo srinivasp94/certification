@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popuplayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="20dp"
+    android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/popupbg"
+
+        android:padding="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/tab_indicator"
+         >
+        <TextView
+            android:padding="10dp"
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diagnostics"
+            android:textSize="18sp"
+            android:textColor="@color/white"/>
+
+</LinearLayout>
+
+
+   <LinearLayout
+
+       android:background="@android:color/white"
+
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+      >
+
+       <TextView
+           android:layout_marginTop="10dp"
+           android:layout_marginBottom="50dp"
+           android:layout_marginLeft="10dp"
+           android:id="@+id/main_text"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Call us to book Diagnostics tests."
+           android:textSize="15sp"
+           android:textColor="@color/black"/>
+   </LinearLayout>
+<LinearLayout
+    android:id="@+id/submit_layout"
+    android:layout_width="match_parent"
+    android:layout_alignParentBottom="true"
+    android:layout_height="wrap_content"
+
+    android:weightSum="1"
+    android:background="@color/white">
+    <Button
+        android:id="@+id/skip"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:text="Skip"
+        android:background="@color/input_bg"
+        android:textColor="@color/white"/>
+    <Button
+        android:layout_marginLeft="2dp"
+        android:id="@+id/call"
+        android:layout_width="0dp"
+        android:layout_weight=".5"
+        android:layout_height="wrap_content"
+        android:text="Call"
+        android:background="@color/tab_indicator"
+        android:textColor="@color/white"/>
+</LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/hdrawer_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff"
+    >
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tab_indicator"
+    android:id="@+id/root_view">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:id="@+id/mainmenu"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/menuuu"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="8dp"/>
+
+        <TextView
+            android:layout_margin="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/mainmenu"
+            android:text="RAPMEDIX"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:background="@drawable/profile_back"
+            android:layout_toLeftOf="@+id/menu"
+            android:layout_centerInParent="true">
+
+            <ImageView
+                android:id="@+id/topic_grid"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/email"
+                android:scaleType="fitXY"/>
+        </LinearLayout>
+        <ImageView
+            android:layout_marginRight="10dp"
+            android:id="@+id/menu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/menu"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_shadoww">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/search_icon"/>
+        <AutoCompleteTextView
+            android:id="@+id/search_for_doctor"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#00000000"
+            android:hint="Search Speciality or Doctor"
+            android:layout_marginLeft="10dp"
+            android:textSize="14dp"
+          />
+
+    </LinearLayout>
+    <android.support.design.widget.TabLayout
+        android:id="@+id/cat_tabs"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:background="@drawable/shadow3"
+        app:tabMode="scrollable"
+        app:tabIndicatorHeight="2dp"
+        app:tabIndicatorColor="@color/tab_indicator">
+
+
+    </android.support.design.widget.TabLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+
+    <GridView
+        android:id="@+id/categories"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"
+        android:background="@color/home_grid"
+        android:horizontalSpacing="1dp"
+        android:verticalSpacing="1dp"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="1dp"
+        >
+
+    </GridView>
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/menuLayout"
+        android:layout_width="260dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff">
+
+        <LinearLayout
+            android:id="@+id/menuLayer"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/rap_banner"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:background="@drawable/home_main_cat_background">
+            
+            <ImageView
+                android:id="@+id/prflImg"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_centerHorizontal="true"
+                />
+            </RelativeLayout>
+            
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:layout_marginLeft="8dp"
+                android:text="Welcome, \n Maneesh. A"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/menuList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/menuLayer"
+            android:layout_marginTop="10dp"
+            android:dividerHeight="3dp"></ListView>
+
+    </RelativeLayout>
+
+    </android.support.v4.widget.DrawerLayout>

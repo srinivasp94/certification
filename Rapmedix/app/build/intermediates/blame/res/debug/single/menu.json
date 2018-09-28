@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu1.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\menu\\menu1.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu2.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\menu\\menu2.xml"
+    }
+]

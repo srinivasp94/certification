@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/add_memberview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+<RelativeLayout
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/header"
+             android:id="@+id/prfl_head"
+        ></include>
+
+    <LinearLayout
+        android:id="@+id/memberlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/prfl_head"
+        android:weightSum="3">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.2"></View>
+
+        <Button
+            android:id="@+id/below"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:text="Below 18 Years"
+            android:textColor="@color/tab_selected"
+            android:background="@android:color/transparent"/>
+
+
+        <Button
+            android:id="@+id/above"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.3"
+            android:text="Above 18 Years"
+
+            android:textColor="@color/tab_selected"
+            android:background="@android:color/transparent"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="0.2"></View>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/memberlayout"
+        android:layout_marginTop="20dp">
+
+    <ImageView
+        android:id="@+id/d1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginLeft="10dp"
+        android:src="@drawable/single"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/d1"
+        android:text="Name"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="8dp"
+        android:textColor="#4b4343"
+        android:textSize="15sp"/>
+
+    <EditText
+        android:id="@+id/member_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/d1"
+        android:padding="9dp"
+        android:textSize="18sp"
+        android:text=""
+        android:textColor="#2a2a2a"
+        android:background="@drawable/edittext_border2"
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/d2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/mobile"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/d2"
+            android:text="Mobile"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#4b4343"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/member_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/d2"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:text=""
+            android:inputType="number"
+            android:maxLength="10"
+            android:textColor="#2a2a2a"
+            android:background="@drawable/edittext_border2"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r2"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/d3"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/emaill"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/d3"
+            android:text="Email"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#4b4343"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/member_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/d3"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:text=""
+            android:textColor="#2a2a2a"
+            android:background="@drawable/edittext_border2"
+            />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r3"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/d4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/multi"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/d4"
+            android:text="Relation"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#4b4343"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/member_relation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_below="@+id/d4"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:drawableRight="@drawable/downarrow"
+            android:text=""
+            android:textColor="#2a2a2a"
+            android:background="@drawable/edittext_border2"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r4"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/d5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/dob"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/d5"
+            android:text="Birthday"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="8dp"
+            android:textColor="#4b4343"
+            android:textSize="15sp"/>
+
+        <TextView
+            android:id="@+id/member_birthday"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="9dp"
+            android:textSize="18sp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:text=""
+            android:textColor="#2a2a2a"
+            android:layout_below="@+id/d5"
+            android:background="@drawable/edittext_border2"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/member_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="14dp"
+        android:padding="15dp"
+        android:layout_below="@+id/r5"
+        android:background="@drawable/button_red_border"
+        android:text="Add Member"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="14dp"/>
+</RelativeLayout>
+
+</ScrollView>

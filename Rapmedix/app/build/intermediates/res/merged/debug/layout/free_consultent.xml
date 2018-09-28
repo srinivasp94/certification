@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:orientation="horizontal"
+    android:background="#ffffff">
+
+    <View
+        android:id="@+id/leftView"
+        android:layout_width="3dp"
+        android:layout_height="130dp"
+        android:layout_centerVertical="true"></View>
+
+    <RelativeLayout
+        android:id="@+id/relative"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_toRightOf="@+id/leftView"
+        android:paddingLeft="3dp"
+        android:layout_marginBottom="3dp"
+        android:layout_centerVertical="true"
+        >
+
+    <!--<LinearLayout
+        android:id="@+id/image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        >-->
+
+        <LinearLayout
+            android:id="@+id/lfree"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:gravity="center"
+            android:layout_centerVertical="true">
+
+        <LinearLayout
+            android:id="@+id/image"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:gravity="center"
+            >
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:padding="5dp"
+            android:src="@drawable/doctor_white" />
+
+        </LinearLayout>
+
+        </LinearLayout>
+
+    <!--</LinearLayout>-->
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="20dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="6dp"
+        android:background="@drawable/line"
+        android:layout_toRightOf="@+id/lfree"
+        android:hardwareAccelerated="false">
+    </View>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/view"
+        android:layout_below="@+id/freeTextView">
+
+        <TextView
+            android:id="@+id/free_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Cardiology"
+            android:textColor="#ed1c24"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/free_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:layout_marginTop="3dp"
+            android:maxLines="3"
+            android:ellipsize="end"
+            android:text="@string/desc"
+            android:textColor="@color/text_color"
+            android:layout_marginLeft="5dp"/>
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/freeTextView"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="5dp"
+        android:textSize="17sp"
+        android:gravity="center"
+        android:background="#ed1c24"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:padding="3dp"
+        android:text="Free"/>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:id="@+id/view2"
+        android:layout_toRightOf="@+id/leftView"
+        android:layout_below="@+id/relative">
+    </View>
+
+</RelativeLayout>

@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/header" android:id="@+id/dctr_desc"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dctr_desc"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentStart="true">
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="220dp"
+                    android:orientation="vertical"
+                    android:id="@+id/inst_banner"
+                    android:layout_alignParentTop="true"
+                    >
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="180dp"
+                    android:background="@drawable/rap_banner"/>
+
+                    <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/instagram"
+                        android:id="@+id/imageView6"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginBottom="10dp"
+                        android:layout_centerHorizontal="true"/>
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/inst_banner"
+                    android:orientation="vertical"
+                    android:id="@+id/inst_info">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="SVS Institute of Neurosciences"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:textSize="15sp"
+                        android:id="@+id/inst_name"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Kachiguda - Hyderabad"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:textColor="@color/black"/>
+
+                </LinearLayout>
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/inst_info"
+                    android:layout_margin="10dp"
+                    android:id="@+id/tab">
+
+
+                    <android.support.design.widget.TabLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:id="@+id/tab_layout"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginRight="12dp"
+                        android:layout_marginEnd="12dp">
+
+                    </android.support.design.widget.TabLayout>
+                    <android.support.v4.view.ViewPager
+                        android:layout_below="@+id/tab_layout"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp"
+                        android:id="@+id/pager"
+                        >
+
+                    </android.support.v4.view.ViewPager>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/logo_title"
+                    android:layout_margin="10dp"
+                    android:layout_below="@+id/tab">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Accreditions"
+                        android:textSize="15sp"
+                        android:textColor="@color/colorAccent"/>
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/logo_title"
+                    android:layout_margin="15dp">
+                    <org.lucasr.twowayview.TwoWayView
+                        android:id="@+id/deals_list"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:numColumns="3"
+                        android:layout_margin="5dp"
+                        android:scrollbars="vertical"
+                        android:drawSelectorOnTop="false"
+                        style="@style/TwoWayView"
+
+                        />
+
+                </RelativeLayout>
+
+
+            </RelativeLayout>
+
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

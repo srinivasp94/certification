@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/parentfamilyList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:orientation="vertical">
+
+    <include layout="@layout/header" android:id="@+id/add_family"/>
+
+    <TextView
+        android:id="@+id/normalText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:text="Select Family Members"
+        android:textColor="#000"
+        android:layout_below="@+id/add_family"
+        />
+
+    <ListView
+        android:id="@+id/familyList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/normalText"
+        android:layout_marginTop="10dp"
+        android:layout_above="@+id/family_alternateMobile"
+        android:choiceMode="singleChoice"
+        ></ListView>
+
+    <FrameLayout
+        android:id="@+id/floatingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/family_alternateMobile"
+        >
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            app:backgroundTint="@color/colorPrimaryDark"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="+"
+            android:textSize="30sp"
+            android:elevation="16dp"
+            android:textColor="@android:color/white"
+            />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/bookingLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2a2a2a"
+        android:padding="10dp"
+        >
+
+        <TextView
+            android:id="@+id/family_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/family_Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_marginTop="5dp"
+            android:textColor="#fff"
+            android:padding="7dp"
+            android:layout_below="@+id/family_Name"
+            android:background="@drawable/edittext_border3"
+            android:textSize="13sp"
+            />
+
+        <TextView
+            android:id="@+id/family_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text=""
+            android:textColor="#fff"
+            android:padding="7dp"
+            android:layout_toRightOf="@+id/family_Day"
+            android:layout_below="@+id/family_Name"
+            android:background="@drawable/edittext_border3"
+            android:textSize="13sp"
+            />
+
+        <TextView
+            android:id="@+id/family_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text=""
+            android:textColor="#fff"
+            android:padding="7dp"
+            android:layout_toRightOf="@+id/family_Time"
+            android:layout_below="@+id/family_Name"
+            android:background="@drawable/big_ovel_green"
+            android:textSize="13sp"
+            />
+
+        <Button
+            android:id="@+id/familyBook"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/button_red_border"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/family_Name"
+            android:text="Book Now"
+            android:padding="5dp"
+            android:textColor="#fff"/>
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/family_alternateMobile"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_above="@+id/bookingLayout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Enter Mobile Number"
+        android:paddingLeft="10dp"
+        android:inputType="phone"
+        android:textColor="#2a2a2a"
+        android:maxLength="10"
+        android:background="@drawable/edittext_border2"
+        android:visibility="gone"
+        />
+
+</RelativeLayout>

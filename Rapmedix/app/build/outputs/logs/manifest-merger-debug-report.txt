@@ -1,0 +1,538 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:2:1-177:12
+	package
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:5:5-76
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:5:22-73
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:7:5-79
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:20:5-78
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:7:22-76
+uses-permission#android.permission.READ_SMS
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:8:22-64
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:9:5-70
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:9:22-67
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:10:22-78
+permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:12:5-76
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:12:17-73
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:14:22-76
+permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:16:5-74
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:16:17-71
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:18:5-69
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:18:22-66
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:21:5-78
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:21:22-75
+permission#android.permission.CALL_PHONE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:23:5-64
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:23:17-61
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:25:5-81
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:25:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:26:5-80
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:26:22-77
+permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:28:17-73
+permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:29:5-75
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:29:17-72
+uses-permission#com.khusaki.rapmedix.permission.C2D_MESSAGE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:31:5-83
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:31:22-80
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:32:5-82
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:32:22-79
+application
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:46:5-175:19
+MERGED from [com.android.support:design:24.0.0] C:\Users\pegasys\.android\build-cache\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\pegasys\.android\build-cache\bb95a3fbfcf428602d4ef66f3c32484089d75358\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\pegasys\.android\build-cache\0793878465852abed983cd2a7cbd0d3b7eef3a39\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\pegasys\.android\build-cache\7b308866a608bb03fb6ad1561accc10310c26017\output\AndroidManifest.xml:23:5-20
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\pegasys\.android\build-cache\8084d3871c118a9287006bc24c4c92a8662614af\output\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-location:9.0.0] C:\Users\pegasys\.android\build-cache\3bcc2925cf0d9bc07df6f619181cac8be832d354\output\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:27:5-20
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\pegasys\.android\build-cache\428ffc61ff48b088aab86a19bb70eb7642738df2\output\AndroidManifest.xml:7:5-11:19
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\pegasys\.android\build-cache\e55a24a0d35f2d031861f2dd5c68c27176f5fdff\output\AndroidManifest.xml:9:5-20
+MERGED from [at.blogc:expandabletextview:1.0.3] C:\Users\pegasys\.android\build-cache\ec03ea7060585d4ad4ecc69a90792ec66ad506f6\output\AndroidManifest.xml:26:5-20
+MERGED from [org.lucasr.twowayview:twowayview:0.1.4] C:\Users\pegasys\.android\build-cache\ca985c306e7350ea8ba2d961a4ffa820cfa00379\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:24.0.0] C:\Users\pegasys\.android\build-cache\408457a55c2e26004712e56de4c23839bbd68aef\output\AndroidManifest.xml:22:5-20
+MERGED from [it.sephiroth.android.library.imagezoom:imagezoom:2.3.0] C:\Users\pegasys\.android\build-cache\336cb69d034937366d6293789f005be434c335e5\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pegasys\.android\build-cache\2058910e7d4e941af6c8db38e6f618da36d14adc\output\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\pegasys\.android\build-cache\6e0cc005cbde2d2ab423ee5d21177a91853a8556\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\pegasys\.android\build-cache\2d42207a06200875d81c713502dffbd62331e9c5\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\pegasys\.android\build-cache\d5238a0c14ae1ad792dc1f7873325aedd9903856\output\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\pegasys\.android\build-cache\d83806b835dffd166095edaa2a398e181894d6cd\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:49:9-41
+	android:supportsRtl
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:50:9-35
+	android:allowBackup
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:47:9-35
+	android:icon
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:48:9-43
+	android:theme
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:51:9-40
+activity#com.tiqs.rapmedix.SplashScreen
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:52:9-60:20
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:54:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:53:13-41
+activity#com.tiqs.rapmedix.Login_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:61:9-63:70
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:63:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:62:13-39
+activity#com.tiqs.rapmedix.Home_Page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:64:9-67:57
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:66:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:67:13-54
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:65:13-38
+activity#com.tiqs.rapmedix.Doctor_List_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:68:9-54
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:68:19-51
+activity#com.tiqs.rapmedix.Otp_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:69:9-71:70
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:71:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:70:13-37
+activity#com.tiqs.rapmedix.member_login
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:72:9-74:70
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:74:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:73:13-41
+activity#com.tiqs.rapmedix.First_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:75:9-48
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:75:19-45
+activity#com.tiqs.rapmedix.Map_Loc
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:76:9-45
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:76:19-42
+activity#com.tiqs.rapmedix.ProfilePage
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:77:9-79:52
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:79:13-49
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:78:13-40
+activity#com.tiqs.rapmedix.DoctorDescription
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:80:9-82:52
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:82:13-49
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:81:13-46
+activity#com.tiqs.rapmedix.SelectFamilyMemebers
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:83:9-85:52
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:85:13-49
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:84:13-49
+activity#com.tiqs.rapmedix.SelectSlots
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:86:9-88:52
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:88:13-49
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:87:13-40
+activity#com.tiqs.rapmedix.ProfileEdit
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:89:9-92:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:91:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:92:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:90:13-40
+activity#com.tiqs.rapmedix.AddMember
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:93:9-96:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:95:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:96:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:94:13-38
+activity#com.tiqs.rapmedix.Home_page_updated
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:97:9-100:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:99:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:100:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:98:13-46
+activity#com.tiqs.rapmedix.slot_selection
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:101:9-104:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:103:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:104:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:102:13-43
+activity#com.tiqs.rapmedix.Add_family_member
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:105:9-108:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:107:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:108:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:106:13-46
+service#com.tiqs.rapmedix.firebase.receivers.MyFirebaseMessagingService
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:110:9-114:19
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:110:18-79
+intent-filter#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:111:13-113:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:112:17-78
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:112:25-75
+service#com.tiqs.rapmedix.firebase.receivers.MyFirebaseInstanceIDService
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:115:9-119:19
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:115:18-80
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:116:13-118:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:117:17-80
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:117:25-77
+receiver#com.tiqs.rapmedix.receivers.IncomingSms
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:121:9-125:20
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:121:19-56
+intent-filter#android.provider.Telephony.SMS_RECEIVED
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:122:13-124:29
+action#android.provider.Telephony.SMS_RECEIVED
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:123:17-82
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:123:25-79
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:131:9-133:71
+	android:value
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:133:13-68
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:132:13-58
+activity#com.tiqs.rapmedix.Selected_candidate_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:135:9-61
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:135:19-58
+activity#com.tiqs.rapmedix.Appointments
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:136:9-50
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:136:19-47
+activity#com.tiqs.rapmedix.Health_Records
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:137:9-143:20
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:137:19-49
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:138:13-142:29
+action#android.intent.action.MAIN
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:139:17-69
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:139:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:141:17-77
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:141:27-74
+activity#com.tiqs.rapmedix.Refer_earn_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:144:9-53
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:144:19-50
+activity#com.tiqs.rapmedix.Change_password
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:145:9-53
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:145:19-50
+activity#com.tiqs.rapmedix.Diagnostic_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:146:9-53
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:146:19-50
+activity#com.tiqs.rapmedix.Best_Quote_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:147:9-150:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:149:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:150:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:148:13-44
+activity#com.tiqs.rapmedix.Prescription
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:151:9-154:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:153:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:154:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:152:13-41
+activity#com.tiqs.rapmedix.Categories_submit_item
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:155:9-158:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:157:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:158:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:156:13-51
+activity#com.tiqs.rapmedix.BestQuote_select_item
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:159:9-162:70
+	android:screenOrientation
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:161:13-49
+	android:windowSoftInputMode
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:162:13-67
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:160:13-50
+activity#com.tiqs.rapmedix.CustomPhotoGalleryActivity
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:163:9-64
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:163:19-61
+activity#com.tiqs.rapmedix.Book_Categories
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:164:9-53
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:164:19-50
+activity#com.tiqs.rapmedix.HomeVisit_select_item
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:165:9-59
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:165:19-56
+activity#com.tiqs.rapmedix.HealthCheckup_select_item
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:166:9-63
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:166:19-60
+activity#com.tiqs.rapmedix.Registation_page
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:167:9-54
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:167:19-51
+activity#com.tiqs.rapmedix.Forgot_pwd
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:168:9-48
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:168:19-45
+activity#com.tiqs.rapmedix.Prescription_Zoom
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:169:9-55
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:169:19-52
+activity#com.tiqs.rapmedix.Prescription_List
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:170:9-55
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:170:19-52
+activity#com.tiqs.rapmedix.TouchImageViewActivity
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:171:9-60
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:171:19-57
+activity#com.tiqs.rapmedix.AboutMe_Activity
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:172:9-54
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:172:19-51
+activity#com.tiqs.rapmedix.Terms_And_ConditionsActivity
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:173:9-66
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:173:19-63
+activity#com.tiqs.rapmedix.IntroActivity
+ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:174:9-60
+	android:name
+		ADDED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml:174:19-48
+uses-sdk
+INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.davemorrissey.labs:library:3.6.0] D:\Android_projects\Rapmedix\library\build\intermediates\bundles\default\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:24.0.0] C:\Users\pegasys\.android\build-cache\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:24.0.0] C:\Users\pegasys\.android\build-cache\e5a5beedb230f1941c9d3c7cd3d034a4def859e9\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:24.0.0] C:\Users\pegasys\.android\build-cache\bb95a3fbfcf428602d4ef66f3c32484089d75358\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:24.0.0] C:\Users\pegasys\.android\build-cache\0793878465852abed983cd2a7cbd0d3b7eef3a39\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.0.0] C:\Users\pegasys\.android\build-cache\7b308866a608bb03fb6ad1561accc10310c26017\output\AndroidManifest.xml:21:5-43
+MERGED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\pegasys\.android\build-cache\8084d3871c118a9287006bc24c4c92a8662614af\output\AndroidManifest.xml:18:5-42
+MERGED from [jp.wasabeef:glide-transformations:2.0.1] C:\Users\pegasys\.android\build-cache\84696dce80f2464e5028837194e2cf51e6963b59\output\AndroidManifest.xml:8:5-10:41
+MERGED from [pl.droidsonroids.gif:android-gif-drawable:1.1.7] C:\Users\pegasys\.android\build-cache\ed2293c3fc317aa0df1bf470c5284ad119a7f3bc\output\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-location:9.0.0] C:\Users\pegasys\.android\build-cache\3bcc2925cf0d9bc07df6f619181cac8be832d354\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:26:5-42
+MERGED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\pegasys\.android\build-cache\428ffc61ff48b088aab86a19bb70eb7642738df2\output\AndroidManifest.xml:5:5-43
+MERGED from [de.hdodenhof:circleimageview:1.3.0] C:\Users\pegasys\.android\build-cache\e55a24a0d35f2d031861f2dd5c68c27176f5fdff\output\AndroidManifest.xml:5:5-7:41
+MERGED from [at.blogc:expandabletextview:1.0.3] C:\Users\pegasys\.android\build-cache\ec03ea7060585d4ad4ecc69a90792ec66ad506f6\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.daimajia.easing:library:1.0.1] C:\Users\pegasys\.android\build-cache\80bff0f58d1fa54ddff0d3b63407e59b97a3ff47\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:1.1.3] C:\Users\pegasys\.android\build-cache\319f0f94632efbc65ac88b5039ec00884797b996\output\AndroidManifest.xml:8:5-10:41
+MERGED from [org.lucasr.twowayview:twowayview:0.1.4] C:\Users\pegasys\.android\build-cache\ca985c306e7350ea8ba2d961a4ffa820cfa00379\output\AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:cardview-v7:24.0.0] C:\Users\pegasys\.android\build-cache\408457a55c2e26004712e56de4c23839bbd68aef\output\AndroidManifest.xml:20:5-43
+MERGED from [it.sephiroth.android.library.imagezoom:imagezoom:2.3.0] C:\Users\pegasys\.android\build-cache\336cb69d034937366d6293789f005be434c335e5\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pegasys\.android\build-cache\2058910e7d4e941af6c8db38e6f618da36d14adc\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.JakeWharton:ViewPagerIndicator:2.4.1] C:\Users\pegasys\.android\build-cache\a6cdf760153bc83d89d0721ee8a3a0b2d6b5309e\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-core:9.0.2] C:\Users\pegasys\.android\build-cache\6e0cc005cbde2d2ab423ee5d21177a91853a8556\output\AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.0.2] C:\Users\pegasys\.android\build-cache\2d42207a06200875d81c713502dffbd62331e9c5\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\pegasys\.android\build-cache\d5238a0c14ae1ad792dc1f7873325aedd9903856\output\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:24.0.0] C:\Users\pegasys\.android\build-cache\d83806b835dffd166095edaa2a398e181894d6cd\output\AndroidManifest.xml:21:5-23:54
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:24.0.0] C:\Users\pegasys\.android\build-cache\bb95a3fbfcf428602d4ef66f3c32484089d75358\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android_projects\Rapmedix\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\pegasys\.android\build-cache\8084d3871c118a9287006bc24c4c92a8662614af\output\AndroidManifest.xml:24:9-30:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\pegasys\.android\build-cache\8084d3871c118a9287006bc24c4c92a8662614af\output\AndroidManifest.xml:26:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:9.0.0] C:\Users\pegasys\.android\build-cache\8084d3871c118a9287006bc24c4c92a8662614af\output\AndroidManifest.xml:25:13-82
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:9.0.0] C:\Users\pegasys\.android\build-cache\d3b97b5eb0cff41e75d59bcfc226f701e95d620b\output\AndroidManifest.xml:24:8-31
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\pegasys\.android\build-cache\428ffc61ff48b088aab86a19bb70eb7642738df2\output\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:9.0.2] C:\Users\pegasys\.android\build-cache\d5238a0c14ae1ad792dc1f7873325aedd9903856\output\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\pegasys\.android\build-cache\428ffc61ff48b088aab86a19bb70eb7642738df2\output\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.4] C:\Users\pegasys\.android\build-cache\428ffc61ff48b088aab86a19bb70eb7642738df2\output\AndroidManifest.xml:9:13-58
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.0.2] C:\Users\pegasys\.android\build-cache\24798ea77e45eed9be2d3c808473fe87fd7c788d\output\AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.0.2] C:\Users\pegasys\.android\build-cache\7efc567765960398511a9741f4ec3fd9a937d396\output\AndroidManifest.xml:37:11-82
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.0.2] C:\Users\pegasys\.android\build-cache\53d75570636cfeba558533e047f451335febc52e\output\AndroidManifest.xml:20:19-85
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.0.2] C:\Users\pegasys\.android\build-cache\43a26af15715e98c36a81c4af22a206e7380e88e\output\AndroidManifest.xml:52:13-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.0.2] C:\Users\pegasys\.android\build-cache\f34783ca305e90c5256f45abb6d3a0cfa09d3d90\output\AndroidManifest.xml:9:13-58

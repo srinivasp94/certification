@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:background="#fff"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:id="@+id/vv"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/circle_dark_gray"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_centerVertical="true"
+
+        >
+
+    <ImageView
+        android:id="@+id/row_image"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:src="@drawable/email1"
+      />
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/row_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/vv"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="12dp"
+        android:textSize="15sp"
+        android:textColor="#616161"
+        android:text="Maneesh"/>
+
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:src="@drawable/next"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+    <!--<View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#fff"
+        android:layout_below="@+id/row_image"
+        android:layout_marginTop="5dp"></View>-->
+
+
+
+</RelativeLayout>

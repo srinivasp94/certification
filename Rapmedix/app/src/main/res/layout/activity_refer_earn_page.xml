@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tiqs.rapmedix.Refer_earn_page">
+
+    <include layout="@layout/header"
+        android:id="@+id/prfl_head"
+        ></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/prfl_head"
+        android:layout_above="@+id/rela"
+        android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/dummy"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        >
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:text="Invite your friends to Rapmedix and \nearn upto 5 free consultations"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_below="@+id/t1"
+        android:orientation="vertical">
+
+       <ImageView
+        android:layout_gravity="center"
+        android:layout_width="220dp"
+        android:layout_height="220dp"
+        android:src="@drawable/sms"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/point3"
+        android:textColor="@color/black"
+        android:text="Note: Get Up to 5 FREE Consultations, Wondered how to get them?"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:id="@+id/point3"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/point2"
+        android:textColor="@color/black"
+        android:text=""
+        />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/point2"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/point1"
+        android:textColor="@color/black"
+        android:text=""
+       />
+    <TextView
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/point1"
+        android:textSize="13sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rela"
+        android:textColor="@color/black"
+        android:text=""
+        />
+
+    </LinearLayout>
+    </ScrollView>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dotted_square_red"
+        android:layout_above="@+id/share_referral"
+        android:layout_margin="5dp"
+        android:id="@+id/rela">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:textColor="@color/black"
+            android:text=""
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:id="@+id/ref_code"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:id="@+id/share_via"
+            android:src="@drawable/share_via"
+            />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/share_referral"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:text="Whatsapp"
+        android:layout_margin="5dp"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/button_shape"
+        />
+
+</RelativeLayout>

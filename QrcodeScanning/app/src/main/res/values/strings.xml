@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">QrcodeScanning</string>
+    <string name="title_activity_live_pubnub">Map</string>
+</resources>

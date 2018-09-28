@@ -1,0 +1,78 @@
+[
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\bottom_up.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\anim\\bottom_up.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\right_left.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\anim\\right_left.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_out.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_fab_out.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_fab_in.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_fab_in.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\bb95a3fbfcf428602d4ef66f3c32484089d75358\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim\\lrft_right.xml",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\src\\main\\res\\anim\\lrft_right.xml"
+    }
+]

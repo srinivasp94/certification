@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:id="@+id/root_view">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:src="@drawable/rap_banner"
+                android:scaleType="fitXY"/>
+            <android.support.design.widget.TabLayout
+                android:id="@+id/login_cat"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginRight="22dp"
+                android:layout_marginBottom="15dp"
+                app:tabMode="fixed"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                app:tabSelectedTextColor="@color/tab_unselected"
+                app:tabTextColor="@color/tab_selected"
+                app:tabIndicatorHeight="2dp"
+                app:tabIndicatorColor="@color/tab_indicator">
+
+            </android.support.design.widget.TabLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/login_pager"
+            android:layout_width="match_parent"
+            android:layout_height="450dp">
+
+        </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:padding="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shadow2"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/login_icon_back">
+
+                    <ImageView
+                        android:id="@+id/topic_grid"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/name_input"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:hint="Name"
+                    android:textSize="14sp"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/mobile"
+                android:layout_marginTop="15dp"
+                android:padding="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shadow2"
+                android:gravity="center">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/login_icon_back">
+
+                    <ImageView
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/telephone"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+                <EditText
+                    android:textSize="14sp"
+                    android:id="@+id/mobile_number_input"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:hint="Mobile Number"
+                    android:inputType="phone"
+                    android:maxLength="10"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/email"
+                android:layout_marginTop="15dp"
+                android:padding="7dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@drawable/shadow2"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:background="@drawable/login_icon_back">
+
+                    <ImageView
+                        android:id="@+id/mobile_number"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/email"
+                        android:scaleType="fitXY"/>
+                </LinearLayout>
+                <EditText
+                    android:id="@+id/email_input"
+                    android:textSize="14sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:hint="Email"
+                    />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/submit"
+                android:layout_marginTop="10dp"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:layout_gravity="center"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:background="@drawable/button_shape"
+                android:textColor="@color/white"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
+</RelativeLayout>

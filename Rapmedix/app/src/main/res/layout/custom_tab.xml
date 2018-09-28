@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+
+    >
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/home_main_cat_background">
+
+        <ImageView
+            android:id="@+id/tab_icon"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/tab_icon_chang"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:text="test"
+        android:textSize="15sp"
+        android:textColor="@drawable/tab"/>
+
+    <!-- Tab divider -->
+
+</LinearLayout>

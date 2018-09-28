@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "326115997630",
+    "firebase_url": "https://rapmedix-e9ebf.firebaseio.com",
+    "project_id": "rapmedix-e9ebf",
+    "storage_bucket": "rapmedix-e9ebf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:326115997630:android:91754fc59bd683ad",
+        "android_client_info": {
+          "package_name": "com.tiqs.rapmedix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "326115997630-e5s7pf4ooqkdfkfca9k2enpfl5e3lejq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByJNZbSqwqo3Wpr2rQudJXZE7cdeq99Fs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

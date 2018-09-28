@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="140dp">
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:weightSum="2">
+        <LinearLayout
+            android:gravity="center|left"
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_weight=".64"
+            android:layout_height="match_parent"
+           >
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:padding="5dp"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape">
+                <ImageView
+                    android:id="@+id/doctor_image"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                    android:src="@drawable/rap_banner"
+                    android:scaleType="centerCrop">
+                    </ImageView>
+
+
+
+        </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:padding="3dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/call_shape">
+
+                <LinearLayout
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/call_bg"
+                    android:gravity="center">
+
+                <ImageView
+                    android:layout_width="10dp"
+                    android:layout_height="10dp"
+                    android:src="@drawable/telephone"
+                    android:scaleType="centerCrop">
+                </ImageView>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Call Now"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:gravity="center|left"
+            android:layout_width="0dp"
+            android:layout_weight="1.36"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_centerInParent="true"
+                    android:layout_alignParentLeft="true"
+                    android:id="@+id/doctor_name"
+                    android:textSize="13sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dr.Gokul Reddy"
+                    android:textStyle="bold"
+                    android:textColor="@color/tab_indicator"/>
+                <LinearLayout
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginRight="10dp"
+                    android:layout_gravity="right"
+                    android:gravity="center"
+                    android:padding="3dp"
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rating_shape">
+
+                    <LinearLayout
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:background="@drawable/rating_bg"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:layout_width="10dp"
+                            android:layout_height="10dp"
+                            android:src="@drawable/telephone"
+                            android:scaleType="centerCrop">
+                        </ImageView>
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginRight="5dp"
+                        android:layout_marginLeft="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="4/5"
+                        android:textColor="@color/white"
+                        android:textSize="13sp"/>
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/icon_bg">
+              <ImageView
+                  android:layout_width="15dp"
+                  android:layout_height="15dp"
+                  android:src="@drawable/email"/>
+                    </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cardiologist"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/black"
+                  />
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="( 5 years Experience)"
+                    android:textColor="@android:color/black"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:gravity="center"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/icon_bg">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/email"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="MBBS,FRCS,MD"
+                    android:textColor="@android:color/black"
+                    />
+
+            </LinearLayout>
+            <RelativeLayout
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:id="@+id/icon"
+                    android:gravity="center"
+                    android:layout_width="21dp"
+                    android:layout_height="21dp"
+                    android:background="@drawable/icon_bg">
+                    <ImageView
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/email"/>
+                </LinearLayout>
+                <TextView
+                    android:layout_toRightOf="@+id/icon"
+                    android:layout_toLeftOf="@+id/distance"
+                    android:layout_centerInParent="true"
+
+                    android:layout_marginLeft="5dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vijaya Hospital"
+                    android:textColor="@android:color/black"
+                    />
+                <LinearLayout
+                    android:id="@+id/distance"
+                    android:layout_marginRight="10dp"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="12sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                     >
+                    <LinearLayout
+
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/distance">
+                    <ImageView
+
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:src="@drawable/email"/>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:padding="5dp"
+                        android:gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/distance_gray_bg">
+
+                        <TextView
+                            android:textSize="13sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                            android:text="2 km"
+                            android:textColor="@color/black"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

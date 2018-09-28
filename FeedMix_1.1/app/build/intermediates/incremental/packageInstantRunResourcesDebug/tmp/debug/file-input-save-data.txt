@@ -1,0 +1,31 @@
+#Internal package file, do not edit.
+#Mon Aug 27 15:22:45 IST 2018
+2.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+5.set=ASSET
+0.path=Uga_fonts/Montserrat-Regular.ttf
+2.baseType=DIRECTORY
+3.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+2.set=ASSET
+1.path=Uga_fonts/Montserrat-Thin.ttf
+4.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+count=7
+5.baseType=DIRECTORY
+2.path=fonts/optima.ttf
+5.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+4.set=ASSET
+3.path=Uga_fonts/Montserrat_Black.ttf
+6.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+3.baseType=DIRECTORY
+1.set=ASSET
+4.path=Uga_fonts/Montserrat-Light.ttf
+6.set=ASSET
+1.baseType=DIRECTORY
+6.baseType=DIRECTORY
+5.path=Uga_fonts/Montserrat_Bold.ttf
+0.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+0.baseType=DIRECTORY
+3.set=ASSET
+6.path=fonts/fontawesome-webfont.ttf
+1.base=D\:\\repos\\certification\\FeedMix_1.1\\app\\build\\intermediates\\assets\\debug
+4.baseType=DIRECTORY
+0.set=ASSET

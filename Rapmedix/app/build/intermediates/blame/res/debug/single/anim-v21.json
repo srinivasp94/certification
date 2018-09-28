@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_appbar_state_list_animator.xml",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\1cfcb640db8d3b86f19bdaca329eb6600517b2f5\\output\\res\\anim-v21\\design_appbar_state_list_animator.xml"
+    }
+]

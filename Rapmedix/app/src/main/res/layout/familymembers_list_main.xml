@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/home_grid"
+    android:orientation="vertical">
+
+    <com.tiqs.rapmedix.ExpandableHeightGridView1
+        android:id="@+id/family_members_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:verticalSpacing="5dp">
+    </com.tiqs.rapmedix.ExpandableHeightGridView1>
+
+</android.support.v4.widget.NestedScrollView>

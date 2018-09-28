@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:de.hdodenhof="http://schemas.android.com/tools"
+    android:id="@+id/view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/profile_page_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/prfl_head"
+            layout="@layout/header">
+
+        </include>
+
+        <RelativeLayout
+            android:id="@+id/lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prfl_head">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#363636"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+
+                <LinearLayout
+                    android:layout_width="90dp"
+                    android:layout_height="90dp"
+                    android:background="@drawable/white_round_border"
+                    android:gravity="center">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/prflImage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:padding="5dp"></de.hdodenhof.circleimageview.CircleImageView>
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/prflName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="17sp" />
+
+                    <TextView
+                        android:id="@+id/prflNo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="17sp" />
+
+                    <!--<TextView
+                        android:id="@+id/prflEmail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#ffffff"
+                        android:textSize="17sp"
+                        />-->
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/prflEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="15dp"
+                android:background="#6F6F6F"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:padding="5dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/medical" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="EDIT"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/d1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/lay"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="7dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.2"
+                android:src="@drawable/member_profile" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:text="Membership"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/membership_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/d1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.8"
+                android:text=""
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/d1"
+            android:background="#dedede"></View>
+
+        <LinearLayout
+            android:id="@+id/d2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d3"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.2"
+                android:src="@drawable/location_pin" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:text="Address"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/membership_address"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.8"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/d2"
+            android:background="#dedede"></View>
+
+
+        <LinearLayout
+            android:id="@+id/d3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/d1"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            android:weightSum="3">
+
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_weight="0.2"
+                android:src="@drawable/email_hos" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_weight="1"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/prflEmail"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/d3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1.8"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:padding="7dp"
+                android:text=""
+                android:textColor="@color/text_color"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/d3"
+            android:background="#dedede"></View>
+
+
+        <View
+            android:id="@+id/v1"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/d2"
+            android:background="#dedede"></View>
+
+
+        <LinearLayout
+            android:id="@+id/d5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/v1"
+            android:layout_margin="7dp"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:layout_weight="0.5"
+                android:src="@drawable/free_consulting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="7dp"
+                android:layout_weight="1"
+                android:text="Free Consultancies"
+                android:textColor="@color/text_color"
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/free_count"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center|right"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_weight="1"
+                android:background="#F4A758"
+                android:gravity="center"
+                android:padding="7dp"
+                android:text="3"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@+id/d5"
+            android:background="#dedede"></View>
+
+
+    </RelativeLayout>
+
+</ScrollView>

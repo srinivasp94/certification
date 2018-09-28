@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Otp_rootview"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.tiqs.rapmedix.Login_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="180dp"
+
+                    android:scaleType="fitXY"
+                    android:src="@drawable/rap_banner" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="70dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/shadow2"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="7dp">
+
+                        <LinearLayout
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/login_icon_back"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/topic_grid"
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/email" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/logmobileotp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="#00000000"
+                            android:hint="Enter OTP"
+                            android:inputType="number"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/mobile"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/shadow2"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="7dp"
+                        android:visibility="gone">
+
+                        <LinearLayout
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:background="@drawable/login_icon_back"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:layout_width="20dp"
+                                android:layout_height="20dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/telephone" />
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/mobile_number_input"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="10dp"
+                            android:background="#00000000"
+                            android:hint="Mobile Number"
+                            android:inputType="phone"
+                            android:textSize="14sp" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/resend_otp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="20dp"
+                        android:padding="5dp"
+                        android:text="Resend OTP"
+                        android:textColor="@color/light_black"
+                        android:textSize="16sp" />
+
+                    <Button
+                        android:id="@+id/submit"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:background="@drawable/button_shape"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:text="SUBMIT"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="start">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="5dp"
+                android:text="Resend OTP"
+                android:textColor="@color/light_black"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

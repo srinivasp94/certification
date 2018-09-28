@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:id="@+id/selectSlot"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <include layout="@layout/header" android:id="@+id/add_slots"/>
+
+
+    <TextView
+        android:id="@+id/slot_hospitalName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slot_relative"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="6dp"
+        android:text="Maneesh"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/slot_hospitalName"
+        android:layout_marginTop="3dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@color/colorPrimary"
+        ></View>
+
+    <LinearLayout
+        android:id="@+id/linear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@+id/v"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:weightSum="3">
+
+        <LinearLayout
+            android:id="@+id/slotLayout1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:background="@drawable/edittext_border">
+
+            <ImageView
+                android:layout_width="10dp"
+                android:layout_height="10dp"
+                android:src="@drawable/leftarrow"/>
+
+            <TextView
+                android:id="@+id/slot_previous"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text=""
+                android:padding="5dp"
+                android:textColor="#2a2a2a"
+                android:gravity="center"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/slotAnimation"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/todayDay"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#ed3338"
+                android:text=""
+                android:padding="8dp"
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/todayDate"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#484848"
+                android:padding="8dp"
+                android:text=""
+                android:textAllCaps="true"
+                android:gravity="center"
+                android:textColor="#fff"
+                android:textSize="15dp"
+                android:textStyle="bold"/>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/slotLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/edittext_border">
+
+        <TextView
+            android:id="@+id/slot_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:padding="5dp"
+            android:text=""
+            android:textColor="#2a2a2a"
+            android:gravity="center"
+            />
+
+        <ImageView
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:src="@drawable/rightarrow"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear"
+        android:layout_marginTop="20dp"
+        android:background="#dedede"
+        android:layout_above="@+id/slotLayout"
+        android:orientation="vertical">
+
+        <GridView
+            android:id="@+id/slots_gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:numColumns="4"
+            android:verticalSpacing="10dp"
+            android:background="#E1E1E1"></GridView>
+
+        <TextView
+            android:id="@+id/noData"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/text_color"
+            android:text="No Slots Available"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/slotLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#2a2a2a"
+        android:padding="10dp"
+        >
+
+        <!--<TextView
+            android:id="@+id/family_Day"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mon"
+            android:layout_marginTop="5dp"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="@drawable/edittext_border3"
+            android:textSize="15sp"
+            />-->
+
+        <!--<TextView
+            android:id="@+id/family_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="15dp"
+            android:text="7:00 PM"
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:layout_toRightOf="@+id/family_Day"
+            android:background="@drawable/edittext_border3"
+            android:textSize="15sp"
+            />-->
+
+        <TextView
+            android:id="@+id/family_Price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:text=""
+            android:textColor="#fff"
+            android:padding="5dp"
+            android:background="@drawable/big_ovel_green"
+            android:textSize="15sp"
+            />
+
+        <!--<Button
+            android:id="@+id/familyBook"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:background="@drawable/button_red_border"
+            android:layout_alignParentRight="true"
+            android:text="Proceed"
+            android:padding="5dp"
+            android:textColor="#fff"/>-->
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/slot_relative"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/add_slots"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <LinearLayout
+            android:id="@+id/slot_image"
+            android:layout_marginLeft="10dp"
+            android:padding="5dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:id="@+id/slotImg"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:scaleType="centerCrop">
+            </ImageView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lll1"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/slot_image"
+            android:layout_marginLeft="15dp">
+
+            <TextView
+                android:id="@+id/slot_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/slot_name"
+                android:background="@drawable/green_backgroung"
+                android:layout_marginLeft="10dp"
+                android:padding="3dp">
+
+                <ImageView
+                    android:id="@+id/starimg"
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/star"
+                    />
+
+                <TextView
+                    android:id="@+id/slot_rating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:layout_toRightOf="@+id/starimg"
+                    android:text="4/5"
+                    android:textSize="12sp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#fff"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lll2"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/slot_image"
+            android:layout_below="@+id/lll1"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:id="@+id/l1"
+                android:gravity="center"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/icon_bg"
+                >
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/medical"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/slot_desig"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text=" "
+                android:textColor="#262626"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lll3"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/slot_image"
+            android:layout_below="@+id/lll2"
+            android:layout_marginLeft="15dp">
+
+            <LinearLayout
+                android:id="@+id/l2"
+                android:gravity="center"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@drawable/icon_bg"
+                >
+
+                <ImageView
+                    android:layout_width="17dp"
+                    android:layout_height="17dp"
+                    android:src="@drawable/education"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/slot_quli"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/l2"
+                android:layout_below="@+id/l1"
+                android:text=""
+                android:textColor="#262626"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

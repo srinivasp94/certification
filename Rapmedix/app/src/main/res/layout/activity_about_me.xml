@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tiqs.rapmedix.AboutMe_Activity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorAccent">
+
+            <ImageView
+                android:id="@+id/backButton"
+                android:layout_width="40dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/back_arrow"/>
+
+            <TextView
+                android:layout_margin="13dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/backButton"
+                android:text="RAPMEDIX"
+                android:textSize="20sp"
+                android:layout_centerVertical="true"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:visibility="gone"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:background="@drawable/profile_back"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@+id/menu"
+                android:layout_centerInParent="true">
+
+                <ImageView
+                    android:id="@+id/topic_grid"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/email"
+                    android:scaleType="fitXY"/>
+            </LinearLayout>
+            <ImageView
+                android:layout_marginRight="10dp"
+                android:id="@+id/menu"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/menu"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/text_about_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/about_1"
+            android:layout_margin="3dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_about_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/about_2"
+            android:layout_margin="3dp"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_about_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:text="@string/about_3"
+            android:textSize="16sp"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/text_about_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_margin="3dp"
+            android:textSize="16sp"
+            android:text="@string/about_4"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>

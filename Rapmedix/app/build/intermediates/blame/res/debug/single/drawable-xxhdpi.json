@@ -1,0 +1,206 @@
+[
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\email.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\email.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\logout1.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\logout1.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plus.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\plus.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu1.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu1.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\people.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\people.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\invite.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\invite.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\next.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\next.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\health_records.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\health_records.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\clnder.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\clnder.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bubble_shadow.9.png",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\428ffc61ff48b088aab86a19bb70eb7642738df2\\output\\res\\drawable-xxhdpi\\bubble_shadow.9.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\doctor_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\doctor_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\email1.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\email1.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\chnage_password.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\chnage_password.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\heart.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\heart.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\hospital.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\hospital.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\facebook.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\facebook.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\skype.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\skype.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\whatsapp.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\whatsapp.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\prescription.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\prescription.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\key.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\key.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\search_icon.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\search_icon.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\navigation.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\navigation.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\profile.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\profile.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\doctor_black.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\doctor_black.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\kit.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\kit.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\family_member.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\family_member.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pharsmacy_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\pharsmacy_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\diagnostic_red.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\diagnostic_red.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\doctors_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\doctors_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\doctor_red.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\doctor_red.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\pharsmacy_black.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\pharsmacy_black.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\doctors_black.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\doctors_black.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\plus_red.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\plus_red.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\diagnostic_black.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\diagnostic_black.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_vist_black.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\home_vist_black.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\gray.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\gray.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\bubble_mask.9.png",
+        "source": "C:\\Users\\pegasys\\.android\\build-cache\\428ffc61ff48b088aab86a19bb70eb7642738df2\\output\\res\\drawable-xxhdpi\\bubble_mask.9.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\password_new.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\password_new.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\linkedin.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\linkedin.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\edit.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\edit.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\radiot.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\radiot.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\search_icon_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\search_icon_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\group.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\group.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\manager.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\manager.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\instagram.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\instagram.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\telephone.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\telephone.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\diagnostic_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\diagnostic_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\menu.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\menu.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\twitter.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\twitter.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\home_vist_white.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\home_vist_white.png"
+    },
+    {
+        "merged": "D:\\Android_projects\\Rapmedix\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi\\radiof.png",
+        "source": "D:\\Android_projects\\Rapmedix\\app\\build\\generated\\res\\pngs\\debug\\drawable-xxhdpi\\radiof.png"
+    }
+]
